@@ -1,0 +1,41 @@
+.popup-main {
+	position: relative;
+	width: 750rpx;
+	z-index: 888;
+}
+.trade-main {
+	width: 100%;
+	padding-bottom: 30rpx;
+	min-height: 400rpx;
+	background: #fff;
+}
+.visit-main {
+	width: 100%;
+}
+.drawer-foot-btn{
+	margin: 0 30rpx;
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	border-radius: 40rpx;
+	overflow: hidden;
+}
+.drawer-title{
+	line-height: 80rpx;
+	border-bottom: 1rpx solid #DEDEDE;
+}
+.visit-left{
+	width: 252rpx;
+	.visit-left-item{
+		line-height: 96rpx;
+		background-color: #F5F5F5;
+		&.on{background-color: #fff;}
+	}
+}
+.visit-right{
+	height: 410rpx;
+	.visit-right-item{
+		line-height: 96rpx;
+		&.on{color: $red;}
+	}
+}

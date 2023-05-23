@@ -1,0 +1,172 @@
+////下拉抽屉
+.popup-main {
+	position: relative;
+	width: 750rpx;
+	z-index: 888;
+}
+.trade-main {
+	background: #fff;
+	box-sizing: border-box;
+	padding: 30rpx 30rpx 30rpx;
+	// max-height: 1000rpx;
+	min-height: 400rpx;
+	border-radius: 16rpx 16rpx 0 0;
+}
+.pop-close {
+	// position: absolute;
+	// right: 30rpx;
+	// top: 10rpx;
+}
+.drawer-foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+}.pad-box{
+    padding: 40rpx 30rpx;
+  }
+  
+  .pad-box1{
+    padding: 0 30rpx;
+    height: 104rpx;
+    line-height: 104rpx;
+  }
+  .pad-box2{
+    padding: 0 30rpx;
+  }
+  .pad-box3{
+    padding: 40rpx 0;
+  }
+  .tuiTabsBox{
+    position: relative;
+    height: 120rpx;
+    padding-right: 40rpx;
+    .tuiTabs{
+      width: 500rpx;
+    }
+  }
+  .tipsPlNone{
+    padding-left: 0 !important;
+  }
+  .margin-t{
+    margin-top: 20rpx;
+  }
+  .margin-b{
+    margin-bottom: 20rpx;
+  }
+  .bg-w{
+    background: white;
+  }
+  .border_b{
+    border-bottom: 1rpx solid #eee;
+  }
+  .fieldBox{
+	  // height: 800rpx;
+	  max-height: 70vh;
+	  overflow: auto;
+    .imgTips{
+      background: #F5F5F5;
+      height: 66rpx;
+      line-height: 66rpx;
+      font-size: 24rpx;
+      color: #999;
+      padding: 0 30rpx;
+      .iconfont2{
+        margin-right: 20rpx;
+      }
+    }
+    .fieldItem{
+      .label{
+        min-width: 112rpx;
+        color: #333;
+        font-size: 28rpx;
+      }
+      .label-tag view{
+        display: inline-flex;
+        min-width: 176rpx;
+        max-width: 100%;
+        padding: 0 20rpx;
+        height: 48rpx;
+        line-height: 48rpx;
+        background: #F3F3F3;
+        border-radius: 24rpx;
+        overflow: hidden;
+      }
+      .contentBox{
+        font-size: 24rpx;
+        color: #BCBCBC;
+        flex: 1;
+        padding-left: 30rpx;
+        .labelBox{
+          padding-left: 20rpx;
+        }
+        .content{
+          flex: 1;
+          min-height: 24rpx;
+          word-break:break-all;
+          line-height: 32rpx;
+          .radioItem{
+            transform:scale(.6);
+            vertical-align: middle;
+          }
+        }
+        .tips{
+          min-width: 68rpx;
+          text-align: right;
+          padding-left: 20rpx;
+          .iconfont2{
+            font-size: 24rpx;
+            margin-left: 20rpx;
+          }
+          .tipIconBox{
+            width: 32rpx;
+            height: 32rpx;
+            line-height: 32rpx;
+            text-align: center;
+            transition: all 0.5s;
+            float: right;
+            transform:rotate(90deg);
+            .iconfont2{
+              margin-left: 0;
+            }
+          }
+          .transIcon {
+            transform:rotate(-90deg);
+          }
+        }
+        .tips1{
+          min-width: 40rpx;
+        }
+      }
+      .describe{
+        margin-top: 10rpx;
+        font-size: 24rpx;
+        color: #999999;
+        .iconfont2{
+          font-size: 24rpx;
+          margin-right: 10rpx;
+        }
+      }
+      .describe1{
+        margin-top: 50rpx;
+        font-size: 24rpx;
+        color: #999999;
+        .butSame{
+          display: inline-block;
+          text-align: center;
+          border-radius:40rpx;
+          color: #FF7541;
+          border:1rpx solid #FF7541;
+          width:128rpx;
+          height:48rpx;
+          line-height: 48rpx;
+          margin-right: 30rpx;
+        }
+      }
+    }
+    .width50{
+      width: 50%;
+    }
+  }

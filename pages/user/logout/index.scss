@@ -1,0 +1,46 @@
+page{
+	background-color: #F7F7F7;
+}
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view{
+	box-sizing: border-box;
+}
+/* footer */
+.footer{
+	padding: 0 76rpx;
+}
+.foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	&.disabled{
+		background: rgba(232, 46, 46, .14);
+		color: $red;
+	}
+	text{
+		margin-right: 10rpx;
+	}
+}
+.notes .red{color: $red;}
+// main
+.main{
+	padding: 30rpx;
+	margin-top: 20rpx;
+	margin-bottom: 40rpx;
+	background-color: #fff;
+}
+.title{
+	line-height: 1.1;
+	color: $red;
+}
+.rules{
+	line-height: 34rpx;
+	margin-top: 20rpx;
+}

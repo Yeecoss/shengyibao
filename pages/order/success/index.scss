@@ -1,0 +1,185 @@
+.page{
+	min-height: 100%;
+}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.main{position: relative;}
+.status{
+		padding-top: 40rpx;
+		padding-bottom: 70rpx;
+		text-align: center;
+		color: #fff;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	.circular_bg{
+		position: absolute;
+		left: -50%;
+		width: 1500rpx;
+		height: 1500rpx;
+		top: -1300rpx;
+		background: linear-gradient(270deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+		border-radius: 50%;
+		z-index: -1;
+		overflow: hidden;
+	}
+	.title{
+		font-size: 44rpx;
+		view{
+			width: 48rpx;
+			height: 48rpx;
+			line-height: 48rpx;
+			margin-right: 10rpx;
+			text-align: center;
+			color: $red;
+			font-weight: bold;
+			background-color: #fff;
+			border-radius: 50%;
+			letter-spacing: 0.1em;
+			overflow: hidden;
+		}
+	}
+	.status_p{
+		letter-spacing: 0.1em;
+		font-weight: 300;
+		max-width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content{
+		overflow: hidden;
+		padding: 0 36rpx;
+	}
+	// 卖家
+	.seller_wrap{
+		width: 120rpx;
+		text-align: center;
+	}
+	.seller_img{
+		position: relative;
+		width: 120rpx;
+		height: 120rpx;
+		margin-bottom: 2rpx;
+		image{
+			width: 120rpx;
+			height: 120rpx;
+			border-radius: 50%;
+			background-color: #F5F5F5;
+			overflow: hidden;
+		}
+	}
+	.lianxi{
+		position: absolute;
+		right: -66rpx;
+		top: 50%;
+		margin-top: -28rpx;
+		width: 56rpx;
+		line-height: 56rpx;
+		border-radius: 50%;
+		background: #2BBD20;
+		// box-shadow:0 0 8rpx 0 #DEDEDE;
+	}
+	.f-40{
+		font-size: 40rpx;
+	}
+	.red{color: $red;}
+	.order_info{
+		width: 392rpx;
+		padding-bottom: 16rpx;
+		padding-top: 20rpx;
+		background-color: #F5F5F5;
+		font-weight:500;
+		word-break: break-all;
+	}
+	.pad{
+		padding-left: 50rpx;
+		padding-right: 50rpx;
+	}
+	.m-t-146{
+		margin-top: 146rpx;
+	}
+	.share_btn{
+		width:250px;
+		line-height: 96rpx;
+		background:linear-gradient(270deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+		box-shadow:0 0 16rpx 0 rgba(254,172,172,1);
+		color: #fff;
+		border-radius: 48rpx;
+		letter-spacing: 0.1em;
+	}
+	.pay_btn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width:250px;
+		line-height: 96rpx;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 48rpx;
+		border: 1rpx solid #5AAE3A;
+		letter-spacing: 0.1em;
+		text{color: #5AAE3A;}
+	}
+	// 二维码
+	.wxImgBg{
+	    position: fixed;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    background:rgba(0,0,0,0.5);
+	    z-index: 9;
+	    .wxImgBox{
+	        width: 600rpx;
+	        height: 720rpx;
+	        position: absolute;
+	        left: 0;
+	        top: 388rpx;
+	        left: 76rpx;
+	        .bgImg{
+	            width: 600rpx;
+	            height: 720rpx;
+	            position: absolute;
+	            left: 0;
+	            top: 0;
+	        }
+	        .wxImgTip{
+	            position: absolute;
+	            left: 0;
+	            right: 0;
+	            top: 50rpx;
+	            color: #333;
+	            text-align: center;
+	            font-size: 32rpx;
+	        }
+	        .wxImg{
+	            width: 400rpx;
+	            height: 400rpx;
+	            position: absolute;
+	            left: 100rpx;
+	            bottom: 100rpx;
+	        }
+	        .close{
+	            position: absolute;
+	            right: -14rpx;
+	            top: -60rpx;
+	            color: white;
+	        }
+	    }
+	}
+	.order_info_add{
+		margin: 0 auto;
+		// width: 480rpx;
+	}
+	.openCopyOrder{
+		margin-top: 80rpx;
+		line-height: 64rpx;
+		color: #F8B14A;
+		text-decoration: underline;
+	}
+	.m-t-4{
+		margin-top: 4rpx;
+	}

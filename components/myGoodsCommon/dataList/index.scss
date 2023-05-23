@@ -1,0 +1,35 @@
+.dataList{
+    flex-wrap: wrap;
+    .dataItem{
+        width:224rpx;
+        height:128rpx;
+        background:rgba(248,248,248,1);
+        border-radius:8rpx;
+        text-align: center;
+        line-height: 1;
+        margin-right: 10rpx;
+        margin-bottom: 10rpx;
+        .num{
+            margin-top: 26rpx;
+            color: #222222;
+            font-size: 32rpx;
+            font-weight: 600;
+            .numText{
+                position: relative;
+                .numIcon{
+                    position: absolute;
+                    left: -20rpx;
+                    width:10rpx;
+                    height:10rpx;
+                    border-radius: 5rpx;
+                    top: 16rpx;
+                }
+            }
+        }
+        .title{
+            margin-top: 20rpx;
+            color: #666666;
+            font-size: 22rpx;
+        }
+    }
+}

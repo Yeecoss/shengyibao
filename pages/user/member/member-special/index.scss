@@ -1,0 +1,62 @@
+.containerBox{
+    background: #F5F5F5;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    .container{
+        .m-top{
+            margin-top: 20rpx;
+        }
+        .bgW{
+            background: white;
+        }
+        .heardBg{
+            position: relative;
+            width:100%;
+            height:280rpx;
+        }
+        .heardBg1{
+            background:linear-gradient(298deg,rgba(186,182,185,1) 0%,rgba(236,236,236,1) 100%);
+        }
+        .heardBg2{
+            background:linear-gradient(298deg,rgba(232,46,46,1) 0%,rgba(253,133,133,1) 100%);
+        }
+        .heardBg3{
+            background:linear-gradient(298deg,rgba(235,159,58,1) 0%,rgba(253,236,190,1) 100%);
+            box-shadow:0 2rpx 0 0 rgba(255,240,221,1);
+        }
+        .member{
+            height: 400rpx;
+        }
+        .listBox{
+            margin-top: 20rpx;
+        }
+        .butBox{
+            height: 100rpx;
+            padding-top: 20rpx;
+            .receiveBut{
+                width:690rpx;
+                height:80rpx;
+                border-radius:40rpx;
+                font-size: 32rpx;
+                text-align: center;
+                line-height: 80rpx;
+                margin: 0 auto;
+            }
+            .receiveBut1{
+                color: #666666;
+                box-shadow:0px 6rpx 32rpx 0px rgba(222,222,222,0.6);
+                background:linear-gradient(270deg,rgba(191,189,190,1) 0%,rgba(219,217,219,1) 100%);
+            }
+            .receiveBut2{
+                color: #FFE3C1;
+                background:linear-gradient(298deg,rgba(232,46,46,1) 0%,rgba(253,133,133,1) 100%);
+            }
+            .receiveBut3{
+                color: #6E4A23;
+                background:linear-gradient(298deg,rgba(235,159,58,1) 0%,rgba(253,236,190,1) 100%);
+            }
+        }
+    }
+}

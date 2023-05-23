@@ -1,0 +1,196 @@
+.shopInformation{
+    background: #F7F7F7;
+    min-height: 100%;
+    .heardBox{
+        padding: 0 30rpx;
+        background: white;
+        height: 112rpx;
+        .imgBox{
+            width: 80rpx;
+            height: 80rpx;
+            overflow: hidden;
+            border-radius: 50%;
+            image{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .name{
+            color: #333;
+            font-size: 30rpx;
+            margin-left: 20rpx;
+        }
+        .toShop{
+            width: 144rpx;
+            height: 52rpx;
+            background: linear-gradient(270deg, #F55B5B 0%, #FF7541 100%);
+            border-radius: 26rpx;
+            color: white;
+            font-size: 24rpx;
+            text-align: center;
+            line-height: 52rpx;
+        }
+    }
+    .m-l-20{
+        margin-left: 40rpx !important;
+    }
+    .m-r-20{
+        margin-right: 40rpx !important;
+    }
+    .done-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28rpx;
+        height: 28rpx;
+        border-radius: 4rpx;
+        border: 2rpx solid #999;
+        overflow: hidden;
+        text{display: none;}
+    }
+    .done-btn1{
+        border: 2rpx solid #999;
+        border-color: #FF7541;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28rpx;
+        height: 28rpx;
+        border-radius: 4rpx;
+        overflow: hidden;
+        .iconfont2{
+            color: #FF7541;
+        }
+    }
+    .content{
+        background: white;
+        margin-top: 20rpx;
+        color: #333;
+        font-size: 30rpx;
+        padding: 0 30rpx 30rpx;
+        .content1{
+            width: 420rpx;
+        }
+        .list1{
+            padding: 24rpx 0;
+        }
+        .list{
+            min-height: 88rpx;
+            line-height: 88rpx;
+        }
+        .line{
+            border-bottom: 1rpx solid #DEDEDE;
+        }
+        .tableBox {
+            width: 100%;
+            border: 1rpx solid #DEDEDE;
+            font-size: 24rpx;
+            .order{
+                width: 48rpx;
+                padding: 0 10rpx;
+                text-align: center;
+            }
+            .name{
+                flex:1;
+                line-height:28rpx;
+                padding: 0 10rpx;
+                word-wrap:break-word;
+            }
+            .spec{
+                width: 160rpx;
+                padding: 0 10rpx;
+                line-height:28rpx;
+                word-wrap:break-word;
+            }
+            .num{
+                width: 56rpx;
+                padding: 0 10rpx;
+                line-height:28rpx;
+                word-wrap:break-word;
+            }
+            .price{
+                width: 100rpx;
+                padding: 0 10rpx;
+                word-wrap:break-word;
+                line-height:28rpx;
+            }
+            .heard{
+                background: #F5F5F5;
+                height: 88rpx;
+                line-height: 88rpx;
+            }
+            .line{
+                padding: 8rpx 0;
+                border-bottom: 1rpx solid #DEDEDE;
+            }
+            .line:last-child {
+                border: 0;
+            }
+
+        }
+        .remark{
+            margin-top: 30rpx;
+            
+            line-height: 60rpx;
+            image{
+                margin-right: 10rpx;
+                width: 64rpx;
+                height: 64rpx;
+                vertical-align: text-top;
+            }
+        }
+        .imgBox{
+            width: 200rpx;
+            height: 260rpx;
+            text-align: center;
+            image{
+                width: 200rpx;
+                height: 200rpx;
+            }
+        }
+        .magin{
+            margin: 0 40rpx;
+        }
+        .logo{
+            margin-top: 60rpx;
+            .line{
+                width: 120rpx;
+                height: 1rpx;
+                background: #DEDEDE;
+            }
+            .iconBox{
+                padding: 0 30rpx;
+            }
+        }
+    }
+    .butBox{
+        height: 100rpx;
+        background: white;
+        border-top: 1rpx solid #DEDEDE;
+        font-size: 32rpx;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0 40rpx;
+        .submit{
+            width: 200rpx;
+            height: 72rpx;
+            line-height: 72rpx;
+            text-align: center;
+            border-radius: 40rpx;
+            margin: 0;
+        }
+        .bg-r{
+            background: #FF7541;
+            color: white;
+        }
+        .bg-y{
+            background: #F8B14A;
+            color: white;
+        }
+        .bg-w{
+            border: 1rpx solid #DEDEDE;
+        }
+    }
+}

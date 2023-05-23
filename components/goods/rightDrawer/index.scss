@@ -1,0 +1,204 @@
+
+/*顶部下拉选择 综合*/
+
+.tui-drawer-box {
+    width: 580rpx;
+    font-size: 24rpx;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100rpx;
+    padding-top: 40rpx;
+    .topSpan{
+        height: 100rpx;
+    }
+    .tui-drawer-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30rpx;
+        box-sizing: border-box;
+        height: 80rpx;
+        .tui-title-bold {
+            font-size: 28rpx;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+    }
+}
+
+.tui-location {
+    margin-right: 6rpx;
+}
+
+.tui-attr-right {
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
+.tui-all-box {
+    width: 40%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .tipIconBox{
+      width: 32rpx;
+      height: 32rpx;
+      line-height: 32rpx;
+      text-align: center;
+      transition: all 0.5s;
+      float: right;
+      transform:rotate(90deg);
+      .iconfont2{
+        margin-left: 0;
+        font-size: 24rpx;
+      }
+    }
+    .transIcon {
+      transform:rotate(-90deg);
+    }
+}
+
+.tui-drawer-content {
+    padding: 16rpx 30rpx 30rpx 30rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    .line{
+        width: 40rpx;
+        height: 1rpx;
+        background: #DEDEDE;
+        margin: 0 10rpx;
+    }
+
+    .tui-btmItem-active {
+        color: #e41f19;
+        position: relative;
+        border: 1rpx solid #e41f19;
+    }
+    .dateItem{
+        line-height: 27px;
+        position: relative;
+        .iconBox{
+          position: absolute;
+          top: -8rpx;
+          right: -10rpx;
+          font-size: 24rpx;
+          color: #999;
+          background: white;
+          border-radius: 50%;
+          width: 24rpx;
+          height: 24rpx;
+          line-height: 1;
+        }
+    }
+}
+
+.tui-input {
+    height: 50rpx;
+    border-radius: 32rpx;
+    width: 160rpx;
+    text-align: center;
+    font-size: 24rpx;
+    color: #333;
+    border: 1rpx solid #DEDEDE;
+}
+
+.tui-phcolor {
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 24rpx;
+}
+
+.tui-flex-attr {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.tui-attr-item {
+    width: 30%;
+    height: 50rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4rpx;
+    box-sizing: border-box;
+    border-radius: 32rpx;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: #666666;
+    border: 1rpx solid #DEDEDE;
+}
+
+.tui-attr-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 96%;
+    text-align: center;
+}
+
+.tui-attr-item:nth-of-type(3n) {
+    margin-right: 0%;
+}
+
+.tui-attr-btnbox {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0 30rpx;
+    background: #fff;
+}
+
+.tui-attr-safearea {
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: env(safe-area-inset-bottom);
+		box-sizing: content-box;
+}
+
+.tui-safearea-bottom {
+    width: 100%;
+    height: env(safe-area-inset-bottom);
+}
+
+.tui-attr-btnbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: scaleY(0.5) translateZ(0);
+    transform-origin: 0 0;
+}
+
+.tui-drawer-btn {
+    width: 176rpx;
+    margin-right: 20rpx;
+    text-align: center;
+    height: 64rpx;
+    border-radius: 30rpx;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.tui-drawerbtn-black {
+    border: 1rpx solid #FF7541;
+    color: #FF7541;
+}
+
+.tui-drawerbtn-primary {
+    background: #FF7541;
+    color: #fff;
+}

@@ -1,0 +1,305 @@
+
+.pageBox{
+	background: #F5F5F5;
+	height: 100%;
+	.scrollBox{
+		// padding-bottom: 110rpx;
+	}
+}
+.newpad-box{
+  padding: 30rpx 0;
+}
+.pad-left{
+  padding-left: 30rpx;
+}
+.pad-right{
+  padding-right: 30rpx;
+}
+.specList{
+  .listItem{
+    font-size:30rpx;
+	padding: 0 30rpx;
+	position: relative;
+	margin-top: 20rpx;
+	background: white;
+	.itemValue{
+		color: #BCBCBC;
+		flex: 1;
+		padding: 30rpx 0;
+		line-height: 36rpx;
+	}
+    .label{
+      padding-right: 20rpx;
+      line-height: 96rpx;
+      border-bottom: 1rpx solid #EEEEEE;
+    }
+	.leftTit{
+		width: 180rpx;
+		color: #333;
+	}
+	.pad1{
+		padding: 16rpx 0;
+	}
+    .content{
+      flex: 1;
+      flex-wrap: wrap;
+      .spec{
+        min-height:96rpx;
+        border-bottom: 1rpx solid #EEEEEE;
+        color: #666;
+        line-height: 96rpx;
+        position: relative;
+		padding-right: 50rpx;
+        .iconBox{
+          position: absolute;
+          top: 5rpx;
+          right: -6rpx;
+          font-size: 36rpx;
+          color: #CDCDCD;
+        }
+      }
+	.addSpec1{
+	  line-height: 64rpx;
+	  color: #FF7541;
+	  text-align: center;
+	  width: 600rpx;
+	  height: 64rpx;
+	  border-radius: 4rpx;
+	  border: 1rpx solid #FF7541;
+	  .iconfont2{
+		font-size: 30rpx;
+		margin-right: 10rpx;
+	  }
+	}
+      .addSpec{
+        border: 0;
+        color: #FF7541;
+        line-height: 96rpx;
+        height: 96rpx;
+        .iconfont2{
+          font-size: 30rpx;
+          margin-right: 10rpx;
+        }
+		.haveSpec, .historySpec{
+		  margin-left: 40rpx;
+		  width:158rpx;
+		  height:64rpx;
+		  line-height: 64rpx;
+		  border-radius:32rpx;
+		  color: #999;
+		  text-align: center;
+		  border:1rpx dashed rgba(238,238,238,1);
+		}
+      }
+    }
+    .delSpecBox{
+		width: 40rpx;
+		height: 40rpx;
+		background: #CDCDCD;
+		border-radius: 0 0 0 50%;
+		line-height: 40rpx;
+		position: absolute;
+		right: 0;
+		top: 0;
+		color: white;
+		text-align: center;
+		.iconfont2{
+			font-size: 40rpx;
+		}
+    }
+  }
+}
+.recommendList{
+	padding: 0 30rpx;
+	background: white;
+	.listTitle{
+		color: #333333;
+		font-size: 30rpx;
+		.addSpecTips{
+			width: 40rpx;
+			margin-left: 10rpx;
+		}
+	}
+	.listBox{
+		padding: 30rpx 0;
+		.listItem{
+			min-width: 72rpx;
+			padding: 0 20rpx;
+			height: 56rpx;
+			border-radius: 4rpx;
+			border: 1rpx solid #DEDEDE;
+			line-height: 56rpx;
+			text-align: center;
+			font-size: 26rpx;
+			margin-right: 20rpx;
+			margin-bottom: 20rpx;
+		}
+	}
+}
+.tableList{
+	margin-top: 20rpx;
+	.tableTitBg{
+		padding: 0 30rpx;
+		background: white;
+		.tableTit{
+			height: 96rpx;
+			line-height: 96rpx;
+			border-bottom: 1rpx solid #eee;
+			.allSet{
+				width: 144rpx;
+				height: 56rpx;
+				line-height: 56rpx;
+				border-radius: 4rpx;
+				text-align: center;
+				border: 1rpx solid #FF7541;
+				color: #FF7541;
+				font-size: 26rpx;
+			}
+		}
+	}
+	.priceList{
+		margin-bottom: 20rpx;
+		padding: 0 30rpx;
+		background: white;
+		.priceTit{
+			height: 96rpx;
+			border-bottom: 1rpx solid #eee;
+			font-size: 24rpx;
+			.childLabel{
+				font-weight: 600;
+				font-size: 28rpx;
+			}
+			.addImg{
+				display: inline-block;
+				width: 56rpx;
+				height: 56rpx;
+				line-height: 56rpx;
+				text-align: center;
+				border-radius: 4rpx;
+				border: 1rpx solid #DEDEDE;
+				margin-left: 10rpx;
+				margin-right: 32rpx;
+				color: #DEDEDE;
+				.iconfont2{
+					font-size: 40rpx;
+				}
+			}
+			.itemImg{
+				width: 56rpx;
+				height: 56rpx;
+				margin-left: 10rpx;
+				margin-right: 32rpx;
+				image{
+					width: 100%;
+					height: 100%;
+					border-radius: 4rpx;
+				}
+			}
+		}
+		.priceContent{
+			height: 96rpx;
+			font-size: 24rpx;
+			background: white;
+			input{
+				width: 88rpx;
+				height: 56rpx;
+				border-radius: 4rpx;
+				border: 1rpx solid #DEDEDE;
+				margin-left: 10rpx;
+				text-align: center;
+				font-size: 24rpx;
+			}
+		}
+	}
+}
+.submitBox{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #FFFFFF;
+	padding-top: 16rpx;
+	.submitBut{
+		width: 690rpx;
+		height: 72rpx;
+		background: #FF7541;
+		box-shadow: 0px 0px 16rpx 1rpx rgba(222, 222, 222, 0.5);
+		border-radius: 40rpx;
+		text-align: center;
+		line-height: 72rpx;
+		color: white;
+	}
+}
+.submitBox2{
+	height: 84rpx;
+}
+.submitBox1{
+	height: 136rpx;
+}
+.popup-main, .popup-main1{
+  position: relative;
+  width: 600rpx;
+  border-radius: 16rpx;
+  background:#fff;
+  .pop-close{
+    position: absolute;
+    right: 20rpx;
+    top: 10rpx;
+    color: #999;
+  }
+  .poptitle{
+    font-size: 32rpx;
+    line-height: 1.1;
+    text-align: center;
+  }
+  .pop-input{
+    position: relative;
+    padding: 20rpx 40rpx 66rpx;
+    overflow: hidden;
+    font-size: 28rpx;
+    color: #666;
+    text-align: center;
+  }
+  .text_num{
+    position: absolute;
+    right: 60rpx;
+    bottom: 80rpx;
+    font-size: 24rpx;
+    color: #BCBCBC;
+  }
+  // 按钮
+  .pop-btn{
+    display: flex;
+    border-top: 1rpx solid #DEDEDE;
+    view{
+      width: 100%;
+      font-size: 28rpx;
+      line-height: 86rpx;
+      color: #666;
+      text-align: center;
+      letter-spacing: 0.05em;
+      overflow: hidden;
+    }
+  }
+  .pop-btn view:nth-child(2){
+    color: $red;
+    border-left: 1rpx solid #DEDEDE;
+  }
+}
+.popup-main{
+  padding-top: 74rpx;
+}
+.popup-main1{
+  overflow: hidden;
+  .poptitle{
+    height: 108rpx;
+    background: rgba(238,238,238,.5);
+    line-height: 108rpx;
+  }
+  .pop-input{
+    color: #333;
+    text-align: left;
+    line-height: 48rpx;
+    padding: 20rpx 24rpx 66rpx;
+  }
+}

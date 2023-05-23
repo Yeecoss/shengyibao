@@ -1,0 +1,107 @@
+.dataList{
+    text-align: center;
+    font-size: 24rpx;
+    line-height: 1;
+    padding-bottom: 20rpx;
+    .dataItem1{
+        width: 240rpx;
+        position: relative;
+    }
+    .dataItem2{
+        flex: 1;
+        position: relative;
+    }
+    .num{
+        margin-top: 40rpx;
+        color: #222222;
+        font-size: 32rpx;
+        font-weight: 600;
+    }
+    .title{
+        margin-top: 20rpx;
+        color: #999;
+    }
+    .rightLine{
+        width:1px;
+        height:20px;
+        background:rgba(216,216,216,1);
+        border-radius: 1rpx;
+        position: absolute;
+        right: 0;
+        top: 54rpx;
+    }
+}
+.filter{
+    -webkit-filter: blur(6rpx);
+    filter: blur(6rpx);
+}
+.listBox{
+    padding: 40rpx 30rpx 16rpx;
+    .listItem{
+        .imgBox{
+            width: 116rpx;
+            position: relative;
+            .userImg{
+                width: 96rpx;
+                height: 96rpx;
+                border-radius: 50%;
+            }
+            .itemTip{
+              position: absolute;
+              bottom: 0;
+              right: 26rpx;
+              width: 28rpx;
+              height: 28rpx;
+            }
+        }
+        .name{
+            flex: 1;
+            line-height: 1;
+            border-bottom: 1rpx solid #EEEEEE;
+            height: 100%;
+            .nameBox{
+                flex: 1;
+                .nameText{
+                    max-width: 168rpx;
+                    font-weight: 600;
+                    line-height: 32rpx;
+                    padding-right: 20rpx;
+                }
+                .salesFee{
+                    color: #FF7541;
+                    .cross{
+                        margin-right: 10rpx;
+                        border-radius: 8rpx;
+                        border: 1rpx solid #FF7541;
+                        padding: 6rpx;
+                        transform: scale(.8);
+                        display: inline-block;
+                    }
+                    .saleGrade{
+                        width: 28rpx;
+                        height: 24rpx;
+                        margin-right: 10rpx;
+                    }
+                }
+            }
+            .lastTime{
+                font-size: 24rpx;
+                color: #999;
+                margin-top: 22rpx;
+            }
+            .num{
+                font-size: 28rpx;
+                text-align: center;
+                .unlock{
+                    width:128rpx;
+                    height:44rpx;
+                    line-height:44rpx;
+                    border-radius:22rpx;
+                    border:1rpx solid rgba(232,46,46,1);
+                    font-size: 24rpx;
+                    margin-top: 20rpx;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.popup-main {
+	position: relative;
+	width: 750rpx;
+	border-radius:16rpx 16rpx 0 0;
+	z-index: 999;
+	background-color: #fff;
+	overflow: hidden;
+	.popupBox{
+		padding: 32rpx 0 98rpx;
+		.titleBox{
+			padding: 0 32rpx;
+			.title{
+				font-size: 30rpx;
+				color: #333333;
+			}
+			.clear{
+				color: #999999;
+				font-size: 26rpx;
+				.iconfont2{
+					margin-right: 8rpx;
+				}
+			}
+		}
+		.listBox{
+			max-height: 660rpx;
+			overflow-y: auto;
+			margin-top: 32rpx;
+			padding-bottom:calc(env(safe-area-inset-bottom)/2);
+			.list{
+				.g-box {
+					padding-bottom: 28rpx;
+					border-bottom: 1rpx solid #E6E6E6;
+					width: 100%;
+					.g-image {
+						width: 172rpx;
+						height: 172rpx;
+					}
+					.g-box-pic{
+						width: 172rpx;
+						height: 172rpx;
+						background: #D8D8D8;
+						border-radius: 12rpx;
+						overflow: hidden;
+					}
+					.g-box-info{
+						position: relative;
+						.g-title{
+							line-height: 42rpx;
+						}
+						.goods-attr{
+						  margin-top: 4rpx;
+							width: max-content;
+							max-width: 92%;
+							padding: 0 16rpx;
+							line-height: 40rpx;
+							background: #F2F2F2;
+						}
+						.goods-attr text{
+						  background: #F2F2F2;
+						  border-radius:2px;
+						  height:40rpx;
+						  line-height: 40rpx;
+						  padding: 0 20rpx;
+						}
+						.prolist-addBox{
+							position: absolute;
+							bottom: 0;
+							right: 0;
+						}
+						.min_price{
+							position: absolute;
+							bottom: 0;
+							left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+
+	.address{max-width: 300rpx;}
+	.list-title{
+		width: 100%;
+		line-height: 72rpx;
+		margin-bottom: 10rpx;
+	}
+	.list-item{
+		padding: 0 20rpx;
+		margin-right: 20rpx;
+		margin-bottom: 20rpx;
+		height:60rpx;
+		line-height:60rpx;
+		color: #666;
+		border-radius: 30rpx;
+		border:1rpx solid #DEDEDE;
+		overflow: hidden;
+		&.checked{
+			color: $red;
+			border-color: $red;
+		}
+	}
+	.list .list-item:nth-child(5n){
+		margin-right: 0;
+	}
+	// 搜索
+	.search-wrap{
+		padding-top: 40rpx;
+		padding-bottom: 44rpx;
+	}
+	.search input{
+		flex: 1;
+		height:	60rpx;
+		line-height:	60rpx;
+		padding: 0 20rpx;
+		font-size: 24rpx;
+		border-radius: 8rpx;
+		border: 1rpx solid #DEDEDE;
+		overflow: hidden;
+	}
+	.search-btn{
+		width: 112rpx;
+		height:	60rpx;
+		line-height:	60rpx;
+		margin-left: 48rpx;
+		color: $red;
+		text-align: center;
+		border-radius: 8rpx;
+		border:	1rpx solid $red;
+	}
+	.search-list{margin-top: 30rpx;}

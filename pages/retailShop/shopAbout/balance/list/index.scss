@@ -1,0 +1,32 @@
+.page{
+	height: 100%;
+	background: white;
+    .rangeBox{
+        height: 76rpx;
+        line-height: 76rpx;
+        color: #FF7541;
+		padding: 0 30rpx;
+		background: #F5F5F5;
+        .iconfont2{
+            margin-right: 12rpx;
+        }
+    }
+	.main{
+		padding: 0 30rpx;
+		.list-item{
+			padding: 20rpx 0;
+			border-bottom: 1rpx solid #DEDEDE;
+			.title{
+				height: 30rpx;
+				line-height: 30rpx;
+				color: #666666;
+			}
+			.content{
+				height: 26rpx;
+				line-height: 26rpx;
+				margin-top: 20rpx;
+				color: #333;
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+.main{position: relative;}
+.pop-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 1;
+	padding: 30rpx;
+	color: #999;
+}
+.color-wrap{
+	max-height: 900rpx;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.color-box{
+	padding: 0 20rpx 30rpx;
+	box-sizing: border-box;
+}
+.color-txt{
+	position: relative;
+	width: 144rpx;
+	height: 172rpx;
+	color: #828393;
+	border-radius: 8rpx;
+	margin-bottom: 40rpx;
+	overflow: hidden;
+	box-sizing: border-box;
+	.colorBlock{
+		width: 96rpx;
+		height: 96rpx;
+		border-radius: 50%;
+		background: #fff;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	&:first-child .colorBlock{
+		border: 1rpx solid #828393;
+	}
+	&.active{
+		border: 1rpx solid rgba(130, 131, 147, 0.3);
+	}
+}
+.gou{
+	line-height: 1;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+// 底部操作栏
+.foot-operate{
+	height: 140rpx;
+	border-top: 1rpx solid #DEDEDE;
+	.sure-btn{
+		height: 72rpx;
+		line-height: 72rpx;
+		background: $red2;
+		border-radius: 40rpx;
+	}
+}

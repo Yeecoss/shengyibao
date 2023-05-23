@@ -1,0 +1,30 @@
+.container .listBox .list .label{
+	color: #666;
+}
+// 商品
+.flow-shopList{
+	padding: 30rpx 0;
+	margin: 0 30rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.goods_attr{
+	background: none;
+	padding: 0;
+}
+.flow-shopList .flow-list-left image{
+	width: 128rpx;
+	height: 128rpx;
+}
+.goods-detail {
+  padding: 20rpx 30rpx;
+}
+.goods-detail .left .goods-image {
+  display: block;
+  width: 128rpx;
+  height: 128rpx;
+	border-radius: 4rpx;
+}
+
+.goods-detail .right {
+  padding-left: 20rpx;
+}

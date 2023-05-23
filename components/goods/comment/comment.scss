@@ -1,0 +1,135 @@
+/* 去除标题阴影 */
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+/* 选项卡 */
+
+.swiper-tab {
+  width: 100%;
+  text-align: center;
+  height: 60rpx;
+  padding-top: 26rpx;
+  background-color: #fff;
+  box-shadow:0px 6rpx 8rpx 2rpx rgba(222,222,222,0.5);
+  margin-bottom: 8rpx;
+}
+
+.swiper-tab .swiper-tab-item {
+  width: 25%;
+  height: 100%;
+  font-size: 24rpx;
+  color: #666;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ffffff00;
+  position: relative;
+}
+
+.swiper-tab .on {
+  color: #FF7541;
+}
+.swiper-tab .on .line{
+  width:80rpx;
+  height:4rpx;
+  background:#FF7541;
+  border-radius:4rpx;
+  position: absolute;
+  bottom: -4rpx;
+  left: 50%;
+  margin-left: -40rpx;
+}
+
+/* 设置scroll-view容器高度 */
+
+.comment-list, .yoshop-notcont {
+  height: 100.1%;
+}
+.comment-list .listBottom{
+  text-align: center;
+  height: 54rpx;
+  margin-top: 40rpx;
+}
+
+/* 评论列表 */
+
+.goods-comment-box {
+  padding: 30rpx 46rpx 0 104rpx;
+  box-sizing: border-box;
+  position: relative;
+  .userBox{
+    width:100%;
+  }
+  .optBox{
+    width:80rpx;
+  }
+  .optbutRed, .optbut{
+    width:86rpx;
+    height:38rpx;
+    border-radius:20rpx;
+    font-size: 24rpx;
+    text-align: center;
+    line-height: 38rpx;
+  }
+  .optbut{
+    color: #DEDEDE;
+    border:1rpx solid #DEDEDE;
+  }
+  .optbutRed{
+    color: #FF7541;
+    border:1rpx solid rgba(232,46,46,1);
+  }
+  .line{
+    padding-bottom: 30rpx;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .user_avatar {
+    position: absolute;
+    left: 30rpx;
+    top: 40rpx;
+    width: 64rpx;
+    height: 64rpx;
+    border-radius: 50%;
+    margin-right: 15rpx;
+  }
+  
+  .comment-images {
+    width: 100%;
+    margin-top: 20rpx;
+  }
+  
+  .comment-images::after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+  
+  .comment-images .image-preview {
+    float: left;
+    margin-bottom: 15rpx;
+    margin-right: 15rpx;
+  }
+  
+  .comment-images .image-preview:nth-child(3n+0) {
+    margin-right: 0;
+  }
+  
+  .comment-images .image-preview image {
+    display: block;
+    width: 176rpx;
+    height: 176rpx;
+    border-radius: 10rpx;
+  }
+}
+
+/* 没有更多 */
+
+.no-more {
+  text-align: center;
+  color: #737373;
+  padding: 10px 0;
+}

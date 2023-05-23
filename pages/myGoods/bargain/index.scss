@@ -1,0 +1,41 @@
+// 重置
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view,scroll-view{
+	box-sizing: border-box;
+}
+.tui-tabs-fixed{
+	z-index: 2 !important;
+}
+.footer, .foot{
+	height: 100rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 1rpx solid #E5E5EC;
+	z-index: 2;
+}
+.foot-btn{
+	line-height: 72rpx;
+	text-align: center;
+	background: $red;
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+.tui-tabs-wrap{
+	height: 88rpx;
+}
+// main
+.main{
+	color: #333;
+	font-size: 24rpx;
+}

@@ -1,0 +1,124 @@
+/* wxParse.wxss */
+
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+.container {
+  padding-bottom: 112rpx;
+}
+/* 返回顶部 */
+.widget-goTop {
+  bottom: 210rpx;
+}
+/* 底部操作栏 */
+.footer-fixed {
+  /* height: 92rpx; */
+}
+.footer-container {
+  width: 100%;
+}
+.foo-item-fast {
+  box-sizing: border-box;
+  width: 256rpx;
+  line-height: 1;
+}
+.fast-item {
+  padding: 0 10rpx;
+  line-height: 1;
+}
+.fast-item .fast-icon {
+  margin-bottom: 6rpx;
+}
+.fast-item.fast-item_home {
+  margin-right: 30rpx;
+  text-align: center;
+}
+.foo-item-fast .fast-icon {
+  font-size: 40rpx;
+}
+.foo-item-fast .fast-text {
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+.footer-fixed .opt-btn.btn-main{
+	background: var(--storeColor);
+}
+// 运动模板
+.sportshop-footer{
+	.opt-btn.btn-main{
+		background: #000;
+	}
+}
+/* 秒杀进度条 */
+.sportshop-countwrap{
+	/* 活动倒计时 */
+	.info-item__top{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 96rpx;
+		padding: 16rpx 30rpx 0;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+		box-sizing: border-box;
+		z-index: 2;
+	}
+	.info-item_countdown {
+		display: flex;
+	  line-height:30rpx;
+	  font-size: 28rpx;
+	  border-radius: 6rpx;
+	  color: #fff;
+	  text-align: center;
+	  overflow: hidden;
+	}
+	.countdown{
+		margin-left: 10rpx;
+	  overflow: hidden;
+	}
+	.info-item_countdown text {
+	  padding: 0 4rpx;
+	  line-height:32rpx;
+	  font-size: 22rpx;
+	  color: #fff;
+	  margin: 0 8rpx;
+	  text-align: center;
+	  border-radius:4rpx;
+	  background: $theme4Red;
+	}
+	/* 活动已结束 */
+	.info-item_end {
+	  color: #fff;
+	}
+	.nosharp-progress .yoo-progress{
+	  background: rgba(232,46,46,0.5);
+	}
+	.sharp-progress{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-bottom: 30rpx;
+	}
+	.yoo-progress {
+		position: relative;
+		width: 200rpx;
+		height: 16rpx;
+		background: url(https://pic.kaidanxia.com/2021-04-29/1608368c8920866.png);
+		background-size: 10rpx 16rpx;
+	}
+	.yoo-progress--portion {
+		width: 0%;
+		max-width: 100%;
+		height: 100%;
+		background:url(https://pic.kaidanxia.com/2021-05-08/182059a62b49199.png);
+		background-size: 10rpx 16rpx;
+	}
+	.sharp-sales{
+	  font-size: 24rpx;
+	  text-align: center;
+		margin-top: 4rpx;
+		width: 100%;
+		margin-left: 0;
+		color: var(--storeColor);
+	}
+}

@@ -1,0 +1,86 @@
+.listBox{
+    min-height: 600rpx;
+    text-align: center;
+    .listTitle{
+        height: 60rpx;
+        background:#F8F8F8;
+        border-radius:8rpx;
+        color: #666;
+        font-size: 24rpx;
+        .orderNum{
+            width: 106rpx;
+        }
+        .orderNum1{
+            width: 126rpx;
+        }
+        .imgBox{
+            width: 120rpx;
+        }
+        .name{
+            flex: 1;
+        }
+        .money{
+            width: 166rpx;
+        }
+    }
+    .listItem{
+        .orderNum{
+            width: 106rpx;
+        }
+        .orderNum1{
+            width: 126rpx;
+        }
+        .imgBox{
+            width: 120rpx;
+            position: relative;
+            .userImg{
+                width: 80rpx;
+                height: 80rpx;
+                border-radius: 40rpx;
+            }
+            .rankImg{
+                width: 24rpx;
+                height: 24rpx;
+                position: absolute;
+                left: 18rpx;
+                top: -10rpx;
+            }
+        }
+        .name{
+            flex: 1;
+        }
+        .num{
+            width: 166rpx;
+        }
+    }
+    .listItem1{
+        .orderNum{
+            color:  #F9CF16 !important;
+        }
+        .imgBox .userImg{
+            border: 1rpx solid #F9CF16 !important;
+        }
+    }
+    .listItem2{
+        .orderNum{
+            color:  #B1C8DA !important;
+        }
+        .imgBox .userImg{
+            border: 1rpx solid #B1C8DA !important;
+        }
+    }
+    .listItem3{
+        .orderNum{
+            color:  #D39C83 !important;
+        }
+        .imgBox .userImg{
+            border: 1rpx solid #D39C83 !important;
+        }
+    }
+}
+.listBox1{
+    box-shadow:0px 0px 4px 1px rgba(222,222,222,0.5);
+}
+.no_data{
+    margin-top: 80rpx;
+}

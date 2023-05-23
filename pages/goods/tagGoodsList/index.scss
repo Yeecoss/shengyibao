@@ -1,0 +1,28 @@
+// 标题
+.nav .title{
+  margin-left: 10rpx;
+}
+.left-title{
+	width: 100%;
+	max-width: 410rpx;
+	font-size: 32rpx;
+	color: #222;
+	white-space: nowrap;
+	text{
+		margin-right: 16rpx;
+		font-size: 36rpx;
+		color: #000;
+	}
+}
+// 搜索
+.search-wrap{
+	position: relative;
+	z-index: 0;
+}
+.top-bg{
+	position: absolute;
+	width: 100%;
+	height: 200rpx;
+	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+	z-index: 0;
+}

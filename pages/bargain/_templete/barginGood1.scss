@@ -1,0 +1,407 @@
+view{box-sizing: border-box;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 商品信息 */
+.main_goods_title {
+  width: 100%;
+  font-size: 28rpx;
+  color: #333;
+}
+/* 砍价商品价格 */
+.desc_footer .price_x {
+  margin-right: 10rpx;
+}
+.desc_footer .price_y {
+  text-decoration: line-through;
+  font-size: 24rpx;
+  color: #999;
+}
+/* 正在参与的用户 */
+.peoples .user-list {
+  margin-right: 10rpx;
+}
+.peoples .user-list .user-item-avatar {
+  margin-left: -10rpx;
+}
+.peoples .user-list .user-item-avatar:first-child {
+  margin-left: 0;
+}
+.peoples .user-list .user-item-avatar image {
+  display: block;
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+}
+.peoples .people__text {
+  font-size: 24rpx;
+  color: #666;
+}
+/* 砍价进度 */
+.task-rate {
+  font-size: 25rpx;
+  color: #999;
+  margin-top: 15rpx;
+}
+/* 砍价状态 */
+.task-status__text {
+  font-size: 24rpx;
+}
+/* 倒计时 */
+.count-down {
+  font-size: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+	color: #333;
+}
+.count-down .clock-text {
+  margin-right: 10rpx;
+}
+// 操作
+.optbox-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	.settlement{
+		width: 140rpx;
+		height: 44rpx;
+		line-height: 44rpx;
+		font-size: 24rpx;
+		text-align: center;
+		border-radius: 22rpx;
+		overflow: hidden;
+	}
+	.peoples,.task-status{
+		flex: 1;
+		padding-right: 30rpx;
+	}
+}
+// 默认模板
+.div-main_goods{
+	.col-theme{
+		color: #FF8B00;
+	}
+	/* 列表商品多图样式 */
+	.main_goods {
+		display: flex;
+	  margin-bottom: 20rpx;
+	  padding: 20rpx;
+	  border-radius: 12rpx;
+	  background: #fff;
+	}
+	.main_goods_image{
+		width: 200rpx;
+		height: 200rpx;
+		margin-right: 20rpx;
+		border-radius: 12rpx;
+		background: #D8D8D8;
+		overflow: hidden;
+	}
+	// 操作
+	.optbox-wrap{
+		margin-top: 70rpx;
+		.settlement{
+			background: linear-gradient(194deg, #F9D382 0%, #FF8B00 100%);
+		}
+	}
+	/* 商品信息 */
+	.main_goods_right {
+		flex: 1;
+		overflow: hidden;
+	}
+	.main_goods_title {
+		-webkit-line-clamp: 1;
+	}
+	/* 砍价商品价格 */
+	.desc_footer {
+	  margin-top: 10rpx;
+	  line-height: 1.2;
+	}
+	.desc_footer .price_x {
+	  color: #FF8B00;
+	  font-size: 28rpx;
+	}
+	/* 倒计时 */
+	.count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	  line-height: 36rpx;
+	}
+	// 我的砍价
+	.main_goods1 .optbox-wrap{
+		margin-top: 30rpx;
+	}
+}
+// 卖手圈模板
+.saler-main_goods{
+	/deep/ .tui-countdown-item{
+		border: 0;
+		box-shadow: none;
+	}
+	.col-theme{
+		color: $red;
+	}
+	/* 列表商品多图样式 */
+	.main_goods {
+		display: flex;
+	  padding: 20rpx 0;
+	  background: #fff;
+	}
+	.main_goods_image{
+		width: 200rpx;
+		height: 200rpx;
+		margin-right: 20rpx;
+		border-radius: 16rpx;
+		background: #D8D8D8;
+		overflow: hidden;
+	}
+	// 操作
+	.optbox-wrap{
+		margin-top: 38rpx;
+		.settlement{
+			background: $red;
+		}
+	}
+	/* 商品信息 */
+	.main_goods_right {
+		flex: 1;
+		overflow: hidden;
+	}
+	.main_goods_title {
+		height: 76rpx;
+	}
+	/* 砍价商品价格 */
+	.desc_footer {
+	  margin-top: 10rpx;
+	  line-height: 1.2;
+	}
+	.desc_footer .price_x {
+	  color: $red;
+	  font-size: 28rpx;
+	}
+	/* 倒计时 */
+	.count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	  line-height: 36rpx;
+	}
+	// 我的砍价
+	.main_goods1{
+		position: relative;
+		padding-bottom: 88rpx;
+	  border-bottom: 1rpx solid #eee;
+		.task-rate{
+			margin-top: 48rpx;
+			color: #2A2A30;
+		}
+		.optbox-wrap{
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 20rpx;
+		}
+	}
+}
+// 小商店模板
+.minishop-main_goods{
+	.col-theme{
+		color: $red;
+	}
+	/* 列表商品多图样式 */
+	.main_goods {
+		display: flex;
+		margin: 40rpx 0;
+	  padding-right: 20rpx;
+		border-radius: 16rpx;
+	  background: #fff;
+	}
+	.main_goods_image{
+		width: 240rpx;
+		height: 240rpx;
+		transform: translateY(-20rpx);
+		margin-right: 20rpx;
+		border-radius: 16rpx;
+		background: #D8D8D8;
+		overflow: hidden;
+	}
+	// 操作
+	.optbox-wrap{
+		margin-top: 38rpx;
+		.settlement{
+			background: linear-gradient(270deg, #FAAB90 0%, #F27257 100%);
+		}
+	}
+	/* 商品信息 */
+	.main_goods_right {
+		padding-top: 20rpx;
+		flex: 1;
+		overflow: hidden;
+	}
+	.main_goods_title {
+		height: 76rpx;
+	}
+	/* 砍价商品价格 */
+	.desc_footer {
+	  margin-top: 10rpx;
+	  line-height: 1.2;
+	}
+	.desc_footer .price_x {
+	  color: #2A2A30;
+	  font-size: 28rpx;
+	}
+	/* 倒计时 */
+	.count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	  line-height: 36rpx;
+	}
+	// 我的砍价
+	.main_goods1{
+		position: relative;
+		padding-bottom: 62rpx;
+		.task-rate{
+			margin-top: 48rpx;
+			color: #2A2A30;
+		}
+		.optbox-wrap{
+			position: absolute;
+			left: 20rpx;
+			right: 20rpx;
+			bottom: 20rpx;
+		}
+	}
+}
+.optbox-wrap .settlement.disabled{
+	background: #999;
+	color: #fff;
+}
+// 运动模板
+.sportshop-main_goods{
+	.col-theme{
+		color: $theme4Red;
+	}
+	/* 列表商品多图样式 */
+	.main_goods {
+		margin-bottom: 20rpx;
+		position: relative;
+	}
+	.main_goods_image{
+		width: 100%;
+		height: 750rpx;
+		overflow: hidden;
+	}
+	// 操作
+	.optbox-wrap{
+		width: 100%;
+		padding-bottom: 32rpx;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+		.settlement{
+			width: 160rpx;
+			height: 64rpx;
+			line-height: 64rpx;
+			padding-left: 14rpx;
+			font-size: 28rpx;
+			position: relative;
+			border-radius: 0;
+			background: none;
+		}
+		&::before{
+			position: absolute;
+			top: 0;
+			right: -30rpx;
+			content: '';
+			display: block;
+			width: 180rpx;
+			height: 64rpx;
+			transform: skew(15deg);
+			background: $theme4Red;
+			z-index: 0;
+		}
+		.peoples,.task-status{
+			padding-left: 30rpx;
+		}
+	}
+	/* 商品信息 */
+	.main_goods_right {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 60rpx 30rpx 20rpx;
+		width: 100%;
+		flex: 1;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	// 商品标题
+	.main_goods_title{
+		color: #fff;
+		font-size: 32rpx;
+		line-height: 48rpx;
+		margin-top: 10rpx;
+	}
+	/* 砍价商品价格 */
+	.desc_footer {
+	  margin-top: 10rpx;
+	  line-height: 1.2;
+	}
+	.desc_footer .price_x {
+	  color: #fff;
+	  font-size: 32rpx;
+	}
+	.desc_footer .price_y {
+		color: #fff;
+		margin-left: 20rpx;
+	}
+	/* 倒计时 */
+	.count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	  line-height: 36rpx;
+		// padding-left: 30rpx;
+		color: #fff;
+	}
+	/* 正在参与的用户 */
+	.peoples {
+		padding-left: 40rpx;
+	}
+	.peoples .user-list .user-item-avatar {
+		margin-left: -12rpx;
+	}
+	.peoples .user-list .user-item-avatar image {
+		width: 40rpx;
+		height: 40rpx;
+		box-sizing: border-box;
+		border: 1rpx solid #fff;
+	}
+	.peoples .people__text {
+		color: #fff;
+	}
+	// 我的砍价
+	.main_goods1{
+		position: relative;
+		.task-rate{
+			margin-top: 10rpx;
+			color: #fff;
+		}
+		.optbox-wrap.disabled{
+			&::before{
+				background: #2A2A30;
+			}
+			.settlement.disabled{
+				background: none;
+				color: #fff;
+			}
+		} 
+	}
+}
+.optbox-wrap .settlement.disabled{
+	background: #999;
+	color: #fff;
+}

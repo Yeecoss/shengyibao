@@ -1,0 +1,29 @@
+.shopInformation{
+    background: #F7F7F7;
+    min-height: 100%;
+	.autoBox{
+		height: 88rpx;
+		line-height: 88rpx;
+		padding: 0 30rpx;
+		background: white;
+		margin-top: 20rpx;
+	}
+    .qrcodeBox{
+		margin-top: 50rpx;
+        image{
+            width: 600rpx;
+            height: 720rpx;
+        }
+        .qrcodeBut{
+            margin-top: 80rpx;
+            width: 600rpx;
+            height: 88rpx;
+            line-height: 88rpx;
+            font-size: 36rpx;
+            color: white;
+            text-align: center;
+            background: #FF7541;
+            border-radius: 44rpx;
+        }
+    }
+}

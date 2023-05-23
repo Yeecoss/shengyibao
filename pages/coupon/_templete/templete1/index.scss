@@ -1,0 +1,311 @@
+view{box-sizing: border-box; }
+.coupon-list{
+	padding: 20rpx 30rpx;
+}
+// 默认模板
+.div-list{
+	.coupon-item {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 22rpx; 
+	}
+	&.minishop{
+		padding: 0 30rpx;
+		.coupon-item{
+			margin-bottom: 0;
+		}
+	}
+	.coupon-item .item-wrapper {
+		width: 100%;
+		background: #fff;
+		border-radius: 8rpx;
+		height: 160rpx;
+		overflow: hidden;
+	}
+	.btn-wrap {
+		width: 160rpx;
+		line-height:100rpx;
+		border-left: 1rpx solid #DEDEDE;
+		overflow: hidden;
+	}
+	.btn-wrap .receive-btn {
+		width: 160rpx;
+		text-align: center;
+		letter-spacing: 0.05em;
+		color: $red;
+	}
+	.item-wrapper .tip {
+		position: relative;
+		width: 34%;
+		height: 100%;
+		text-align: center;
+		background-color: $red;
+		overflow: hidden;
+	}
+	.gray-item .tip{
+		background-color: #D1D1D1;
+	}
+	.item-wrapper .tip .money {
+		font-weight: bold;
+		font-size: 48rpx; 
+	}
+	.item-wrapper .tip .pay-line {font-size: 24rpx; }
+}
+// 卖手圈模板
+.saler-list{
+	.coupon-item {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 20rpx; 
+	}
+	&.minishop{
+		padding: 0 30rpx;
+		.coupon-item{
+			margin-bottom: 0;
+		}
+	}
+	.coupon-item .item-wrapper {
+		width: 100%;
+		background: #fff;
+		border-radius: 16rpx;
+		overflow: hidden;
+	}
+	.btn-wrap {
+		width: 200rpx;
+		height: 104rpx;
+		padding-top: 30rpx;
+		padding-left: 16rpx;
+		background-color: $red;
+		overflow: hidden;
+	}
+	.btn-wrap .receive-btn{
+		height: 48rpx;
+		line-height:48rpx;
+		width: 144rpx;
+		border-radius: 24rpx;
+		background-color: #fff;
+		text-align: center;
+		letter-spacing: 0.05em;
+		color: $red;
+	}
+	.btn-wrap .state{
+		height: 48rpx;
+		line-height:48rpx;
+		width: 144rpx;
+		border-radius: 24rpx;
+		background-color: #fff;
+		text-align: center;
+		letter-spacing: 0.05em;
+	}
+	.middle{
+		position: relative;
+		width: 100%;
+		height: 52rpx;
+		padding: 0 40rpx;
+		&::before {
+			content: ' ';
+			width: 100%;
+			height: 0;
+			position: absolute;
+			border-bottom: 8rpx dotted $red;
+			left: 0;
+			top: -4rpx;
+		}
+	}
+	.item-wrapper .tip {
+		position: relative;
+		// width: 490rpx;
+		flex: 1;
+		height: 104rpx;
+		padding-left: 40rpx;
+		text-align: center;
+		background-color: $red;
+		overflow: hidden;
+	}
+	.gray-item .btn-wrap{
+		background-color: #DEDEDE;
+	}
+	.gray-item .tip{
+		background-color: #DEDEDE;
+	}
+	.gray-item .middle{
+		&::before {
+			border-color: #DEDEDE;
+		}
+	}
+	.item-wrapper .tip .money {
+		font-weight: bold;
+		font-size: 48rpx; 
+	}
+	.item-wrapper .tip .money-text{
+		font-size: 24rpx;
+	}
+	.item-wrapper .tip .pay-line {
+		font-size: 28rpx;
+		margin-left: 20rpx;
+	}
+}
+// 简约模板
+.minishop-list{
+	.coupon-item {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 22rpx; 
+	}
+	&.minishop{
+		padding: 0 30rpx;
+		.coupon-item{
+			margin-bottom: 0;
+		}
+	}
+	.coupon-item .item-wrapper {
+		position: relative;
+		width: 100%;
+		border-radius: 16rpx;
+		height: 152rpx;
+		overflow: hidden;
+	}
+	.left-wraper{
+		position: relative;
+		z-index: 1;
+		width: calc(100% - 84rpx);
+		height: 100%;
+		background: #fff;
+		border-radius: 0 16rpx 16rpx 0;
+		
+		background: radial-gradient(circle at 0% 50%, rgba(255, 255, 255, 1) 4%, rgba(255,255,255,1) 5.2%) left,radial-gradient(circle at 100% 50%, rgba(255, 255, 255, 0) 4%, rgba(255,255,255,1) 5.2%) right;
+		background-size: 50% 100%;
+		background-repeat: no-repeat;
+	}
+	.btn-wrap {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100rpx;
+		height: 152rpx;
+		overflow: hidden;
+	}
+	.btn-wrap .receive-btn,.btn-wrap .state{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		padding: 0 30rpx 0 44rpx;
+		line-height: 28rpx;
+		text-align: center;
+		letter-spacing: 0.05em;
+		color: #fff;
+	}
+	.btn-wrap .receive-btn {
+		background: linear-gradient(360deg, #FFA794 0%, #F37358 100%);
+	}
+	.btn-wrap .state{
+		background-color: #D1D1D1;
+	}
+	.middle{
+		padding: 0 40rpx;
+	}
+	.item-wrapper .tip {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		width: 232rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		text-align: center;	
+		color: $red2;
+		border-right: 1rpx solid rgba(187, 188, 205, 0.5);
+		overflow: hidden;
+	}
+	.gray-item .tip,.gray-item .middle{
+		color: #D1D1D1;
+	}
+	.item-wrapper .tip .money {
+		font-weight: bold;
+		font-size: 48rpx; 
+	}
+	.item-wrapper .tip .money-text{
+		font-size: 24rpx;
+		line-height: 2.3;
+	}
+	.item-wrapper .tip .pay-line {font-size: 24rpx; }
+}
+
+// 运动模板
+.sportshop-list{
+	.coupon-item {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 22rpx; 
+	}
+	&.minishop{
+		padding: 0 30rpx;
+		.coupon-item{
+			margin-bottom: 0;
+		}
+	}
+	.coupon-item .item-wrapper {
+		width: 100%;
+		color: #000;
+		background: #fff;
+		border: 10rpx solid #000;
+		// height: 160rpx;
+		padding-top: 14rpx;
+		padding-bottom: 14rpx;
+		overflow: hidden;
+	}
+	.btn-wrap {
+		height:112rpx;
+		border-left: 1rpx solid #000;
+		overflow: hidden;
+	}
+	.btn-wrap .receive-btn,.btn-wrap .state{
+		width: 108rpx;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		padding: 0 28rpx 0 40rpx;
+		line-height: 28rpx;
+		text-align: center;
+		letter-spacing: 0.05em;
+	}
+	.btn-wrap .receive-btn{
+		color: $theme4Red;
+	}
+	.item-wrapper .tip {
+		position: relative;
+		width: 208rpx;
+		height: 100%;
+		text-align: center;
+		overflow: hidden;
+	}
+	.coupon-type{
+		line-height: 40rpx;
+		border: 1rpx solid #000;
+		.coupon_type_txt{
+			background-color: #000;
+			margin-right: 16rpx;
+			overflow: hidden;
+		}
+		.pay-line{
+			flex: 1;
+		}
+	}
+	.item-wrapper.gray-item{
+		color: $theme4Gray;
+		border-color: $theme4Gray;
+	}
+	.gray-item .btn-wrap{
+		border-left: 1rpx solid $theme4Gray;
+	}
+	.gray-item .coupon-type{
+		border-color: $theme4Gray;
+		.coupon_type_txt{
+			background-color: $theme4Gray;
+		}
+	}
+	.item-wrapper .tip .money {
+		font-weight: bold;
+		font-size: 48rpx; 
+	}
+}

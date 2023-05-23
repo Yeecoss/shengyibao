@@ -1,0 +1,39 @@
+// 重置
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view{
+	box-sizing: border-box;
+}
+// 列表
+.list{
+	padding: 20rpx;
+	margin: 20rpx 0;
+	border-radius: 12rpx;
+}
+.user_img{
+	width: 88rpx;
+	height: 88rpx;
+	border-radius: 50%;
+	background: #D8D8D8;
+	overflow: hidden;
+}
+.user_info{
+	line-height: 1.2;
+	overflow: hidden;
+}
+.opera-btn,.opera-btn2{
+	width: 112rpx;
+	line-height: 46rpx;
+	margin-left: 30rpx;
+	text-align: center;
+	border-radius: 24rpx;
+	border: 1rpx solid #DEDEDE;
+	overflow: hidden;
+}
+.opera-btn2{
+	color: $red;
+	border-color: $red;
+}

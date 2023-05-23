@@ -1,0 +1,182 @@
+/* wxParse.wxss */
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+.container{
+	padding-bottom:calc(112rpx + env(safe-area-inset-bottom)/2);
+}
+
+/* 底部操作栏 */
+.footer-fixed{
+	border-top: 1rpx solid rgba(187, 188, 205, 0.24);
+	padding-bottom:calc(env(safe-area-inset-bottom)/2);
+	.goods-fixed-icon {
+	  width: 100rpx;
+	  background: #fff;
+	  margin: 0 auto;
+	  padding: 0 6rpx;
+	  height: 100rpx;
+	  position: relative;
+	}
+	.iconfont2 {
+	  color: #333;
+	  font-size: 40rpx;
+	}
+	.fast-text{
+	  line-height: 1.1;
+	  font-size: 24rpx;
+	  margin-top: 6rpx;
+	}
+	.order-number {
+	  color: #000;
+	  text-align: center;
+	  width: 200rpx;
+	  height: 72rpx;
+	  line-height: 72rpx;
+	  border-radius: 44px;
+	  border: 1rpx solid rgba(187, 188, 205, 0.24);
+	  margin-right: 30rpx;
+	  margin-left: 30rpx;
+	}
+	.order-bt{
+	  height:72rpx;
+	  line-height: 72rpx;
+		background: var(--storeColor);
+	}
+	.checked{
+		color: var(--storeColor);
+	}
+}
+// 运动模板
+.sportshop-footer{
+	.order-number {
+		border-radius: 0;
+	}
+	.order-bt{
+		border-radius: 0;
+		background: #000;
+	}
+}
+// 小商店模板
+.minishop-footer{
+	.order-number {
+		background: rgba(242, 114, 87, 0.075);
+		border-color:rgba(242, 114, 87, 0.075);
+		color: #F27257;
+	}
+}
+/* 商品标题 */
+
+// .goods-title {
+//   overflow: hidden;
+//   padding: 0 0rpx 0 0;
+//   color: #333;
+// }
+
+/* 商品价格 */
+
+// .money-box {
+//   // margin: 10rpx 0;
+// }
+
+
+// .money-box .line-price {
+//   font-size: 24rpx;
+//   color: #999;
+//   text-decoration: line-through;
+//   margin-left: 10rpx;
+//   height: 24rpx;
+//   line-height: 24rpx;
+// }
+
+/* 会员价标签 */
+
+// .tag-grade-price {
+//   background: linear-gradient(to right, #fa1e8c 0, #fc1e56 100%);
+//   background: #fc1e56;
+//   font-size: 22rpx;
+//   border-radius: 12rpx;
+//   color: #fff;
+//   padding: 4rpx 12rpx;
+//   margin-left: 20rpx;
+// }
+
+/* 商品销量 */
+
+// .goods-sales-box .stock {
+//   display: block;
+//   text-align: right;
+// }
+
+
+/* 商品规格 */
+
+// .goods-attr {
+//   padding: 10rpx 0;
+// }
+
+// .goods-attr .goods-attr--scroll {
+//   max-height: 600rpx;
+// }
+
+// .goods-attr .group-item .tips-text {
+//   font-size: 26rpx;
+//   color: #888;
+//   margin-bottom: 10rpx;
+// }
+
+// .goods-attr .group-item .spec-item {
+//   display: inline-block;
+//   padding: 0 30rpx;
+//   font-size: 26rpx;
+//   height: 55rpx;
+//   line-height: 55rpx;
+//   margin: 0 20rpx 20rpx 0;
+//   border-radius: 8rpx;
+//   color: #888;
+//   border: 1rpx solid #eee;
+// }
+
+// .goods-attr .group-item .spec-item.cur {
+//   color: #FF7541;
+//   border:1rpx solid #FF7541;
+// }
+
+// .goods-attr .group-item .spec-item.disabled {
+//   color: #dedede;
+//   cursor: not-allowed;
+//   background: #eee;
+//   border: 2rpx dashed #eee;
+// }
+
+/* 商品分享 */
+// .goods__share button.share-btn {
+//   line-height: normal;
+//   padding: 0 0 0 20rpx;
+//   background: none;
+//   border-radius: 0;
+//   box-shadow: none;
+//   font-size: 24rpx;
+//   border: none;
+//   color: #333;
+//   border-left: 1rpx solid #eee;
+// }
+
+// .goods__share button.share-btn::after {
+//   border: none;
+// }
+
+// .goods__share .share__icon {
+//   font-size: 36rpx;
+//   margin-bottom: 0rpx;
+// }
+
+/* sku选择器 */
+
+.sku-selector {
+  padding: 30rpx 30rpx;
+  background: #fff;
+  border-radius: 8rpx;
+}
+
+.cont-box{padding: 0;}

@@ -1,0 +1,28 @@
+.listBox{
+    padding: 20rpx 30rpx 40rpx;
+    font-size: 24rpx;
+    .listItem{
+        height: 130rpx;
+        .orderNum{
+            width: 106rpx;
+            color: #333;
+        }
+        .name{
+            flex: 1;
+            .nameText{
+                max-width: 224rpx;
+            }
+        }
+        .num{
+            color: #FF7541;
+        }
+    }
+    .more{
+        height:60rpx;
+        line-height: 60rpx;
+        border-radius:4px;
+        text-align: center;
+        color: #FF7541;
+        font-size: 24rpx;
+    }
+}

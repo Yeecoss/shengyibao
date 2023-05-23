@@ -1,0 +1,67 @@
+.containerBox{
+    height: 100%;
+    background: #F5F5F5;
+    .container{
+        margin-top: 20rpx;
+        padding-bottom: 120rpx;
+        .help {
+            background: white;
+            .h4 {
+                font-size: 28rpx;
+                color: #333;
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+            .content{
+                text-indent: 40rpx;
+            }
+            .p {
+                font-size: 28rpx;
+                color: #666;
+                position: relative;
+            }
+            .p::before{
+                content: '';
+                display: inline-block;
+                width:12rpx;
+                height:12rpx;
+                border-radius: 6rpx;
+                background: #E02020;
+                position: absolute;
+                left: -40rpx;
+                top: 14rpx;
+            }
+        }
+    }
+    .official{
+        margin-top: 20rpx;
+        padding: 0 30rpx;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 120rpx;
+        background: white;
+        padding-top: 20rpx;
+        .footerItem{
+            width: 100%;
+            .but{
+                width:686rpx;
+                height:80rpx;
+                border-radius:40rpx;
+                text-align: center;
+                line-height: 80rpx;
+                font-size:32rpx;
+                color: white;
+            }
+            .but1{
+                background: #F8B14A;
+            }
+            .but2{
+                background: #0064F1;
+            }
+        }
+    }
+}

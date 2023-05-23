@@ -1,0 +1,46 @@
+.wxImgBg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background:rgba(0,0,0,0.5);
+    z-index: 9;
+    .wxImgBox{
+        width: 600rpx;
+        height: 720rpx;
+        position: absolute;
+        left: 0;
+        top: 388rpx;
+        left: 76rpx;
+        .bgImg{
+            width: 600rpx;
+            height: 720rpx;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .wxImgTip{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50rpx;
+            color: #333;
+            text-align: center;
+            font-size: 32rpx;
+        }
+        .wxImg{
+            width: 400rpx;
+            height: 400rpx;
+            position: absolute;
+            left: 100rpx;
+            bottom: 100rpx;
+        }
+        .close{
+            position: absolute;
+            right: -14rpx;
+            top: -60rpx;
+            color: white;
+        }
+    }
+}

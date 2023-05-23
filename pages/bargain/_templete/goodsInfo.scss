@@ -1,0 +1,197 @@
+.goods-info {
+  background: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom:20rpx;
+}
+/*  标签 */
+.tag-wrap view{
+	padding: 0 20rpx;
+	line-height: 60rpx;
+	margin-top: 16rpx;
+	border-radius: 30rpx;
+	color: #B69749;
+	background-color: rgba(182, 151, 73, 0.08);
+	text{
+		width: 28rpx;
+		line-height: 28rpx;
+		border-radius: 50%;
+		display: inline-block;
+		text-align: center;
+		margin-right: 10rpx;
+		background: #B69749;
+		color: #fff;
+	}
+}
+/* 商品分享 */
+.goods__share .share__icon {
+  font-size: 40rpx;
+  margin-bottom: 0rpx;
+}
+/* 商品标题 */
+.active-tag{
+  display: inline-block;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  padding: 0 12rpx;
+  margin-right: 10rpx;
+  color: #fff;
+  background: linear-gradient(215deg,#fea190 0%,#f27257 100%);
+  border-radius: 16rpx 0 16rpx 0;
+}
+.goods-title {
+  overflow: hidden;
+  padding: 0 0rpx 0 0;
+  color: #333;
+}
+.showTitle{
+  font-size: 28rpx;
+  color: #576a94;
+}
+// 价格倒计时
+.info-item__top {
+  position: relative;
+  padding: 40rpx 30rpx 0;
+}
+.floor-price__samll {
+  font-size: 44rpx;
+  line-height: 1.2;
+	color: var(--storeColor);
+}
+/* 砍价底价 */
+.floor-price {
+	color: var(--storeColor);
+  margin-right: 10rpx;
+  font-size: 44rpx;
+  line-height: 1.2;
+}
+.original-price {
+  font-size: 24rpx;
+  line-height: 1.2;
+  text-decoration: line-through;
+  color: $theme4Gray;
+}
+/* 活动倒计时 */
+.info-item_countdown {
+	display: flex;
+	align-items: center;
+  line-height:30rpx;
+  font-size: 28rpx;
+  border-radius: 6rpx;
+  color: #2A2A30;
+  text-align: center;
+  overflow: hidden;
+}
+.countdown{
+  overflow: hidden;
+}
+.info-item_countdown text {
+  padding: 0 4rpx;
+  line-height:32rpx;
+  font-size: 22rpx;
+  color: #fff;
+  margin: 0 8rpx;
+  text-align: center;
+  border-radius:4rpx;
+  background:#2A2A30;
+}
+/* 活动已结束 */
+.info-item_end {
+  color: var(--storeColor);
+}
+.div-goods-info{
+	// 价格
+	.floor-price__samll {
+	  color: #fff;
+	}
+	.floor-price,.original-price{
+	  color: #fff;
+	}
+	/* 活动倒计时 */
+	.info-item__top {
+		height: 88rpx;
+		padding: 0 30rpx;
+	}
+	.info-item_countdown {
+		display: block;
+		font-size: 24rpx;
+		color: #F27257;
+	}
+	.countdown{
+	  margin-top: 10rpx;
+	}
+	.info-item_countdown text{
+		background:#f27257;
+	}
+	/* 活动已结束 */
+	.info-item_end {
+	  color: #f27257;
+	}
+	// 分享
+	.goods__share .share__icon {
+		font-size: 38rpx;
+		margin-bottom: 0rpx;
+	}
+	.goods__share .share-btn {
+	  text-align: center;
+	  padding: 0 0 0 20rpx;
+	  font-size: 24rpx;
+	  color: #333;
+	  border-left: 1rpx solid #eee;
+	}
+	.goods-title{
+		margin-top: 10rpx;
+	}
+}
+// 卖手圈模板
+.saler-goods-info{
+	// 价格
+	.block-left{
+		flex: 1;
+		flex-wrap: wrap;
+	}
+	.floor-price__samll,.floor-price {
+	  font-size: 36rpx;
+	}
+	.original-price{
+	  font-size: 24rpx;
+	}
+	.share-btn {
+		margin-top: -80rpx;
+		position: relative;
+		margin-right: 60rpx;
+		width: 80rpx;
+		line-height: 80rpx;
+		border-radius: 50%;
+		color: #fff;
+		text-align: center;
+		background: $red;
+		box-shadow: 0 4rpx 24rpx 0 rgba(232, 46, 46, 0.3);
+	}
+	/* 活动倒计时 */
+	.info-item_countdown text{
+		border-radius: 16rpx;
+	}
+	/* 商品标题 */
+	.active-tag{
+	  background: linear-gradient(253deg, #F55B5B 0%, #FF7541 100%);
+	  border-radius: 4rpx 20rpx 20rpx 4rpx;
+	}
+}
+.minishop-goods-info{
+	.block-left{
+		// flex: 1;
+		flex-wrap: wrap;
+	}
+	// 价格
+	.floor-price__samll,.floor-price {
+	  font-size: 44rpx;
+	}
+	.original-price{
+	  font-size: 24rpx;
+	}
+	/* 商品标题 */
+	.active-tag{
+	  background: linear-gradient(270deg, #FEA190 0%, #F27257 100%);
+	  border-radius: 20rpx;
+	}
+}

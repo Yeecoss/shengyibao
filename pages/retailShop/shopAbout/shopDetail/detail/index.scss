@@ -1,0 +1,112 @@
+.retailShop{
+    height: 100%;
+    .content{
+        .padBox{
+            height: 20rpx;
+            background: #F5F5F5;
+        }
+        .list{
+            position: relative;
+            padding: 16rpx 30rpx;
+            .shopBox{
+                .shopImgBox{
+                    width:88rpx;
+                    height:88rpx;
+                    line-height: 88rpx;
+                    text-align: center;
+                    image{
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+                }
+                .widthBox{
+                    width: 20rpx;
+                }
+                .shopName{
+                    font-size: 30rpx;
+                    color: #333333;
+                }
+                .time{
+                    color: #666666;
+                    font-size: 24rpx;
+                }
+            }
+            .detailInfo{
+                margin-top: 20rpx;
+                padding-left: 108rpx;
+                .checkItem{
+                    position: absolute;
+                    left: -74rpx;
+                    top: 0;
+                    height: 144rpx;
+                    line-height: 140rpx;
+                    font-size: 24rpx;
+                    .clickBox{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+                .goodsInfo{
+                    flex: 1;
+                    height: 144rpx;
+                    position: relative;
+                    .goodsName{
+                        font-size: 28rpx;
+                        color: #333;
+                        margin-bottom: 30rpx;
+                    }
+                    .imgBox{
+                        .imgItem{
+                            width:176rpx;
+                            height:176rpx;
+                            margin-right: 6rpx;
+                            margin-bottom: 6rpx;
+                            image{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 12rpx;
+                            }
+                        }
+                    }
+                    .optBox{
+                        color: #666666;
+                        font-size: 24rpx;
+                        position: relative;
+                        height: 72rpx;
+                        .updata{
+                            width: 112rpx;
+                            text-align: center;
+                            position: absolute;
+                            right: 44rpx;
+                            bottom: 0;
+                        }
+                        .updataActive{
+                            width: 112rpx;
+                            height: 44rpx;
+                            line-height: 44rpx;
+                            border: 1rpx solid #FF7541;
+                            color: #FF7541;
+                            border-radius: 24rpx;
+                        }
+						.but{
+                            display: inline-block;
+                            padding: 0;
+                            color: #666666;
+                            font-size: 24rpx;
+							height: 32rpx;
+							line-height: 32rpx;
+							margin: 0;
+						}
+                        .opt-m-r{
+                            margin-right: 30rpx;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+/* 商品信息 */
+.main_goods {
+  margin: 20rpx auto;
+  padding: 20rpx;
+  padding-right: 18rpx;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+  border-radius:8rpx;
+}
+.main_goods_right {
+  position: relative;
+}
+.main_goods_title_box {
+  position: relative;
+  padding-right: 190rpx;
+}
+.main_goods_title_box .more{
+  position: absolute;
+  right: 4rpx;
+  top: 4rpx;
+}
+.main_goods_title {
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 1.3;
+  color: #333;
+}
+.main_goods_desc text {
+  display: inline-block;
+}
+
+.category-list .right .cont {
+  padding: 10rpx 12rpx;
+}
+
+.category-list .right .cont .title {
+  height: 72rpx;
+  line-height: 1.3;
+}
+
+.category-list.arrange .list {
+  overflow: hidden;
+  padding: 15rpx;
+  border-bottom: 1rpx solid #f7f7f7;
+  width: 100%;
+}
+
+.category-list.arrange .list text {
+  line-height: 1.6;
+}
+
+.category-list.arrange .list .left {
+  width: 35%;
+  float: left;
+}
+
+.category-list.arrange .list .right {
+  width: 65%;
+  float: left;
+}
+
+.category-list.arrange .list .left .img image {
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.desc_footer {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  line-height: 24rpx;
+}
+.desc_footer .price_x {
+  font-size: 32rpx;
+  margin-right: 10rpx;
+}
+.sku .sku_item{
+  margin-top: 20rpx;
+  height: 28rpx;
+}
+.sku .sku_item .sku_title{
+  margin-right: 20rpx;
+}
+.desc_footer .price_y {
+  text-decoration: line-through;
+  font-size: 24rpx;
+  line-height: 0.8;
+}
+.optbox{
+  text-align: right;
+  margin-top: 8rpx;
+	line-height: 44rpx;
+	.settlement{
+		height: 44rpx;
+		display: inline-block;
+		border-radius: 22rpx;
+		text-align: center;
+		font-size: 24rpx;
+	}
+	.settlement {
+		width: 140rpx;
+		line-height: 44rpx;
+		color: #fff;
+		background: #FF7541;
+		border: none;
+	}
+	.oper-item{
+		margin-left: 20rpx;
+	}
+	.oper-item text{
+		margin-right: 10rpx;
+	}
+}
+/* 商品卖点 */
+.selling_point {
+  width: 100%;
+  font-size: 24rpx;
+  line-height: 1.4;
+  color: #ff495e;
+}

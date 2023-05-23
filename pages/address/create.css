@@ -1,0 +1,165 @@
+.profile-list .admin {
+  padding-left: 15px;
+  font-size: 30rpx;
+  color: #333;
+}
+.address-cont-title{
+	margin-top: 20rpx;
+  /* margin: 20rpx 30rpx; */
+  /* box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5); */
+  border-radius: 8rpx;
+}
+.address-box .left-name {
+  width: 152rpx;
+}
+
+.address-cont-title .list {
+  width: auto;
+  padding: 0 30rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	box-sizing: border-box;
+}
+
+.tui-picker-detail text {
+  padding: 0 10rpx;
+}
+
+.infoText {
+  line-height: 56rpx;
+  display: block;
+}
+
+/* picker-view {
+  background-color: white;
+  padding: 0;
+  width: 100%;
+  height: 480rpx;
+  bottom: 0;
+  position: fixed;
+}
+
+picker-view-column view {
+  vertical-align: middle;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.animation-element-wrapper {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 21;
+}
+
+.animation-element {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 570rpx;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.animation-button {
+  margin-top: 20rpx;
+  top: 20rpx;
+  width: 400rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  align-items: center;
+}
+
+.address-text {
+  color: #999;
+  display: inline-flex;
+  position: fixed;
+  margin-top: 20rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-bt {
+  left: 30rpx;
+}
+
+.right-bt {
+  right: 30rpx;
+  color: #ec5151;
+}
+
+.line {
+  display: block;
+  position: fixed;
+  height: 1rpx;
+  width: 100%;
+  margin-top: 89rpx;
+  background-color: #eee;
+}
+
+.address-box .right-cont input {
+  width: 100%;
+  font-size: 24rpx;
+  color: #444;
+}
+
+/* 操作按钮 */
+.btn-wrap{
+  padding: 0 30rpx;
+  margin-top: 50rpx;
+}
+.btn-wrap button{
+  width: 324rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  letter-spacing: 0.05em;
+	border-radius: 40rpx;
+}
+.btn-wrap .btn-green button{
+  color:rgba(86,187,8,1);
+  background: rgba(86,187,8,0.08);
+}
+.bgf5{min-height: 100%;}
+/* 解析 */
+.analysis-wrap{
+	/* position: relative; */
+	padding: 20rpx 30rpx;
+}
+.analysis{
+	height: 144rpx;
+	padding: 20rpx;
+	background-color: #F5F5F5;
+}
+.analysis textarea{
+	font-size: 24rpx;
+	color: #333;
+	flex: 1;
+	height: 100%;
+	overflow: hidden;
+}
+.place{
+	color: #FF7541;
+	font-size: 24rpx;
+}
+.clear{
+	width: 30rpx;
+	height: 30rpx;
+	border: 1rpx solid #999;
+	border-radius: 50%;
+	margin-left: 30rpx;
+	overflow: hidden;
+}
+.clear text{
+	font-size: 44rpx;
+}

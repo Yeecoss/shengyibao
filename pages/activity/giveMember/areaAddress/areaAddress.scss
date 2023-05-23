@@ -1,0 +1,52 @@
+/* 搜索框 */
+.search-input-box {
+  height: 60rpx;
+	overflow: hidden;
+}
+.search-input {
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 30rpx;
+  padding: 0 26rpx;
+	text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+	text{
+		margin-right: 24rpx;
+	}
+}
+.search-input input {
+	flex: 1;
+  font-size: 24rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+// 列表
+.tui-list-cell.title, .my_cate .title{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	line-height: 110rpx;
+	height: 110rpx;
+	overflow: hidden;
+}
+.tui-list-cell::after{
+	display: none;
+}
+.tui-list-cell .title2,.tui-list-cell .title3{
+	text{
+		margin-right: 10rpx;
+		font-size: 16rpx;
+	}
+	&.checked{color: $red;}
+}
+.tui-list-cell	.title2{
+	padding-left: 10rpx;
+}
+.title3{
+	padding-left: 44rpx;
+	line-height: 80rpx;
+}
+// .tui-list-cell	.title3{
+// 	padding-left: 44rpx;
+// 	display: inline-flex;
+// }

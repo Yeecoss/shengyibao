@@ -1,0 +1,90 @@
+// 重置
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view{
+	box-sizing: border-box;
+}
+.h_div20{
+	height: 20rpx;
+	background-color: #F5F5F5;
+}
+// tab
+.top-wrap,.top{
+	width: 100%;
+	height: 200rpx;
+	width: 100%;
+	overflow: hidden;
+}
+.top{
+	position: fixed;
+	left: 0;
+}
+.top-tab{
+	width: 100%;
+	height: 88rpx;
+	width: 100%;
+	overflow: hidden;
+	padding-left: 30rpx;
+	padding-right: 20rpx;
+	white-space: nowrap;
+	z-index: 2;
+	box-sizing: border-box;
+}
+.tab-item{
+	display: inline-flex;
+	margin-right: 40rpx;
+	position: relative;
+	line-height: 88rpx;
+	font-size: 28rpx;
+	color: #666;
+	&.active{
+		color: $red;
+		&::before{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			content: '';
+			display: block;
+			width: 100%;
+			height: 4rpx;
+			background-color: $red;
+		}
+	}
+}
+// 时间段选择
+.rangeBox{
+	line-height: 88rpx;
+	border-top: 1rpx solid #F5F5F5;
+}
+.clear-date{
+	line-height: 40rpx;
+	width: 92rpx;
+	text-align: center;
+	border-radius: 22rpx;
+	color: #2A2A30;
+	border: 1rpx solid #BBBCCD;
+}
+// 绑定订单
+.main{
+	padding-bottom: 30rpx;
+}
+.order-top{
+	padding: 30rpx 20rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.order-item{
+	text-align: left;
+	border-bottom: 1rpx solid #eee;
+	padding: 14rpx 20rpx;
+}
+.order1{
+	width: 340rpx;
+}
+.order2{
+	width: 120rpx;
+	flex: 1;
+}
+.order3{width: 90rpx;}

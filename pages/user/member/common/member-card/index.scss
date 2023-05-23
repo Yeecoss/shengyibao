@@ -1,0 +1,147 @@
+
+	.swiper {
+		width: 100%;
+		height: 320rpx;
+		margin-top: -280rpx;
+		.swiper-item {
+			border-radius: 16rpx;
+			margin-left: 10rpx;
+			margin-right: 10rpx;
+			position: relative;
+			overflow:hidden;
+			.bgBox{
+				position: absolute;
+				right: 0;
+				top: 2rpx;
+				bottom: 0;
+				width: 328rpx;
+				z-index: 1;
+				image{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.item{
+				margin-top: 30rpx;
+				padding:0 30rpx;
+				position: relative;
+				z-index: 2;
+				.imgBox{
+					width: 96rpx;
+					height: 96rpx;
+					border-radius: 50%;
+					overflow: hidden;
+					image{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.wdBox{
+					width: 10rpx;
+				}
+				.infoBox{
+					flex: 1;
+					.name{
+						font-weight: 600;
+						font-size: 30rpx;
+						.iconBox{
+							float: right;
+							font-weight: 400;
+						}
+					}
+					.info{
+						font-size: 24rpx;
+						margin-top: 11rpx;
+					}
+				}
+			}
+			.butBox{
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				height: 94rpx;
+				right: 0;
+				z-index: 3;
+				.but{
+					font-weight: 600;
+					width: 520rpx;
+					height: 64rpx;
+					line-height: 64rpx;
+					text-align: center;
+					color: #666666;
+					font-size: 30rpx;
+					background: white;
+					margin-left: 66rpx;
+					background:linear-gradient(270deg,rgba(248,248,248,1) 0%,rgba(255,255,255,1) 100%);
+					border-radius:32rpx;
+				}
+			}
+		}
+
+		.small {
+			height: 100%;
+		}
+		.cardBg1{
+			box-shadow:inset 0px 2rpx 0px 0px rgba(226,225,226,1);
+			background:linear-gradient(298deg,rgba(186,182,185,1) 0%,rgba(236,236,236,1) 100%);
+			.infoBox{
+				.name{
+					color: #333333;
+					.iconBox{
+						color: #9B9B9B;
+					}
+				}
+				.info{
+					color: #999999;
+				}
+			}
+			.butBox{
+				.but{
+					color: #666666;
+					background:linear-gradient(270deg,rgba(248,248,248,1) 0%,rgba(255,255,255,1) 100%);
+				}
+			}
+		}
+		.cardBg2{
+			background:linear-gradient(298deg,rgba(232,46,46,1) 0%,rgba(253,133,133,1) 100%);
+			box-shadow:inset 0px 2rpx 0px 0px rgba(255,227,193,1);
+			.infoBox{
+				.name{
+					color: #FFE3C1;
+					.iconBox{
+						color: #FFE3C1;
+					}
+				}
+				.info{
+					color: #FFE3C1;
+				}
+			}
+			.butBox{
+				.but{
+					color: #E93434;
+					background:linear-gradient(270deg,rgba(255,227,193,1) 0%,rgba(255,227,193,1) 100%);
+				}
+			}
+		}
+		.cardBg3{
+			box-shadow:inset 0px 2rpx 0px 0px rgba(255,240,221,1);
+			background:linear-gradient(298deg,rgba(235,159,58,1) 0%,rgba(253,236,190,1) 100%);
+			.infoBox{
+				.name{
+					color: #6D4922;
+					.iconBox{
+						color: #6D4922;
+					}
+				}
+				.info{
+					color: #6D4922;
+				}
+			}
+			.butBox{
+				.but{
+					color: #6D4922;
+					background:linear-gradient(270deg,rgba(255,242,226,1) 0%,rgba(255,246,236,1) 100%);
+				}
+			}
+		}
+	}

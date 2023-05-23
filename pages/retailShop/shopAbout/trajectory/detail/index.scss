@@ -1,0 +1,353 @@
+
+.shopInfo{
+    min-height:288rpx;
+    padding: 70rpx 48rpx 20rpx 30rpx;
+    border-bottom: 0.5px solid #EEEEEE;
+    .titleVip{
+        width: 86rpx;
+        height: 30rpx;
+        margin-left: 10rpx;
+        image{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .nameBox{
+        min-height: 96rpx;
+        .imgBox{
+            width: 132rpx;
+            height: 112rpx;
+            position: relative;
+            img{
+                width: 112rpx;
+                height: 112rpx;
+                border-radius: 50%;
+            }
+            .gender{
+                position: absolute;
+                font-size: 24rpx;
+                bottom: 0;
+                right: 30rpx;
+                width:30rpx;
+                height:30rpx;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 30rpx;
+                background:rgba(255,255,255,1);
+                box-shadow:0px 0px 4rpx 0px rgba(222,222,222,0.5);
+            }
+            .icon-boy{
+                color: #4BAFFB;
+            }
+            .icon-girl{
+                color: #FF6A6A;
+            }
+        }
+        .info{
+            flex: 1;
+            .title{
+                color: #333;
+                font-size: 30rpx;
+                font-weight: 600;
+                position: relative;
+                .iconfont2{
+                    position: absolute;
+                    right: 0;
+                    top: 8rpx;
+                    font-size: 24rpx;
+                }
+                .address{
+                    display: inline-block;
+                    width:80rpx;
+                    height:32rpx;
+                    background:rgba(232,46,46,0.08);
+                    border-radius:16rpx;
+                    color: #FF7541;
+                    line-height: 32rpx;
+                    text-align: center;
+                    font-weight: normal;
+                    font-size: 24rpx;
+                    margin-left: 10rpx;
+                }
+            }
+            .content{
+                color:#666;
+                font-size: 24rpx;
+                margin-top: 3rpx;
+                .iconfont2{
+                    font-size: 24rpx;
+                }
+                .imgIcon{
+                    width: 28rpx;
+                    height: 28rpx;
+                }
+                .m-r10{
+                    margin-right: 10rpx;
+                }
+                .m-r20{
+                    margin-right: 20rpx;
+                }
+            }
+            .notice{
+                font-size:12px;
+                color:rgba(102,102,102,1);
+            }
+        }
+        .chat{
+            text-align: right;
+            width: 52rpx;
+            height: 52rpx;
+            border-radius: 26rpx;
+            text-align: center;
+            line-height: 50rpx;
+            color: white;
+            background: #5AAE3A;
+            display: inline-block;
+        }
+    }
+    .dataBox{
+        margin-top: 50rpx;
+        .dataItem{
+            flex: 1;
+            text-align: center;
+            .num{
+                color: #333;
+                font-size: 30rpx;
+                font-weight: 600;
+            }
+            .dataTit{
+                color: #999;
+                font-size: 22rpx;
+                margin-top: 10rpx;
+            }
+        }
+    }
+}
+.tabsBox{
+    height: 60rpx;
+    line-height: 60rpx;
+    padding-left: 30rpx;
+    margin-top: 16rpx;
+    margin-bottom: 10rpx;
+    .tabItem{
+        margin-right: 40rpx;
+        font-size: 28rpx;
+        color: #666;
+        position: relative;
+    }
+    .active{
+        font-size: 32rpx;
+        color: #333;
+        .line{
+            width: 40rpx;
+            height: 4rpx;
+            background: #FF7541;
+            border-radius: 4rpx;
+            position: absolute;
+            left: 50%;
+            margin-left: -20rpx;
+            bottom: 0;
+        }
+    }
+}
+.listBox{
+    padding: 46rpx 0 46rpx 37rpx;
+    .yearItem{
+        .yearTitle{
+            line-height: 1;
+            height: 58rpx;
+            padding-left: 20rpx;
+            font-weight: 600;
+            font-size: 28rpx;
+            position: relative;
+            .yearDots{
+                display: inline-block;
+                width:14rpx;
+                height:14rpx;
+                background:rgba(232,46,46,1);
+                box-shadow: 0px 0px 0px 4rpx rgba(232,46,46,.5);
+                border-radius: 50%;
+                position: absolute;
+                left: 0;
+								transform: translateX(-50%);
+                top: 6rpx;
+                z-index: 2;
+            }
+            .leftLine{
+                width: 1rpx;
+                height: 48rpx;
+                background: #EEEEEE;
+                position: absolute;
+                left: 0;
+                top: 6rpx;
+            }
+        }
+        .dateItem{
+            padding: 0 0 70rpx 20rpx;
+            border-left: 1rpx solid #EEEEEE;
+            .dateTitle{
+            position: relative;
+                margin-top: -10rpx;
+                line-height: 1;
+                color: #666666;
+                font-size: 24rpx;
+                padding-right: 30rpx;
+                margin-bottom: 30rpx;
+                .dateDots{
+                    display: inline-block;
+                    width:14rpx;
+                    height:14rpx;
+                    background:#F49898;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: -20rpx;
+										transform: translateX(-8rpx);
+                    top: 6rpx;
+                    z-index: 2;
+                }
+                .all{
+                    .iconfont2{
+                        font-size: 24rpx;
+                        margin-left: 10rpx;
+                    }
+                }
+            }
+            .imgBox{
+                overflow: auto;
+                white-space: nowrap;
+                &::-webkit-scrollbar{
+                    width:0;
+                    height:0;
+                }
+                .imgItem{
+                    width:80px;
+                    height:80px;
+                    position: relative;
+                    display: inline-block;
+                    margin-right: 10rpx;
+                    image{
+                        width:100%;
+                        height:100%;
+                        border-radius:4px;
+                    }
+                    .numBox{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width:80rpx;
+                        height:30rpx;
+                        background:rgba(232,46,46,1);
+                        border-radius:16rpx 0px 8rpx 0px;
+                        color: white;
+                        font-size: 22rpx;
+                        text-align: center;
+                        line-height: 30rpx;
+                    }
+                }
+            }
+        }
+        .lastItem{
+            border:0;
+            margin-left:1rpx;
+            padding-bottom: 0;
+        }
+    }
+}
+.orderListBox{
+    font-size: 24rpx;
+    text-align: center;
+    padding: 0 30rpx;
+    .orderTitle{
+        height: 80rpx;
+        line-height: 80rpx;
+        color: #999999;
+        border-bottom: 1rpx solid #DEDEDE;
+    }
+    .orderList{
+        color: #333333;
+        height: 110rpx;
+        border-bottom: 1rpx solid #DEDEDE;
+        .listMore{
+            margin-right: 20rpx;
+            .listMoreBox{
+                transform: rotateZ(90deg);
+                .iconfont2{
+                    color: #333;
+                    font-size: 26rpx;
+                }
+            }
+        }
+    }
+    .orderNum{
+        width: 104rpx;
+        text-align: left;
+    }
+    .orderListNum{
+        width: 88rpx;
+        padding-left: 16rpx;
+    }
+    .orderTime{
+        width: 238rpx;
+        margin-right: 60rpx;
+        .order_no{
+            text-align: left;
+        }
+        .create_time{
+            margin-top: 6rpx;
+            color: #666666;
+            text-align: left;
+        }
+    }
+    .orderPrice{
+        text-align: left;
+    }
+}
+.nodata{
+    margin-top: 40rpx;
+}
+.wxImgBg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background:rgba(0,0,0,0.5);
+    z-index: 9;
+    .wxImgBox{
+        width: 600rpx;
+        height: 720rpx;
+        position: absolute;
+        left: 0;
+        top: 388rpx;
+        left: 76rpx;
+        .bgImg{
+            width: 600rpx;
+            height: 720rpx;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .wxImgTip{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50rpx;
+            color: #333;
+            text-align: center;
+            font-size: 32rpx;
+        }
+        .wxImg{
+            width: 400rpx;
+            height: 400rpx;
+            position: absolute;
+            left: 100rpx;
+            bottom: 100rpx;
+        }
+        .close{
+            position: absolute;
+            right: -14rpx;
+            top: -60rpx;
+            color: white;
+        }
+    }
+}

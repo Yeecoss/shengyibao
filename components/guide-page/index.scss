@@ -1,0 +1,133 @@
+scroll-view{
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 99999;
+}
+.guideBox{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	// z-index: 99999;
+	background-color: rgba(0,0,0,0.5);
+}
+.img-wrap{
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+	padding-bottom: 100rpx;
+	box-sizing: border-box;
+}
+.top{
+	top: 0;
+}
+.bottom{
+	bottom: 0;
+}
+image,cover-image{
+	width: 100%;
+	display: block;
+}
+.button{
+	width: 100%;
+	height: 100rpx;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #fff;
+	box-sizing: border-box;
+	z-index: 99999;
+}
+.nextStep,.moreLink{
+	width: 200rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+	font-size: 28rpx;
+	margin-right: 30rpx;
+	text-align: center;
+	border-radius: 40rpx;
+	color: #fff;
+	background-color: #FF7541;
+	letter-spacing: 0.05em;
+	box-sizing: border-box;
+	// width: 196rpx;
+	// position: absolute;
+	// left: 284rpx;
+	// bottom: 214rpx;
+	// z-index: 99999;
+}
+.moreLink{
+	background-color: #fff;
+	border: 1rpx solid #FF7541;
+	color: #FF7541;
+}
+// .moreLink{
+// 	width: 128rpx;
+// 	position: absolute;
+// 	left: 50%;
+// 	margin-left: -64rpx;
+// 	bottom: 144rpx;
+// 	z-index: 99999;
+// }
+.jump{
+	width: 128rpx;
+	position: absolute;
+	left: 30rpx;
+	top: 110rpx;
+	z-index: 99999;
+}
+//新增商品
+.main{
+	width: 600rpx;
+	margin: 120rpx auto 0;
+	.nextStep{
+		bottom: 66rpx;
+	}
+}
+.title{
+	text-align: center;
+	font-size: 36rpx;
+	margin-bottom: 30rpx;
+}
+.pro_img{
+	height: 808rpx;
+	position: relative;
+	border-radius: 16rpx;
+	overflow: hidden;
+}
+.pro_tip{
+	width: 448rpx;
+	margin: 30rpx auto 0;
+}
+/* 轮播图面板知识点 */
+.dots{
+	width: 100%;
+}
+.dots .dots-item {
+    display: inline-block;
+    width: 24rpx;
+    height:24rpx;
+    border:1rpx solid #fff;
+    border-radius: 50%;
+}
+.dots .dots-item {
+    margin-right: 40rpx;
+}
+.dots .dots-item:last-child {
+    margin-right: 0;
+}
+.dots .dots-item-active {
+    background-color: #fff;
+}
+.main .pro_iknow{
+	left: 164rpx;
+	bottom: 480rpx;
+}

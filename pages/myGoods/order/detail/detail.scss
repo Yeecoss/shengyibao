@@ -1,0 +1,28 @@
+.list-item{
+	padding-top: 34rpx;
+	padding-bottom: 30rpx;
+}
+.getOrder{
+	color: #FF7541;
+}
+.container .listBox .list .scan .iconfont2{
+	font-size: 40rpx;
+}
+.container .listBox .list .copy .iconfont2{
+	font-size: 32rpx;
+}
+.deliver_item{
+	width: 144rpx;
+	height: 52rpx;
+	line-height: 52rpx;
+	text-align: center;
+	border-radius: 26rpx;
+	border: 1rpx solid #DEDEDE;
+	&.on{
+		color: $red;
+		border-color: $red;
+	}
+}
+.line-through{
+	text-decoration: line-through;
+}

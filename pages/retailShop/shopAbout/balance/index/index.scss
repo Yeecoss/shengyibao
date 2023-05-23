@@ -1,0 +1,71 @@
+.top-wrap{
+	height: 160rpx;
+	background: linear-gradient(270deg, #FF8383 0%, #FF3440 100%);
+	overflow: hidden;
+}
+.f-56{
+	font-size: 56rpx;
+}
+.m-t-50{margin-top: 50rpx;}
+.allowed-yue{
+	height: 96rpx;
+	overflow: hidden;
+}
+.withdrawal-btn{
+	width: 128rpx;
+	line-height: 48rpx;
+	text-align: center;
+	background: linear-gradient(270deg, #FF8383 0%, #FF3440 100%);
+	box-shadow: 0 8rpx 18rpx 0 rgba(232, 46, 46, 0.4);
+	border-radius: 24rpx;
+	overflow: hidden;
+	&.disabled{
+		box-shadow: none;
+		background: #BBBCCD;
+	}
+}
+// 操作按钮
+.operate-wrap{
+	margin-top: 440rpx;
+	padding: 0 50rpx;
+}
+.operate-item{
+	margin-bottom: 48rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	font-size: 32rpx;
+	color: #828393;
+	text-align: center;
+	border-radius: 44rpx;
+	border: 1rpx solid #BBBCCD;
+	&:last-child{margin-bottom: 0;}
+}
+.toMerchant1{
+	border-color: #FF7541;
+	color: #FF7541;
+}
+.toMerchant{
+	border-color: rgba(255, 54, 66, 1);
+	background-color: rgba(255, 54, 66, 1);
+	color: #fff;
+	&.disabled{
+		border-color: rgba(255, 54, 66, .6);
+		background: rgba(255, 54, 66, .6);
+	}
+}
+.downloadBill{
+	border-color: rgba(255, 54, 66, 1);
+	color: rgba(255, 54, 66, 1);
+}
+// 会员信息
+.expire_info{
+	height: 80rpx;
+	background: rgba(248, 177, 74, 0.08);
+	color: #FB8F46;
+}
+.buy-btn{
+	width: 112rpx;
+	line-height: 34rpx;
+	border-radius: 18rpx;
+	border: 1rpx solid #FB8F46;
+}

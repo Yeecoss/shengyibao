@@ -1,0 +1,199 @@
+
+.container{
+    padding-top: 20rpx;
+    .success{
+        color: #6DD400;
+    }
+    .listBox{
+        margin-bottom: 20rpx;
+        .listLine{
+            width: 690rpx;
+            border-bottom: 1rpx solid #eee;
+            position: absolute;
+            bottom: 0;
+        }
+        .list{
+            padding: 22rpx 30rpx;
+            // padding: 0 30rpx;
+			min-height: 88rpx;
+            position: relative;
+						align-items: center;
+						box-sizing: border-box;
+            .icon-guize{
+                position: absolute;
+                right: 30rpx;
+                top: 30rpx;
+                height: 30rpx;
+                font-size: 30rpx;
+                line-height: 1;
+            }
+            .label{
+                width: 200rpx;
+                color: #333;
+                font-size: 28rpx;
+            }
+            .largeImglabel{
+                margin-bottom: 30rpx;
+            }
+            .control{
+                flex: 1;
+                color: #333;
+                font-size: 24rpx;
+                min-height: 40rpx;
+                line-height: 40rpx;
+                flex-wrap: wrap;
+								&.largeText{
+									font-size: 28rpx;
+								}
+                .userImg{
+                    width: 80rpx;
+                    height: 80rpx;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                }
+                .col-ok{
+                    color: #6DD400;
+                }
+                .col-wating{
+                    color: #FF9911;
+                }
+                .iconfont2{
+                    vertical-align: unset;
+                    font-size: 24rpx;
+                    margin-left: 10rpx;
+                }
+                .m-left{
+                    margin-left: 26rpx;
+                }
+                .imageList{
+                    margin-top: 20rpx;
+                    width:144rpx;
+                    height:144rpx;
+                    margin-right: 20rpx;
+                    margin-bottom: 20rpx;
+                    image{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .image-picker{
+                    margin-top: 20rpx;
+                    width:144rpx;
+                    height:144rpx;
+                    border-radius:1rpx;
+                    border:1rpx dashed rgba(204,204,204,1);
+                    color: #CCCCCC;
+                    .choose__icon{
+                        margin-top: 32rpx;
+                        height: 50rpx;
+                        font-size: 50rpx;
+                    }
+                }
+            }
+            .control1{
+                padding: 20rpx 0;
+            }
+            .text-right{
+                text-align: right;
+            }
+        }
+        .listLarge{
+            height: 120rpx;
+        }
+        .showRemark{
+            padding: 20rpx 30rpx;
+            line-height: 24rpx;
+            font-size: 24rpx;
+            color: #999;
+            background: #F7F7F7;
+            .iconfont2{
+                font-size: 24rpx;
+                margin-right: 10rpx;
+            }
+        }
+        .labelText{
+            max-width: 170rpx;
+        }
+        .redDot{
+            width: 16rpx;
+            height: 16rpx;
+            border-radius: 50%;
+            background: #FF7541;
+            display: inline-block;
+        }
+    }
+}
+.tip{
+    padding: 0 30rpx;
+    .tipTitle{
+        font-size:26rpx;
+        color: #333;
+    }
+    .tipContent{
+        font-size:24rpx;
+        color: #999;
+        line-height: 44rpx;
+    }
+}
+.footer{
+    padding: 20rpx 0;
+    button{
+        width:690rpx;
+        height:80rpx;
+        line-height: 80rpx;
+        font-size: 32rpx;
+        box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+        border-radius:40rpx;
+        color: white;
+        background:rgba(232,46,46,1);
+    }
+    .butDisabled{
+        background:rgba(232,46,46,.3);
+    }
+}
+.popup-main{
+    position: relative;
+    width: 600rpx;
+    padding: 30rpx 0 46rpx;
+    border-radius: 16rpx;
+    background:#fff;
+    .pop-close{
+        position: absolute;
+        right: 20rpx;
+        top: 10rpx;
+        color: #999;
+    }
+    .poptitle{
+        font-size: 32rpx;
+        line-height: 1.1;
+        text-align: center;
+        color: #FF7541;
+        font-weight: bold;
+    }
+    .pop-input{
+        padding: 40rpx 40rpx 60rpx;
+        color: #666;
+        font-size: 26rpx;
+        line-height: 46rpx;
+    }
+    // 按钮
+    .pop-btn{
+        view{
+            width:240rpx;
+            height:72rpx;
+            border-radius:44rpx;
+            font-size: 28rpx;
+            line-height: 72rpx;
+            color: white;
+            text-align: center;
+            background: #FF7541;
+            margin: 0 auto;
+        }
+    }
+}
+.notes{
+	padding: 20rpx 30rpx;
+	line-height: 30rpx;
+	background-color: #F7F7F7;
+	text{margin-right: 10rpx;}
+}

@@ -1,0 +1,25 @@
+.cardBox{
+    padding-top: 35rpx;
+    .card{
+        .content{
+            padding-top: 25rpx;
+            font-size: 24rpx;
+            line-height: 48rpx;
+            color: #555;
+            li{
+                padding-left:20rpx;
+                list-style: none;
+                position: relative;
+                .dot{
+                    width: 6rpx;
+                    height: 6rpx;
+                    border-radius: 50%;
+                    background: #999;
+                    position: absolute;
+                    left: 0;
+                    top: 20rpx;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+.shopInformation{
+    background: #F7F7F7;
+    min-height: 100%;
+    padding-bottom: 130rpx;
+    .place-holder{
+        font-size: 30rpx;
+        color: #999999;
+    }
+    .cardBox{
+        margin-top: 20rpx;
+        background:white;
+        padding: 0 30rpx;
+        .line{
+            border-bottom: 1rpx solid #DEDEDE;
+        }
+        .orderNo, .cardList{
+            min-height: 88rpx;
+            line-height: 88rpx;
+            background: #FFFFFF;
+            color: #333333;
+            font-size: 30rpx;
+        }
+        .cardList{
+            .label{
+                width: 180rpx;
+            }
+            .label1{
+                color: #999999;
+            }
+            .label2{
+                color: #999999;
+                margin-right: 20rpx;
+            }
+            .inputBox{
+                flex: 1;
+                .borderInput{
+                    border: 1rpx solid #DEDEDE;
+                    height: 52rpx;
+                    border-radius: 4rpx;
+                    padding-left: 20rpx;
+                }
+            }
+            .inputBox1{
+                padding-right: 40rpx;
+            }
+            .opt{
+                padding-left: 20rpx;
+                text-align: right;
+                font-size: 28rpx;
+                color: #666666;
+                .but{
+                    display: inline-block;
+                    padding: 0 20rpx;
+                    height: 44rpx;
+                    line-height: 44rpx;
+                    border-radius: 22rpx;
+                    border: 1rpx solid #FF7541;
+                    font-size: 24rpx;
+                    color: #FF7541;
+                    text-align: center;
+                }
+                .butIcon{
+                    margin-left: 10rpx;
+                    font-size: 28rpx;
+                }
+            }
+            .radioItem{
+                transform:scale(.6);
+                vertical-align: middle;
+            }
+            .radio-item{margin-right: 20rpx;}
+            .labelBox{
+                display: inline-block;
+                padding-right: 10rpx;
+                image{
+                    width: 44rpx;
+                    height: 44rpx;
+                    margin-left: 10rpx;
+                }
+            }
+        }
+        .address-info,.related-info{
+            flex: 1;
+            overflow: hidden;
+        }
+        // 内容
+        .main{
+            padding-bottom: 40rpx;
+        }
+        .common-title{
+            height: 88rpx;
+        }
+        .common-title-r .iconfont2{
+            margin-left: 10rpx;
+        }
+        // 关联商品
+        .related-pros{
+            padding-top: 10rpx;
+            padding-bottom: 20rpx;
+            border-top: 1rpx solid #eee;
+        }
+        .related-item{margin-top: 20rpx;}
+        .del-pro text{
+            display: block;
+            width: 30rpx;
+            height: 30rpx;
+            line-height: 30rpx;
+            font-size: 24rpx;
+            text-align: center;
+            border: 2rpx solid #999;
+            color: #999;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .related-pic{
+            width: 96rpx;
+            height: 96rpx;
+            margin-right: 10rpx;
+            background:#D8D8D8;
+            border-radius: 4rpx;
+            overflow: hidden;
+        }
+    }
+    .butBox{
+        height: 100rpx;
+        background: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        .submit{
+            margin: 0 auto;
+            width: 690rpx;
+            height: 72rpx;
+            line-height: 72rpx;
+            background: #FF7541;
+            box-shadow: 0px 0px 16rpx 2rpx rgba(222, 222, 222, 0.5);
+            border-radius: 36rpx;
+            text-align: center;
+            color: white;
+            font-size: 32rpx;
+            .iconfont2{
+                margin-right: 10rpx;
+            }
+        }  
+    }
+    .imgBoxShowMask{
+        background: rgba(0,0,0,.5);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        .imgBoxShow{
+            height: 800rpx;
+            background: white;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            .maskTitle{
+                font-size: 30rpx;
+                color: #333333;
+                line-height: 90rpx;
+                text-align: center;
+            }
+            .close{
+                width: 100rpx;
+                height: 84rpx;
+                text-align: center;
+                line-height: 84rpx;
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 30rpx;
+                color: #999999;
+            }
+            .loadImg{
+                width: 480rpx;
+                height: 480rpx;
+                margin: 0 auto;
+                image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .imgBut{
+                width: 690rpx;
+                height: 80rpx;
+                line-height: 80rpx;
+                background: #FF7541;
+                border-radius: 40rpx;
+                position: absolute;
+                left: 30rpx;
+                bottom: 30rpx;
+                text-align: center;
+                color: white;
+                font-size: 32rpx;
+            }
+        }
+    }
+}

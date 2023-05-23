@@ -1,0 +1,29 @@
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+// 绑定订单
+.order-num{
+	padding: 0 20rpx;
+	border-top: 1rpx solid #eee;
+}
+.order-top{
+	padding: 30rpx 0;
+}
+.order-item{
+	text-align: left;
+	border-top: 1rpx solid #eee;
+	padding: 20rpx 0;
+	view{overflow: hidden;}
+}
+.order1{
+	width: 64rpx;
+}
+.order2{
+	width: 260rpx;
+}
+.order3{
+	width: 140rpx;
+}
+.order-del{width: 28rpx;}

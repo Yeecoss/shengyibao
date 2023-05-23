@@ -1,0 +1,191 @@
+.bgf5{
+	min-height: 100%;
+}
+.p-bottom{padding-bottom: 40rpx;}
+/* .container{
+  background: #F2F2F2;
+  padding-bottom: 156rpx;
+} */
+.order-cont {
+  /* padding: 12rpx 0; */
+  justify-content: space-between;
+}
+
+.order-cont .order-num text, .order-cont .time {
+  color: #888;
+}
+
+.order-cont .order-num text, .order-cont .order-time text {
+  color: #777;
+  font-size: 26rpx;
+}
+
+.checkout-right-detail, .checkout-left-detail {
+  font-size: 30rpx;
+  color: #333;
+  line-height: 92rpx;
+}
+
+.btn-default {
+  padding: 6rpx 20rpx;
+  font-size: 28rpx;
+  border-radius: 30rpx;
+  border: 1rpx solid #ccc;
+  color: #555;
+}
+.btn-main {
+  margin-left: 20rpx;
+  padding: 6rpx 20rpx;
+  font-size: 28rpx;
+  border-radius: 30rpx;
+  border:1rpx solid $red;
+  color: $red;
+  float: right;
+}
+/* 会员价 */
+.flow-shopList{padding-bottom: 20rpx;}
+.flow-shopList .flow-list-right .flow-cont.price-delete {
+  font-size: 26rpx;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.flow-shopList .grade-price {
+  padding-top: 8rpx;
+  font-size: 28rpx;
+  color: #ff495e;
+  text-align: right;
+}
+
+/* 顶部状态栏 */
+.f-44{font-size: 44rpx;}
+.order-state{
+	padding-top: 10rpx;
+	background:linear-gradient(to right,#FF7541,#F55B5B);
+}
+.state-text{
+	font-weight: 300;
+	margin-top: 10rpx;
+	padding-bottom: 60rpx;
+}
+/* 配送信息 */
+.buyer_wrap{
+	padding-top: 44rpx;
+	border-radius: 16rpx 16rpx 0 0;
+	margin-top: -20rpx;
+}
+.address{
+	padding-bottom: 38rpx;
+	overflow: hidden;
+}
+.address-type{
+	margin-right: 20rpx;
+	overflow: hidden;
+}
+.address-info{
+	flex: 1;
+	overflow: hidden;
+}
+
+/* 弹出层 */
+
+.pop-example__container {
+  background: #fff;
+  padding: 30rpx 40rpx;
+  border-radius: 10rpx;
+  min-width: 460rpx;
+}
+
+.pop-example__container .pop-title {
+  text-align: center;
+}
+
+.pop-content {
+  margin-top: 30rpx;
+}
+
+/* 弹出层：支付方式 */
+
+.pop-orderPay .pop-title {
+  text-align: left;
+}
+
+.pay-method .pay-item {
+  padding: 20rpx 0;
+  font-size: 28rpx;
+  /* border-bottom: 1rpx solid rgb(248, 248, 248); */
+}
+
+.pay-method .pay-item .item-left_icon {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+}
+
+.pay-method .pay-item .item-left_icon.wechat {
+  color: #00c800;
+}
+
+.pay-method .pay-item .item-left_icon.balance {
+  color: #ff9700;
+}
+/* 底部 */
+.flow-fixed-footer-box,.flow-fixed-footer{
+	height: 100rpx;
+}
+.flow-fixed-footer{
+  box-sizing: border-box;
+}
+.flow-btnn, .flow-btnr{
+  width:200rpx;
+  height:64rpx;
+  line-height: 64rpx;
+  border-radius:40rpx;
+  font-size: 28rpx;
+  text-align: center;
+  margin-left: 20rpx;
+}
+.flow-btnr{
+  border:1rpx solid #FF7541;
+  color: #FF7541;
+}
+.flow-btnn{
+  border:1rpx solid #666;
+  color: #666;
+}
+/* 店铺信息 */
+.shop_info{
+	line-height: 48rpx;
+}
+.shop_info image{
+	width: 48rpx;
+	height:48rpx;
+	border-radius: 50%;
+}
+/* 商品 */
+.pri_num{
+	margin-left: 30rpx;
+	line-height: 1.1;
+	text-align: right;
+	overflow: hidden;
+}
+/* 合计 */
+.order-btn {
+  padding: 18rpx 0 18rpx 0;
+}
+.border-top{
+  border-top: 1rpx solid #F5F5F5;
+}
+.order-btn .order-left .text text {
+  margin-right:12rpx;
+}
+.flow-list-right{
+	overflow: hidden;
+}
+.goods_attr {
+	width: max-content;
+	max-width: 100%;
+	padding: 0 16rpx;
+	margin-top: 10rpx;
+	line-height: 40rpx;
+	background: #F2F2F2;
+}

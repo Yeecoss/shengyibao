@@ -1,0 +1,352 @@
+/* 背景 */
+.listbg{
+	left: 0;
+	right: 0;
+	position: absolute;
+  background: linear-gradient(194deg, #FAAB90 0%, #FF7541 100%);
+}
+/*隐藏滚动条*/
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.sharp-tabs {
+	// height: 156rpx;
+  background: #fff;
+	display: block;
+	white-space: nowrap;
+}
+.sharp-tabs .tabs-item {
+	display: inline-flex;
+  position: relative;
+  min-width: 170rpx;
+  height: 150rpx;
+  color: rgba(255,255,255,0.7);
+  padding: 24rpx 45rpx 50rpx;
+  text-align: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+	vertical-align: top;
+}
+.sharp-tabs .tabs-item .item-time {
+  font-size: 28rpx;
+}
+.sharp-tabs .tabs-item .item-status {
+  width: 128rpx;
+  line-height: 32rpx;
+  border-radius: 22rpx;
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+.sharp-tabs .tabs-item .item-title {
+  font-size: 30rpx;
+  margin-top: 22rpx
+}
+.sharp-tabs .tabs-item.active {
+  color: #fff;
+}
+/* 活动状态 */
+.sharp-active {
+  position: relative;
+  height: 64rpx;
+  padding: 0 30rpx;
+}
+.sharp-active .active-status {
+  font-size: 24rpx;
+  color: #fd4a5f;
+}
+
+.sharp-active .active-status .active-status--icon {
+  margin-right: 10rpx;
+  font-size: 28rpx;
+  color: #FFBF00;
+}
+
+.sharp-active .active-status .active-status--time {
+  margin-right: 10rpx;
+}
+
+/* 倒计时 */
+
+.active--count-down {
+  font-size: 24rpx;
+  height: 32rpx;
+}
+
+.active--count-down .clock-text {
+  margin-right: 10rpx;
+}
+
+.active--count-down .clock-time {
+  padding: 0 4rpx;
+  line-height: 32rpx;
+  font-size: 22rpx;
+  color: #fff;
+  text-align: center;
+  background: #333;
+  border-radius: 4rpx;
+}
+.active--count-down .clock-symbol {
+  padding: 0 8rpx;
+}
+
+/* 商品列表 */
+
+.bargain-hall {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+// 默认
+.div-container{
+	/* 活动状态 */
+	.sharp-active {
+	  margin: -10rpx auto 0;
+	  background: #fff;
+	}
+	.sharp-active::before,.sharp-active::after{
+		content: '';
+		width: 64rpx;
+		height: 1rpx;
+		margin: 0 30rpx;
+		background: #DEDEDE;
+	}
+	// 菜单
+	.sharp-tabs .tabs-item.active .item-status{
+		color: #FF7541;
+		background:#fff;
+	}
+}
+// 卖手圈
+.saler-container{
+	.listbg {
+		left: -20rpx;
+		right: -20rpx;
+		top: -20rpx;
+		position: absolute;
+		background: linear-gradient(180deg, #F55B5B 0%, #FF7541 100%);
+		filter: blur(20rpx);
+	}
+	/* 活动状态 */
+	.sharp-active{
+		background: #FFF4F4;
+	  margin: -10rpx 30rpx 0;
+		border-radius: 24rpx 24rpx 0 0;
+	}
+	// 菜单
+	.sharp-tabs .tabs-item {
+	  // height: 156rpx;
+	  // padding: 24rpx 45rpx;
+	}
+	.sharp-tabs .tabs-item.active{
+	  &::after{
+			content: '';
+			position: absolute;
+			bottom: 10rpx;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 0;
+			height: 0;
+			border-left: 20rpx solid transparent;
+			border-right: 20rpx solid transparent;
+			border-bottom: 20rpx solid #FFF4F4;
+		}
+	}
+	.sharp-tabs .tabs-item.active .item-status{
+	  color: #fff;
+	}
+	/* 倒计时 */
+	.active--count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	}
+	.active--count-down .clock-text {
+	  color: #333;
+	}
+	.active--count-down .clock-time {
+	  padding: 0 4rpx;
+	  line-height: 36rpx;
+	  font-size: 24rpx;
+	  background: $red;
+	  border-radius: 18rpx;
+	}
+	.active--count-down .clock-symbol {
+	  padding: 0 8rpx;
+	  color: $red;
+	}
+}
+// 小商店
+.minishop-container{
+	// 菜单
+	.sharp-tabs{
+	  background: #000;
+	}
+	.sharp-tabs .tabs-item.active{
+		background: linear-gradient(180deg, #FAAB90 0%, #F27257 100%);
+	  &::after{
+			content: '';
+			position: absolute;
+			bottom: 6rpx;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 0;
+			height: 0;
+			border-left: 16rpx solid transparent;
+			border-right: 16rpx solid transparent;
+			border-top: 16rpx solid #F27257;
+			z-index: 1;
+		}
+	}
+	.sharp-tabs .tabs-item.active .item-status{
+	  color: #fff;
+	}
+	/* 活动状态 */
+	.sharp-active {
+	  position: relative;
+		top: -20rpx;
+	  height: 72rpx;
+		justify-content: flex-end;
+		background: #F5F5F5;
+	}
+	/* 倒计时 */
+	.active--count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	}
+	.active--count-down .clock-text {
+	  color: #2A2A30;
+	}
+	.active--count-down .clock-time {
+	  padding: 0 4rpx;
+	  line-height: 36rpx;
+	  font-size: 24rpx;
+	  background: #2A2A30;
+	  border-radius: 4rpx;
+	}
+	.active--count-down .clock-symbol {
+	  padding: 0 8rpx;
+	  color: #2A2A30;
+	}
+}
+// 运动
+.sportshop-container{
+	// 菜单
+	.sharp-tabs{
+	  background: #000;
+	}
+	.sharp-tabs .tabs-item.active{
+		.item-status{
+		  color: #fff;
+			&::before,&::after{
+				content: '';
+				display: inline-block;
+				vertical-align: middle;
+				width: 0;
+				height: 0;
+			}
+			&::before{
+				margin-right: 10rpx;
+				border-top: 10rpx solid transparent;
+				border-bottom: 10rpx solid transparent;
+				border-left: 12rpx solid #fff;
+			}
+			&::after{
+				margin-left: 10rpx;
+				border-top: 10rpx solid transparent;
+				border-bottom: 10rpx solid transparent;
+				border-right: 12rpx solid #fff;
+			}
+		}
+	}
+	/* 活动状态 */
+	.sharp-active {
+	  position: relative;
+		top: -28rpx;
+	  height: 64rpx;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		background: #000;
+		&::after{
+			content: '';
+			display: block;
+			width: 520rpx;
+			height: 16rpx;
+			background: #000;
+			transform: skew(-30deg);
+			position: absolute;
+			bottom: -16rpx;
+			left: -4rpx;
+		}
+	}
+	/* 倒计时 */
+	.active--count-down {
+	  font-size: 28rpx;
+	  height: 36rpx;
+	}
+	.active--count-down .clock-text {
+	  color: #fff;
+	}
+	.active--count-down .clock-time {
+	  padding: 0 4rpx;
+	  line-height: 36rpx;
+	  font-size: 24rpx;
+	  background: #fff;
+		color: #000;
+	  border-radius: 4rpx;
+	}
+	.active--count-down .clock-symbol {
+	  padding: 0 8rpx;
+	  color: #2A2A30;
+	}
+}
+/* 确认购买弹窗 */
+.popup__trade {
+  width: 750rpx;
+  position: relative;
+	border-radius: 16rpx 16rpx 0 0;
+  z-index: 999;
+  background: #fff;
+	overflow: hidden;
+}
+
+.popup__trade .trade-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30rpx;
+}
+
+.popup__trade .trade-main {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 30rpx 40rpx;
+}
+// /* 商品信息 */
+.fgoods-info {
+  margin-bottom: 20rpx;
+}
+.fgoods-image {
+  width: 180rpx;
+  height: 180rpx;
+	margin-right: 20rpx;
+  border-radius: 8rpx;
+  border: 5rpx solid #fff;
+	overflow: hidden;
+}
+.fgoods-image image {
+  width: 100%;
+  height: 100%;
+	display: block;
+}
+.fgoods-info .line-price {
+  font-size: 24rpx;
+  text-decoration: line-through;
+  margin-left: 12rpx;
+}
+
+.fgoods-info .goods-stock {
+  padding-left: 10rpx;
+  margin-top: 10rpx;
+}
+

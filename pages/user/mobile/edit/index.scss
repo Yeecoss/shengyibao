@@ -1,0 +1,67 @@
+.mobileLogin {
+    background: #fff;
+    font-size: 32rpx;
+    height: 100%;
+  }
+  .container {
+    margin-top: 130rpx;
+    padding: 0 60rpx;
+    .inputBox{
+      height: 64rpx;
+      padding-top: 24rpx;
+      border-bottom: 1rpx solid #EEEEEE;
+      margin-top: 48rpx;
+      position: relative;
+      .inputClass{
+        font-size: 28rpx;
+        color: #333;
+      }
+      .areaCode{
+        width: 124rpx;
+        color: #808080;
+        font-size: 28rpx;
+        .iconfont2{
+          font-size: 24rpx;
+        }
+      }
+      .verificat{
+        position: absolute;
+        right: 0;
+        font-size: 24rpx;
+        color: #FF7541;
+        z-index: 3;
+      }
+    }
+    .uni-input{
+      color: #BCBCBC;
+      font-size: 28rpx;
+    }
+  }
+  
+  .login-btn {
+    padding: 0 20rpx;
+    margin-top: 60rpx;
+    button {
+      height: 88rpx;
+      line-height: 88rpx;
+      background: #FF7541;
+      color: #fff;
+      font-size: 32rpx;
+      border-radius: 999rpx;
+      text-align: center;
+      .iconfont2{
+        margin-right: 10rpx;
+      }
+    }
+    .btn-normal1{
+      background: rgba(232,46,46,.3);
+    }
+  }
+  
+  .footer{
+    color: #666666;
+    font-size: 24rpx;
+    text-align: center;
+    margin-top:40rpx;
+  }
+  

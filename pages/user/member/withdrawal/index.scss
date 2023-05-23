@@ -1,0 +1,268 @@
+.invite{
+    height: 100%;
+    overflow-y: auto;
+    background: #F5F5F5;
+    .container{
+        .swiperBox{
+            position: relative;
+            height: 200rpx;
+            .swiperBox1{
+                height: 200rpx;
+                .imgBox{
+                    height: 200rpx;
+                    image{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .banner-num {
+              position: absolute;
+              right: 30rpx;
+              margin-top: -58rpx;
+              font-size: 24rpx;
+              width:100rpx;
+              height:40rpx;
+              line-height: 40rpx;
+              background:rgba(255,255,255, .7);
+              border-radius:26rpx;
+              text-align: center;
+            }
+        }
+        .tipBox{
+            text-align: right;
+            color: #666666;
+            font-size: 26rpx;
+            padding: 30rpx 30rpx 0;
+            .iconfont2{
+                margin-right: 10rpx;
+            }
+        }
+        .titleBox{
+            height: 314rpx;
+            position: relative;
+            padding-top: 20rpx;
+            image{
+                width: 100%;
+                height: 100%;
+            }
+            .titleContent{
+                position: absolute;
+                left: 60rpx;
+                right: 60rpx;
+                top: 80rpx;
+                color: white;
+                font-size: 26rpx;
+                .content{
+                    width: 174rpx;
+                    .num{
+                        margin-top: 30rpx;
+                        font-size: 40rpx;
+                    }
+                }
+                .line{
+                    margin: 0 40rpx;
+                    width: 2rpx;
+                    height: 48rpx;
+                    background: white;
+                }
+                .but{
+                    width: 160rpx;
+                    height: 60rpx;
+                    background: #FFFFFF;
+                    border-radius: 30rpx;
+                    color: #FFA300;
+                    line-height: 60rpx;
+                    text-align: center;
+                    margin-left: 38rpx;
+                    margin-top: -46rpx;
+                }
+            }
+        }
+        .tapsBox{
+            padding: 0 30rpx;
+            .leftTaps{
+                font-size: 28rpx;
+                color: #666666;
+                .tapItem{
+                    width: 104rpx;
+                    height: 88rpx;
+                    line-height: 88rpx;
+                    position: relative;
+                    text-align: center;
+                }
+                .tapActiveItem{
+                    color: #333333;
+                    font-size: 32rpx;
+                    .line{
+                        position: absolute;
+                        left: 50%;
+                        width: 40rpx;
+                        height: 4rpx;
+                        background: #FF7541;
+                        margin-left: -20rpx;
+                        bottom: 0;
+                    }
+                }
+            }
+            .moreBox{
+                font-size: 24rpx;
+                color: #666666;
+                .iconfont2{
+                    font-size: 24rpx;
+                    margin-left: 12rpx;
+                }
+            }
+        }
+        .listBox{
+            padding: 30rpx;
+            .list{
+                padding: 0 20rpx;
+                border-radius: 16rpx;
+                background: white;
+                height: 112rpx;
+                margin-bottom: 20rpx;
+                .userImg{
+                    width: 64rpx;
+                    height: 64rpx;
+                    border-radius: 32rpx;
+                    overflow: hidden;
+                    image{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .userName{
+                    width: 212rpx;
+                }
+                .m-t-10{
+                    margin-top: 10rpx;
+                }
+                .w-box{
+                    width: 508rpx;
+                }
+            }
+        }
+        .nodata{
+            margin-top: 50rpx;
+        }
+    }
+    .popup-main{
+        position: relative;
+        width: 600rpx;
+        padding-top: 60rpx;
+        border-radius: 16rpx;
+        min-height: 100rpx;
+        background:#fff;
+    }
+    .popup-main1{
+        width: 750rpx;
+        height: 1100rpx;
+        padding-top: 20rpx;
+        border-radius: 16rpx 16rpx 0 0;
+        background:#fff;
+    }
+    .popup-main, .popup-main1{
+        .pop-close{
+            position: absolute;
+            right: 20rpx;
+            top: 10rpx;
+            color: #999;
+            font-size: 36rpx;
+            z-index: 2;
+        }
+        .poptitle{
+            text-align: center;
+            color: #333333;
+            font-size:32rpx;
+            position: absolute;
+            right: 0;
+            top: 16rpx;
+            width: 100%;
+            z-index: 1;
+        }
+        .pop-input{
+            padding: 40rpx 40rpx 60rpx;
+            color: #666;
+            line-height: 46rpx;
+            text-align: center;
+            font-size: 30rpx;
+            max-height: 600rpx;
+            overflow: auto;
+        }
+        .pop-input, .pop-input1{
+            .text-left{
+                text-align: left;
+                font-size: 26rpx;
+                color: #333333;
+            }
+            .nodeBox{
+                text-align: left;
+                .nodeList{
+                    position: relative;
+                    height: 142rpx;
+                    padding: 0 48rpx;
+                    .dots{
+                        position: absolute;
+                        left: 0;
+                        top: 6rpx;
+                        width: 16rpx;
+                        height: 16rpx;
+                        background: #FF7541;
+                        border-radius: 16rpx;
+                        border: 8rpx solid #FAD5D5;
+                    }
+                    .line{
+                        position: absolute;
+                        left: 14rpx;
+                        top: 46rpx;
+                        width: 1rpx;
+                        height: 96rpx;
+                        background: #DEDEDE;
+                    }
+                }
+            }
+        }
+        .pop-input1{
+            position: absolute;
+            top: 38px;
+            left: 40rpx;
+            bottom: 60rpx;
+            right: 40rpx;
+            color: #666;
+            line-height: 46rpx;
+            text-align: center;
+            font-size: 30rpx;
+            overflow: auto;
+        }
+        // 按钮
+        .pop-btn{
+            display: flex;
+            border-top: 1rpx solid #eee;
+            view{
+                width: 100%;
+                font-size: 28rpx;
+                line-height: 86rpx;
+                color: #666;
+                text-align: center;
+                letter-spacing: 0.05em;
+                overflow: hidden;
+            }
+        }
+        .pop-btn .submit{
+            color: $red;
+        }
+    }
+    .drawer-foot-btn{
+        position: absolute;
+        left: 30rpx;
+        bottom: 30rpx;
+        right: 30rpx;
+        line-height:80rpx;
+        text-align: center;
+        background: $red;
+        box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+        border-radius: 40rpx;
+        overflow: hidden;
+    }
+}

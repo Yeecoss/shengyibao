@@ -1,0 +1,44 @@
+.dataSummary{
+    padding: 24rpx 28rpx 24rpx 30rpx;
+    font-size: 28rpx;
+    .rangeBox{
+        height: 76rpx;
+        line-height: 76rpx;
+        color: #FF7541;
+        .iconfont2{
+            margin-right: 12rpx;
+        }
+    }
+    .itemTitle{
+        color: #222;
+        font-size: 30rpx;
+        margin-top: 40rpx;
+        font-weight: 600;
+    }
+    .tabBox{
+        width: 400rpx;
+        height: 80rpx;
+        margin: 0 auto;
+        .tabItem{
+            width: 200rpx;
+            height: 60rpx;
+            line-height: 60rpx;
+            position: relative;
+            text-align: center;
+            color: #666666;
+        }
+        .tabItem1{
+            color: #333333;
+            font-weight: 600;
+            .line{
+                width: 60rpx;
+                height: 4rpx;
+                background: #FF7541;
+                position: absolute;
+                bottom: 0;
+                left: 70rpx;
+                border-radius:2rpx;
+            }
+        }
+    }
+}

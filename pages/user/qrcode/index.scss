@@ -1,0 +1,135 @@
+.qrcode{
+    height: 100%;
+    background: #F7F7F7;
+    overflow-y: auto;
+    .container{
+        padding: 60rpx 44rpx;
+        .qrcodeBox{
+            height: 1006rpx;
+            background: white;
+            border-radius: 20rpx;
+            box-shadow:0px 0px 32rpx 0px rgba(222,222,222,0.5);
+            .qrcodeTitBox{
+                height: 160rpx;
+                border-bottom: 1rpx dashed #DEDEDE;
+                padding-top: 68rpx;
+                text-align: center;
+                position: relative;
+                .qrcodeTitle{
+                    color: #333;
+                    font-size: 32rpx;
+                    font-weight: 600;
+                }
+                .qrcodeTitContent{
+                    color: #666;
+                    font-size: 24rpx;
+                    width: 408rpx;
+                    margin: 20rpx auto 0;
+                }
+                .leftIconBox, .rightIconBox{
+                    position: absolute;
+                    width: 16rpx;
+                    height: 32rpx;
+                    overflow: hidden;
+                    bottom: -16rpx;
+                    .icon{
+                        width: 32rpx;
+                        height: 32rpx;
+                        background: #F7F7F7;
+                        border-radius: 50%;
+                        box-shadow:inset 0px 0px 16rpx 0px rgba(222,222,222,0.5);
+                    }
+                }
+                .leftIconBox{
+                    left: -0rpx;
+                    .icon{
+                        float: right;
+                    }
+                }
+                .rightIconBox{
+                    right: -0rpx;
+                }
+            }
+            .imgBox{
+                padding: 68rpx 80rpx;
+                .qrcodeImgBox{
+                    width: 500rpx;
+                    height: 500rpx;
+                    position: relative;
+                    .botIcon{
+                        width:64rpx;
+                        height:44rpx;
+                        background:rgba(232,46,46,1);
+                        border-radius:16rpx 0px 0px 0px;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        color: white;
+                        text-align: center;
+                        line-height: 40rpx;
+                        .iconfont2{
+                            font-size: 30rpx;
+                        }
+                    }
+                }
+                image{
+                    width: 500rpx;
+                    height: 500rpx;
+                }
+                .checkImg{
+                    width: 500rpx;
+                    height: 314rpx;
+                    background: rgba(238,238,238, .5);
+                    text-align: center;
+                    padding-top: 186rpx;
+                    .iconfont2{
+                        font-size: 90rpx;
+                        color: #CCCCCC;
+                    }
+                    .checkImgText{
+                        font-size: 32rpx;
+                        color: #CCCCCC;
+                        margin-top: 22rpx;
+                    }
+                }
+            }
+            .logoBox{
+                width: 460rpx;
+                margin: 16rpx auto;
+                position: relative;
+                text-align: center;
+                .leftLine, .rightLine{
+                    position: absolute;
+                    top: 50%;
+                    width: 142rpx;
+                    height: 1rpx;
+                    background: #DEDEDE;
+                }
+                .leftLine{
+                    left: 0;
+                }
+                .rightLine{
+                    right: 0;
+                }
+                image{
+                    width: 124rpx;
+                    height: 40rpx;
+                }
+            }
+        }
+    }
+    .footer{
+        margin-bottom: 28rpx;
+        padding: 20rpx 0;
+        button{
+            width:660rpx;
+            height:80rpx;
+            line-height: 80rpx;
+            font-size: 32rpx;
+            background:rgba(232,46,46,1);
+            box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+            border-radius:40rpx;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,229 @@
+.bgf5{
+	min-height: 100%;
+}
+button{
+	margin-right: 0;
+	padding: 0;
+}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+view{
+	box-sizing: border-box;
+}
+.color_red{color: $red;}
+.color_orange{color: #FF6206;}
+.color_yellow{color: #F8B14A;}
+.m-r-10{margin-right: 10rpx;}
+// 订单进度
+.f-44{font-size: 44rpx;}
+.order-state{
+	padding-top: 10rpx;
+	background:linear-gradient(to right,#FF7541,#F55B5B);
+}
+.state-text{
+	font-weight: 300;
+	margin-top: 10rpx;
+	padding-bottom: 60rpx;
+}
+.steps{
+	margin-top: 40rpx;
+	padding-bottom: 44rpx;
+}
+.steps-item{
+	color: #F89695;
+	font-weight: 300;
+	text-align: center;
+	flex: 1;
+	position: relative;
+	&::before{
+		position: absolute;
+		width: 78%;
+		margin-left: -38%;
+		margin-top: 8px;
+		content: '';
+		height: 1rpx;
+		display: block;
+		background-color: #F89695;
+	}
+	&:first-child:before{
+		display: none;
+	}
+	&.on{
+		color: #FFFFFD;
+		&::before{
+			background-color: #FFFFFD;
+		}
+		.steps-circle{
+			border-color: #FFFFFD;
+			view{background-color: #FFFFFD;}
+		}
+	}
+}
+.steps-circle{
+	width: 32rpx;
+	height: 32rpx;
+	margin: 0 auto 20rpx;
+	padding: 6rpx;
+	border-radius: 50%;
+	border:	1rpx solid #F89695;
+	view{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		background-color: #F89695;
+	}
+}
+// 买家
+.buyer_wrap{
+	padding-top: 50rpx;
+	border-radius: 16rpx 16rpx 0 0;
+	margin-top: -20rpx;
+	padding-bottom: 10rpx;
+}
+.buyer_img{
+	width: 64rpx;
+	height: 64rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.clip{
+	float: right;
+}
+// 地址
+.address{
+	border-top: 1rpx solid #eee;
+	margin-top: 30rpx;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	overflow: hidden;
+}
+.address-type{
+	margin-right: 20rpx;
+	overflow: hidden;
+}
+.address-info{
+	flex: 1;
+	overflow: hidden;
+}
+// 商品
+.list-item{
+	padding-bottom: 34rpx;
+	margin-top: 20rpx;
+}
+.pro{
+	background-color: #F7F5F6;
+	padding: 16rpx 20rpx;
+	overflow: hidden;
+}
+.no-m-t{margin-top: 0;}
+.pro_img{
+	width: 128rpx;
+	height: 128rpx;
+	margin-right: 20rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.pro_info{
+	width: 280rpx;
+	overflow: hidden;
+}
+.pro-r{
+	text-align: right;
+}
+.norm{margin-top: 18rpx;}
+.pro_state{margin-top: 26rpx;}
+.pro_name{height: 76rpx;}
+.pro-bottom{height: 78rpx;}
+// 操作按钮
+.operation-wrap, .operation{
+	height: 100rpx;
+	width: 100%;
+}
+.operation{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.oper-item{
+	width: 200rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+	text-align: center;
+	border-radius: 40rpx;
+	color: #666;
+	margin-left: 40rpx;
+	border: 1rpx solid #DEDEDE;
+	overflow: hidden;
+	&:nth-child(3n+1){margin-left: 0;}
+}
+.oper-red0{
+	color: $red;
+	border-color: $red;
+}
+.oper-red{
+	color: #fff;
+	background-color: $red;
+	border: 0;
+}
+.oper-orange{
+	color: #fff;
+	background-color: #F8B14A;
+	border: 0;
+}
+.disabled{
+	color: #fff;
+	border: 0;
+	background-color: #F8AAAD;
+}
+.container .listBox .list .label{font-size: 30rpx;}
+.btn-wrap{
+	.oper-item{
+		width: 144rpx;
+		height: 52rpx;
+		line-height: 52rpx;
+	}
+}
+//Model
+.mcontent{
+	padding:	40rpx 44rpx 60rpx;
+}
+.duihao{
+	width: 30rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	border-radius:4rpx;
+	margin-right: 10rpx;
+	border:1rpx solid #999;
+}
+.duihao_red{
+	border-color: $red;
+}
+// 收款/赊账弹窗
+.sheTab{
+	view{
+		margin: 0 35rpx;
+		height: 42rpx;
+		line-height: 42rpx;
+		padding-bottom: 20rpx;
+		border-bottom: 4rpx solid transparent;
+		box-sizing: initial;
+		&.on{
+			color: $red;
+			border-color: $red;
+		}
+	}
+}
+.szMoney input{
+	height: 80rpx;
+	padding: 0 20rpx;
+}
+.container .listBox .list .scan .iconfont2{
+	font-size: 40rpx;
+}
+.container .listBox .list .copy .iconfont2{
+	font-size: 32rpx;
+	margin-left: 20rpx;
+}

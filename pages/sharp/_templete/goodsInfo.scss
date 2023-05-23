@@ -1,0 +1,266 @@
+.goods-info {
+  background: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom:20rpx;
+}
+/*  标签 */
+.tag-wrap view{
+	padding: 0 20rpx;
+	line-height: 60rpx;
+	margin-top: 16rpx;
+	border-radius: 30rpx;
+	color: #B69749;
+	background-color: rgba(182, 151, 73, 0.08);
+	text{
+		width: 28rpx;
+		line-height: 28rpx;
+		border-radius: 50%;
+		display: inline-block;
+		text-align: center;
+		margin-right: 10rpx;
+		background: #B69749;
+		color: #fff;
+	}
+}
+/* 商品分享 */
+.goods__share .share__icon {
+  font-size: 40rpx;
+  margin-bottom: 0rpx;
+}
+/* 商品标题 */
+.active-tag{
+  display: inline-block;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  padding: 0 12rpx;
+  margin-right: 10rpx;
+  color: #fff;
+  background:linear-gradient(253deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+  border-radius: 16rpx 0 16rpx 0;
+}
+.goods-title {
+  overflow: hidden;
+  padding: 0 0rpx 0 0;
+  color: #333;
+}
+.showTitle{
+  font-size: 28rpx;
+  color: #576a94;
+}
+// 价格倒计时
+.info-item__top {
+  position: relative;
+  padding: 40rpx 30rpx 0;
+}
+.floor-price__samll {
+  font-size: 44rpx;
+  line-height: 1.2;
+	color: var(--storeColor);
+}
+/* 砍价底价 */
+.floor-price {
+	color: var(--storeColor);
+  margin-right: 10rpx;
+  font-size: 44rpx;
+  line-height: 1.2;
+}
+.original-price {
+  font-size: 24rpx;
+  line-height: 1.2;
+  text-decoration: line-through;
+  color: $theme4Gray;
+}
+/* 活动倒计时 */
+.info-item_countdown {
+	display: flex;
+	align-items: center;
+  line-height:30rpx;
+  font-size: 28rpx;
+  border-radius: 6rpx;
+  color: #2A2A30;
+  text-align: center;
+  overflow: hidden;
+}
+.countdown{
+  overflow: hidden;
+}
+.info-item_countdown text {
+  padding: 0 4rpx;
+  line-height:32rpx;
+  font-size: 22rpx;
+  color: #fff;
+  margin: 0 8rpx;
+  text-align: center;
+  border-radius:4rpx;
+  background:#2A2A30;
+}
+/* 活动已结束 */
+.info-item_end {
+  color: var(--storeColor);
+}
+/* 秒杀进度条 */
+.nosharp-progress .yoo-progress{
+  background: rgba(232,46,46,0.5);
+}
+.sharp-sales {
+  font-size: 24rpx;
+  white-space: nowrap;
+}
+.div-goods-info{
+	// 价格
+	.floor-price__samll {
+	  color: #fff;
+	}
+	.floor-price,.original-price{
+	  color: #fff;
+	}
+	/* 活动倒计时 */
+	.info-item__top {
+		height: 88rpx;
+		padding: 0 30rpx;
+	}
+	.info-item_countdown {
+		display: block;
+		font-size: 24rpx;
+		color: $red;
+	}
+	.countdown{
+	  margin-top: 10rpx;
+	}
+	.info-item_countdown text{
+		background:$red;
+	}
+	/* 活动已结束 */
+	.info-item_end {
+	  color: $red;
+	}
+	// 分享
+	.goods__share .share__icon {
+		font-size: 38rpx;
+		margin-bottom: 0rpx;
+	}
+	.goods__share .share-btn {
+	  text-align: center;
+	  padding: 0 0 0 20rpx;
+	  font-size: 24rpx;
+	  color: #333;
+	  border-left: 1rpx solid #eee;
+	}
+	.goods-title{
+		margin-top: 10rpx;
+	}
+	/* 秒杀进度条 */
+	.sharp-progress{
+	  margin-top: 16rpx;
+	}
+	.yoo-progress {
+	  position: relative;
+	  width: 268rpx;
+	  height: 14rpx;
+	  border-radius: 16rpx;
+	  background: #F2F2F2;
+	}
+	.nosharp-progress .yoo-progress{
+	  background: rgba(232,46,46,0.5);
+	}
+	.yoo-progress--portion {
+	  width: 0%;
+		max-width: 100%;
+	  height: 100%;
+	  border-radius: 16rpx;
+	  background:linear-gradient(253deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+	}
+	
+	.sharp-sales {
+	  margin-top: 8rpx;
+	  font-size: 24rpx;
+	  color: #FF7541;
+	  white-space: nowrap;
+	}
+}
+// 卖手圈模板
+.saler-goods-info{
+	// 价格
+	.block-left{
+		flex: 1;
+		flex-wrap: wrap;
+	}
+	.floor-price__samll,.floor-price {
+	  font-size: 36rpx;
+	}
+	.original-price{
+	  font-size: 24rpx;
+	}
+	.share-btn {
+		margin-top: -80rpx;
+		position: relative;
+		margin-right: 60rpx;
+		width: 80rpx;
+		line-height: 80rpx;
+		border-radius: 50%;
+		color: #fff;
+		text-align: center;
+		background: $red;
+		box-shadow: 0 4rpx 24rpx 0 rgba(232, 46, 46, 0.3);
+	}
+	/* 活动倒计时 */
+	.info-item_countdown text{
+		border-radius: 16rpx;
+	}
+	/* 商品标题 */
+	.active-tag{
+	  background: linear-gradient(253deg, #F55B5B 0%, #FF7541 100%);
+	  border-radius: 4rpx 20rpx 20rpx 4rpx;
+	}
+	/* 秒杀进度条 */
+	.sharp-progress{
+		font-size: 28rpx;
+		display: flex;
+		align-items: center;
+		color: var(--storeColor);
+	}
+}
+.minishop-goods-info{
+	.block-left{
+		// flex: 1;
+		flex-wrap: wrap;
+	}
+	// 价格
+	.floor-price__samll,.floor-price {
+	  font-size: 44rpx;
+	}
+	.original-price{
+	  font-size: 24rpx;
+	}
+	/* 商品标题 */
+	.active-tag{
+	  background: linear-gradient(270deg, #FEA190 0%, #F27257 100%);
+	  border-radius: 20rpx;
+	}
+	/* 秒杀进度条 */
+	.sharp-progress{
+		display: flex;
+		align-items: center;
+		color: var(--storeColor);
+	}
+	.yoo-progress {
+	  position: relative;
+	  width: 200rpx;
+	  height: 40rpx;
+	  border-radius: 20rpx;
+		border: 1rpx solid var(--storeColor);
+	}
+	.yoo-progress--portion {
+	  width: 0%;
+		max-width: 100%;
+	  height: 100%;
+	  border-radius: 20rpx;
+	  background:rgba(242, 114, 87, .15);
+	}
+	.sharp-sales-progress{
+		width: 100px;
+		margin-left: -100px;
+		text-align: center;
+		line-height: 40rpx;
+	}
+}

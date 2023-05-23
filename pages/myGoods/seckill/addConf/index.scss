@@ -1,0 +1,119 @@
+.pageBox{
+	height: 100%;
+	width: 100%;
+	background: #F5F5F5;
+	position: relative;
+	.contentBox{
+		.padBox{
+			height: 20rpx;
+		}
+		.tips{
+			padding: 0 30rpx;
+			font-size: 24rpx;
+			color: #999999;
+			height: 64rpx;
+			line-height: 64rpx;
+			.iconfont2{
+				font-size: 24rpx;
+				margin-right: 10rpx;
+			}
+		}
+		.numBox{
+			background: white;
+			height: 96rpx;
+			padding: 0 30rpx;
+			font-size: 30rpx;
+			color: #333;
+			.numItem{
+				flex: 1;
+			}
+			.label{
+				margin-right: 60rpx;
+			}
+			.value{
+				color: #666666;
+			}
+			.value1{
+				color: #333;
+			}
+		}
+		.timeBox{
+			padding: 10rpx 30rpx;
+			background: white;
+			.timeList{
+				border-top: 1rpx solid #EEEEEE;
+			}
+			.timeItem{
+				width: 25%;
+				height: 68rpx;
+				line-height: 68rpx;
+				font-size: 28rpx;
+				color: #333333;
+				.checkbox{
+					position: relative;
+					top: -2rpx;
+				}
+				.iconfont2{
+					margin-right: 10rpx;
+					color: rgba(0,0,0,.2);
+				}
+			}
+		}
+		
+		// 关联商品
+		.related-pros{
+			padding-top: 10rpx;
+			padding-bottom: 20rpx;
+			border-top: 1rpx solid #eee;
+			background: white;
+		}
+		.related-item{margin-top: 20rpx;}
+		.del-pro text{
+			display: block;
+			width: 30rpx;
+			height: 30rpx;
+			line-height: 30rpx;
+			font-size: 24rpx;
+			text-align: center;
+			border: 2rpx solid #999;
+			color: #999;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.related-pic{
+			width: 96rpx;
+			height: 96rpx;
+			margin-right: 10rpx;
+			background:#D8D8D8;
+			border-radius: 4rpx;
+			overflow: hidden;
+			image{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.footer{
+		position: absolute;
+		bottom: 0;
+		height: 100rpx;
+		left: 0;
+		right: 0;
+		border-top: 1rpx solid #E5E5EC;
+		background: white;
+		.footBut{
+			width: 690rpx;
+			height: 72rpx;
+			line-height: 72rpx;
+			text-align: center;
+			color: white;
+			background: #FF7541;
+			box-shadow: 0px 0px 16rpx 1rpx rgba(222, 222, 222, 0.5);
+			border-radius: 40rpx;
+		}
+	}
+	radio{
+	  transform:scale(0.7);
+	  transform-origin:50% 60%;
+	}
+}

@@ -1,0 +1,98 @@
+// 订单进度
+.f-40{font-size: 40rpx;}
+.order-state{
+	line-height: 160rpx;
+	background:linear-gradient(270deg,rgba(255,201,122,1) 0%,rgba(248,177,74,1) 100%);
+}
+// 地址
+.address_title{
+	line-height: 88rpx;
+}
+.address{
+	margin-top: 0;
+}
+// 商品
+.list-item{
+	padding-top: 0;
+}
+.pro{
+	margin-top: 20rpx;
+	padding: 30rpx 30rpx;
+	background-color: #fff;
+	overflow: hidden;
+}
+.no-m-t{margin-top: 0;}
+.pro_img{
+	width: 128rpx;
+	height: 128rpx;
+	margin-right: 20rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.pro_info{
+	flex: 1;
+	overflow: hidden;
+}
+.pro_name{height: initial;}
+.norm{
+	line-height: 1.1;
+	margin-top: 18rpx;
+}
+// Model
+.mcontent{
+	padding:	30rpx 40rpx 40rpx;
+}
+/* 解析 */
+.analysis-wrap{
+	/* position: relative; */
+	// padding: 20rpx 30rpx;
+}
+.analysis{
+	width: 370rpx;
+	height: 112rpx;
+	padding: 20rpx;
+	border-radius: 4rpx;
+	border: 1rpx solid #DEDEDE;
+}
+.analysis textarea{
+	font-size: 24rpx;
+	color: #333;
+	flex: 1;
+	height: 100%;
+	overflow: hidden;
+}
+.place{
+	color: #999;
+	font-size: 26rpx;
+}
+.clear{
+	width: 30rpx;
+	height: 30rpx;
+	border: 1rpx solid #999;
+	border-radius: 50%;
+	margin-left: 20rpx;
+	overflow: hidden;
+}
+.clear text{
+	font-size: 44rpx;
+}
+.address-box{
+	margin-top: 20rpx;
+	input,textarea,.right-cont{
+		border: 1rpx solid #DEDEDE;
+		font-size: 26rpx;
+	}
+	input,.right-cont{
+		height: 64rpx;
+		line-height: 64rpx;
+		padding: 0 20rpx;
+		border-radius: 4rpx;
+		overflow: hidden;
+	}
+	textarea{
+		height: 112rpx;
+		padding: 10rpx 20rpx;
+		border-radius: 4rpx;
+		overflow: hidden;
+	}
+}

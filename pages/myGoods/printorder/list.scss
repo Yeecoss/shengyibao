@@ -1,0 +1,52 @@
+view,text{
+	box-sizing: border-box;
+}
+.bgf7{
+	min-height: 100%;
+	background-color: #F7F7F7;
+}
+// top
+.topwrap{
+	height: 176rpx;
+}
+.search{
+	// border-top: 1rpx solid #F7F7F7;
+}
+.top_main{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+// footer
+.footer,.foot{
+	height: 108rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-top: 14rpx;
+	background-color: #fff;
+	z-index: 2;
+}
+.foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+// 打单信息
+.mcontent{
+	padding:	40rpx 40rpx 36rpx;
+	max-height: 300px;
+	overflow: hidden;
+	overflow-y: auto;
+}

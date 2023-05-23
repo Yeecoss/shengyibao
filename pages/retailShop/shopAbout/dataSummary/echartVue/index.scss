@@ -1,0 +1,53 @@
+.echartVue{
+    height: 500rpx;
+    position: relative;
+    padding-top: 60rpx;
+    margin-top: 40rpx;
+    .checkBox{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 10rpx;
+        z-index: 9;
+        .itemTitle{
+            color: #222;
+            font-size: 30rpx;
+            font-weight: 600;
+        }
+        .icon{
+            display: inline-block;
+            width:18rpx;
+            height:18rpx;
+            border: 1rpx solid #999999;
+            border-radius: 50%;
+            margin-right: 10rpx;
+        }
+        .checked{
+            .icon{
+                border: 0;
+                width:20rpx;
+                height:20rpx;
+            }
+        }
+        .saleNum.checked{
+            color: #2E5FE8;
+            .icon{
+                background:#2E5FE8;
+                box-shadow:0px 4rpx 8rpx 0px #2E5FE8;
+            }
+        }
+        .saleNum, .saleFee{
+            font-size: 24rpx;
+        }
+        .saleFee{
+            margin-left: 20rpx;
+        }
+        .saleFee.checked{
+            color: #FF7541;
+            .icon{
+                background:#FF7541;
+                box-shadow:0px 4rpx 8rpx 0px rgba(232,46,46,0.3);
+            }
+        }
+    }
+}

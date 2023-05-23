@@ -1,0 +1,101 @@
+
+/*顶部下拉选择 综合*/
+
+.tui-drawer-box {
+    width: 500rpx;
+    font-size: 24rpx;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100rpx;
+    padding-top: 40rpx;
+    .topSpan{
+        height: 100rpx;
+    }
+    .tui-drawer-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30rpx;
+        box-sizing: border-box;
+        height: 80rpx;
+        .tui-title-bold {
+            font-size: 28rpx;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+    }
+}
+.cate_list .tui-drawer-title {
+	background-color: #F8F8F8;
+	margin-bottom: 2rpx;
+	&.on{
+		background-color: #fff;
+		color: $red;
+	}
+}
+.tui-all-box {
+    width: 40%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+		.iconfont2{
+			margin-left: 0;
+			font-size: 24rpx;
+		}
+}
+
+.tui-attr-btnbox {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0 30rpx;
+    background: #fff;
+}
+
+.tui-attr-safearea {
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tui-safearea-bottom {
+    width: 100%;
+    height: env(safe-area-inset-bottom);
+}
+
+.tui-attr-btnbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: scaleY(0.5) translateZ(0);
+    transform-origin: 0 0;
+}
+
+.tui-drawer-btn {
+    width: 176rpx;
+    text-align: center;
+    height: 64rpx;
+    border-radius: 30rpx;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.tui-drawerbtn-black {
+    border: 1rpx solid #FF7541;
+    color: #FF7541;
+}
+
+.tui-drawerbtn-primary {
+    background: #FF7541;
+    color: #fff;
+}

@@ -1,0 +1,120 @@
+page, .container {
+  background: #fff;
+}
+
+.nav .title{
+  margin-left: 10rpx;
+}
+.container {
+  padding-bottom: 70rpx;
+}
+
+/* 账户面板 */
+
+.account-panel {
+  padding-top: 56rpx;
+  width: 100%;
+  height: 196rpx;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.panel-lable {
+  font-size: 24rpx;
+  text-align: center;
+}
+
+.recharge-label {
+  color: rgb(51, 51, 51);
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+.panel-balance {
+  text-align: center;
+  font-size: 48rpx;
+}
+
+.recharge-panel {
+  margin-top: 22rpx;
+  padding: 0 30rpx;
+}
+
+/* 充值套餐 */
+
+.recharge-plan .recharge-plan_item {
+  width: 192rpx;
+  padding: 15rpx 0;
+  float: left;
+  text-align: center;
+  color: #888;
+  border: 1rpx solid rgb(228, 228, 228);
+  border-radius: 10rpx;
+  margin: 0 20rpx 20rpx 0;
+}
+
+.recharge-plan .recharge-plan_item:nth-child(3n+0) {
+  margin-right: 0;
+}
+
+.recharge-plan .recharge-plan_item.active {
+  color: #786cff;
+  border: 1rpx solid #786cff;
+}
+
+.recharge-plan .recharge-plan_item.active .plan_money {
+  color: #786cff;
+}
+
+.plan_money {
+  font-size: 32rpx;
+  color: rgb(82, 82, 82);
+}
+
+.plan_gift {
+  font-size: 25rpx;
+}
+
+.recharge-input {
+}
+
+/* 立即充值 */
+
+.recharge-input input {
+  padding: 17rpx 16rpx;
+  font-size: 26rpx;
+  background:rgba(242,242,242,1);
+  border-radius:8rpx;
+}
+
+.recharge-submit {
+  margin-top: 40rpx;
+}
+
+.btn-submit button {
+  font-size: 30rpx;
+  background: #FF7541;
+  border: none;
+  color: white;
+  border-radius: 50rpx;
+  padding: 0 120rpx;
+}
+
+.btn-submit button[disabled] {
+  background: rgba(232,46,46,.5);
+  border-color: rgba(232,46,46,.5);
+  color: white;
+}
+
+/* 充值说明 */
+
+.recharge-describe {
+  margin-top: 40rpx;
+  padding: 0 30rpx;
+}
+
+.recharge-describe .content {
+  font-size: 24rpx;
+  line-height: 2;
+  color: #999;
+}

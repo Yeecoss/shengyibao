@@ -1,0 +1,79 @@
+.col-2a{color: #2A2A30;}
+.minishop-list{
+	padding: 0 30rpx;
+	background-color: #fff;
+	position: relative;
+	margin-top: 1rpx;
+}
+// 背景
+.mbg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 240rpx;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 100%);
+}
+/* 商品组 */
+.goods-list {
+  box-sizing: border-box;
+	overflow: hidden;
+}
+
+.goods-item{
+	padding: 30rpx 0;
+  border-top: 1rpx solid #eee;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.goods-item:nth-child(1){
+	border-top: 0;
+}
+.goods-item_pic{
+	position: relative;
+	width: 176rpx;
+	height: 176rpx;
+	margin-right: 20rpx;
+	border-radius:8rpx;
+	overflow: hidden;
+}
+image{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.detail{
+	flex: 1;
+	line-height: 40rpx;
+	overflow: hidden;
+}
+.has-num{
+	margin-top: 10rpx;
+	color: $red;
+	text{
+		margin-right: 6rpx;
+	}
+}
+.checkbox{
+	margin-right: 20rpx;
+}
+.goods-decr{
+	height: 80rpx;
+}
+.user-info{
+	margin-top: 12rpx;
+}
+.bottom{
+	margin-top: 12rpx;
+}
+// 用户
+.user-img{
+	width:40rpx;
+	height:40rpx;
+	margin-right: 10rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.read-num text{
+	margin-right: 10rpx;
+}

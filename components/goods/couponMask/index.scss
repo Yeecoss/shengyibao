@@ -1,0 +1,39 @@
+.popup-main {
+	position: relative;
+	width: 750rpx;
+	border-radius:16rpx 16rpx 0 0;
+	z-index: 999;
+	background-color: #fff;
+	overflow: hidden;
+	.popupBox{
+		padding: 32rpx 0 128rpx;
+		padding-bottom:calc(128rpx + env(safe-area-inset-bottom)/2);
+		.titleBox{
+			padding: 0 32rpx;
+			.title{
+				font-size: 30rpx;
+				color: #333333;
+				padding-bottom: 32rpx;
+				.tip{
+					font-size: 26rpx;
+					color: #666666;
+					margin-top: 4rpx;
+				}
+			}
+			.clear{
+				color: #999999;
+				font-size: 26rpx;
+				.iconfont2{
+					margin-right: 8rpx;
+				}
+			}
+		}
+		.listBox{
+			padding: 22rpx 32rpx;
+			border-bottom: 1rpx solid #F0F0F0;
+			.list{
+				padding: 10rpx 0;
+			}
+		}
+	}	
+}

@@ -1,0 +1,38 @@
+
+// 操作按钮
+.operation-wrap, .operation{
+	height: 100rpx;
+	width: 100%;
+}
+.operation{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.oper-item{
+	width: 200rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+	text-align: center;
+	border-radius: 40rpx;
+	color: #666;
+	margin-left: 40rpx;
+	border: 1rpx solid #DEDEDE;
+	overflow: hidden;
+	&:nth-child(3n+1){margin-left: 0;}
+}
+.oper-red0{
+	color: $red;
+	border-color: $red;
+}
+.oper-red{
+	color: #fff;
+	background-color: $red;
+	border: 0;
+}
+.disabled{
+	color: #fff;
+	border: 0;
+	background-color: #F8AAAD;
+}
+.container .listBox .list .label{font-size: 30rpx;}

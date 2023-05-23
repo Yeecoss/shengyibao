@@ -1,0 +1,171 @@
+.bgf7{min-height: 100%;}
+// form css
+.container{
+    padding-top: 20rpx;
+    .success{
+        color: #6DD400;
+    }
+    .listBox{
+        margin-bottom: 20rpx;
+        .list{
+            padding: 22rpx 30rpx;
+            // padding: 0 30rpx;
+						min-height: 88rpx;
+            position: relative;
+						align-items: center;
+						box-sizing: border-box;
+            .icon-guize{
+                position: absolute;
+                right: 30rpx;
+                top: 30rpx;
+                height: 30rpx;
+                font-size: 30rpx;
+                line-height: 1;
+            }
+            .label{
+                width: 200rpx;
+                color: #333;
+                font-size: 28rpx;
+            }
+            .control{
+                flex: 1;
+                color: #333;
+                font-size: 24rpx;
+                min-height: 40rpx;
+                line-height: 40rpx;
+                flex-wrap: wrap;
+								&.largeText{
+									font-size: 28rpx;
+								}
+                .userImg{
+                    width: 64rpx;
+                    height: 64rpx;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                }
+                .col-ok{
+                    color: #6DD400;
+                }
+                .col-wating{
+                    color: #FF9911;
+                }
+                .iconfont2{
+                    vertical-align: unset;
+                    font-size: 24rpx;
+                    margin-left: 10rpx;
+                }
+                .m-left{
+                    margin-left: 26rpx;
+                }
+                .imageList{
+                    margin-top: 20rpx;
+                    width:144rpx;
+                    height:144rpx;
+                    margin-right: 20rpx;
+                    margin-bottom: 20rpx;
+                    image{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .image-picker{
+                    margin-top: 20rpx;
+                    width:144rpx;
+                    height:144rpx;
+                    border-radius:1rpx;
+                    border:1rpx dashed rgba(204,204,204,1);
+                    color: #CCCCCC;
+                    .choose__icon{
+                        margin-top: 32rpx;
+                        height: 50rpx;
+                        font-size: 50rpx;
+                    }
+                }
+            }
+            .control1{
+                padding: 20rpx 0;
+            }
+            .text-right{
+                text-align: right;
+            }
+        }
+        .showRemark{
+            padding: 20rpx 30rpx;
+            line-height: 24rpx;
+            font-size: 24rpx;
+            color: #999;
+            background: #F7F7F7;
+            .iconfont2{
+                font-size: 24rpx;
+                margin-right: 10rpx;
+            }
+        }
+    }
+}
+.tip{
+    padding: 0 30rpx;
+    .tipTitle{
+        font-size:26rpx;
+        color: #333;
+    }
+    .tipContent{
+        font-size:24rpx;
+        color: #999;
+        line-height: 44rpx;
+    }
+}
+.notes{
+	padding: 20rpx 30rpx;
+	line-height: 30rpx;
+	background-color: #F7F7F7;
+	text{margin-right: 10rpx;}
+}
+.listLine{
+	width: 690rpx;
+	border-bottom: 1rpx solid #eee;
+	position: absolute;
+	bottom: 0;
+}
+// this page css
+page{
+	background-color: #F7F7F7;
+}
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view{
+	box-sizing: border-box;
+}
+/* footer */
+.footer,.foot{
+	height: 120rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+.foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+/* 内容 */
+.container .listBox .list .label.width240{
+	width: 240rpx;
+}
+.radioItem{
+	transform:scale(.6);
+	vertical-align: middle;
+}
+.radio-item{margin-right: 20rpx;}

@@ -1,0 +1,437 @@
+@charset "UTF-8";
+.bgf5{min-height: 100%;}
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+.nav .title{
+  margin-left: 10rpx;
+}
+/* 选项卡 */
+
+.swiper-tab {
+  width: 100%;
+  text-align: center;
+  height: 85rpx;
+  background-color: #fff;
+  box-shadow:0px 0px 8rpx 1px rgba(222,222,222,0.5);
+  margin-bottom: 8rpx;
+}
+
+.swiper-tab .swiper-tab-item {
+  width: 35%;
+  height: 100%;
+  font-size: 24rpx;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ffffff00;
+  position: relative;
+}
+
+.swiper-tab .on {
+  color: #FF7541;
+}
+.swiper-tab .on .line{
+  height: 4rpx;
+  background: #FF7541;
+  width: 80rpx;
+  position: absolute;
+  left: 50%;
+  bottom: -4rpx;
+  margin-left: -40rpx;
+}
+.content{
+  /* padding: 10rpx 30rpx; */
+}
+.content .boxShadow{
+  box-shadow:0px 0px 8px 1px rgba(222,222,222,0.5);
+  border-radius:8rpx;
+}
+.addressImg{
+	width: 32rpx;
+	height: 32rpx;
+	margin-top: 4rpx;
+}
+/* 配送信息 */
+.flow-delivery {
+  position: relative;
+  padding: 36rpx 32rpx;
+  min-height: 88rpx;
+  margin-top: 32rpx;
+}
+.detail-arrow{
+	margin-top: 4rpx;
+}
+.detail-content {
+  padding: 0 12rpx;
+}
+
+.detail-content__title {
+  margin-bottom: 6rpx;
+}
+
+.detail-content .detail-content__title-phone {
+  margin-left: 10rpx;
+}
+
+.detail-content .detail-content__describe {
+  font-size: 28rpx;
+}
+.flow-all-money{
+	margin-top: 32rpx;
+	.couponIcon{
+		width: 40rpx;
+		height: 40rpx;
+		vertical-align: middle;
+		margin-right: 16rpx;
+	}
+}
+
+/* 买家留言 */
+.flow-all-money .ipt-wrapper input {
+  width: 100%;
+  height: 75rpx;
+	font-size: 30rpx;
+}
+
+/* 商品列表 */
+.checkout_list_box{
+  padding: 0 32rpx 1rpx;
+  margin-top: 32rpx;
+}
+.checkout_list {
+  background: #fff;
+}
+.goods_name{
+  /* padding: 0 48rpx 0 0; */
+  line-height: 42rpx;
+}
+.flow-shopList .flow-list-left{
+	width: 172rpx;
+	height: 172rpx;
+	overflow: hidden;
+	margin-right: 16rpx;
+}
+.flow-shopList .flow-list-left image{
+	width: 100%;
+	height: 100%;
+	border-radius: 12rpx;
+}
+
+.checkout_list .flow-shopList:last-child {
+  border-bottom: 0;
+}
+
+.flow-header-left {
+  padding-left: 90rpx;
+}
+.flow-shopList .flow-list-right{
+	position: relative;
+	.goods-price{
+		color: #FB1A1E;
+		font-size: 32rpx;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		font-weight: bold;
+		line-height: 44rpx;
+		text{
+			font-size: 26rpx;
+		}
+	}
+}
+.flow-shopList .flow-list-right .flow-list-cont{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* 会员价 */
+
+.flow-shopList .flow-list-right .flow-cont.price-delete {
+  font-size: 26rpx;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.flow-shopList .grade-price {
+  padding-top: 8rpx;
+  font-size: 28rpx;
+  color: #ff495e;
+  text-align: right;
+}
+.flow-num-box{
+  height: 88rpx;
+  padding-top: 30rpx;
+	border-top: 1rpx solid #eee;
+}
+.flow-num-box .total{
+  float: left;
+  color: #999990;
+}
+.flow-num-box .flow-money{
+  float: right;
+}
+
+
+/* 优惠券选择 */
+
+.popup__coupon {
+  width: 750rpx;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx;
+}
+
+.popup__coupon .coupon__do_not .control {
+  width: 90%;
+  height: 72rpx;
+  margin-bottom: 24rpx;
+  color: #888;
+  border: 1rpx solid #e3e3e3;
+  border-radius: 10rpx;
+}
+
+.popup__coupon .coupon__title {
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 22rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper {
+  display: flex;
+  background: #fff;
+  border-radius: 8rpx;
+  color: #fff;
+  height: 170rpx;
+  overflow: hidden;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .coupon-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  width: 128rpx;
+  padding: 3px 0;
+  background: #a771ff;
+  font-size: 20rpx;
+  text-align: center;
+  color: #fff;
+  transform: rotate(45deg);
+  transform-origin: 64rpx 64rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper.color__blue {
+  background: linear-gradient(-125deg, #57bdbf, #2f9de2);
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper.color__red {
+  background: linear-gradient(-128deg, #ff6d6d, #ff3636);
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper.color__violet {
+  background: linear-gradient(-113deg, #ef86ff, #b66ff5);
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper.color__violet .coupon-type {
+  background: #55b5ff;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper.color__yellow {
+  background: linear-gradient(-141deg, #f7d059, #fdb054);
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .tip {
+  position: relative;
+  flex: 0 0 32%;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .tip .money {
+  font-weight: bold;
+  font-size: 46rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .tip .pay-line {
+  font-size: 22rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .split-line {
+  position: relative;
+  flex: 0 0 0;
+  border-left: 4rpx solid #fff;
+  margin: 0 5px 0 3px;
+  background: #fff;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .split-line:before,
+.popup__coupon .coupon-list .coupon-item .item-wrapper .split-line:after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 6px;
+  background: #fff;
+  left: -7px;
+  z-index: 1;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .split-line:before {
+  border-radius: 0 0 8px 8px;
+  top: 0;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .split-line:after {
+  border-radius: 8px 8px 0 0;
+  bottom: 0;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .content {
+  flex: 1;
+  padding: 30rpx 20rpx;
+  border-radius: 8px 0 0 8px;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .content .title {
+  font-size: 34rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .content .bottom .time {
+  font-size: 24rpx;
+  line-height: 24rpx;
+}
+
+.popup__coupon .coupon-list .coupon-item .item-wrapper .content .bottom .state {
+  height: 46rpx;
+  width: 122rpx;
+  line-height: 92rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 26rpx;
+}
+
+/* 积分抵扣 */
+
+.points .title {
+  margin-right: 5rpx;
+}
+
+.points .icon-help {
+  font-size: 28rpx;
+}
+
+.points .points-money {
+  margin-right: 20rpx;
+}
+
+/* 支付方式 */
+
+.pay-method .pay-item {
+  padding: 20rpx 0;
+  font-size: 28rpx;
+}
+
+.pay-method .pay-item .item-left_icon {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+}
+
+.pay-method .pay-item .item-left_icon.wechat {
+  color: #00c800;
+}
+
+.pay-method .pay-item .item-left_icon.balance {
+  color: #ff9700;
+}
+radio{
+  transform:scale(0.7);
+}
+
+/* 门店自提联系人 */
+
+.flow-extract-contact {
+  padding: 0 24rpx;
+  font-size: 28rpx;
+  color: #444;
+}
+
+.flow-extract-contact .contact-item {
+  padding: 24rpx 0;
+}
+
+.flow-extract-contact .item_label {
+  margin-right: 26rpx;
+  width: 150rpx;
+}
+
+.flow-extract-contact .item_ipt input {
+  font-size: 24rpx;
+  width: 100%;
+}
+
+.flow-extract-contact .item_ipt .input-placeholder {
+  font-size: 28rpx;
+}
+/* 店铺信息 */
+.shop_info{
+	line-height: 48rpx;
+	padding: 32rpx 0 24rpx;
+}
+.shop_info image{
+	width: 48rpx;
+	height:48rpx;
+	margin-right: 16rpx;
+}
+/* 商品 */
+.pri_num{
+	margin-left: 30rpx;
+	line-height: 1.1;
+	text-align: right;
+	overflow: hidden;
+}
+/* 合计 */
+.order-btn {
+  padding: 18rpx 0 18rpx 0;
+  border-top: 1rpx solid #eee;
+}
+.order-btn .order-left .text text {
+  margin-right:12rpx;
+}
+.flow-list-right{
+	overflow: hidden;
+}
+.goods_attr {
+	width: max-content;
+	max-width: 100%;
+	padding: 0 16rpx;
+	margin: 4rpx 0 0 !important;
+	line-height: 40rpx;
+	background: #F2F2F2;
+}
+.goods-num{
+	margin-top: 4rpx;
+}
+.b-radius-6{
+	border-radius: 12rpx;
+}
+.chackout-right{
+	width: 686rpx;
+	height: 82rpx;
+	background: linear-gradient(159deg, #FF9973 0%, #FF7541 100%);
+	box-shadow: inset 0rpx 3rpx 6rpx 1rpx #FFB295;
+	border-radius: 40rpx;
+	text-align: center;
+	line-height: 82rpx;
+	color: white;
+	font-size: 30rpx;
+	margin: 32rpx auto 0;
+}

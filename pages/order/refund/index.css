@@ -1,0 +1,141 @@
+.container {
+  font-size: 28rpx;
+  color: rgb(90, 90, 90);
+}
+.bgf5{min-height: 100%;}
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+
+/* 选项卡 */
+
+.swiper-tab {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 80rpx;
+  background-color: #fff;
+  box-shadow:0px 0px 8rpx 2rpx rgba(222,222,222,0.5);
+  z-index: 3;
+}
+
+.swiper-tab .swiper-tab-item {
+  width: 160rpx;
+  height: 100%;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.swiper-tab .on {
+  color: #FF7541;
+}
+.swiper-tab .on .line {
+  width:80rpx;
+  height:4rpx;
+  background:#FF7541;
+  border-radius:4rpx;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40rpx;
+}
+/* 设置scroll-view容器高度 */
+.listbox{
+  padding: 0 30rpx;
+}
+
+.widget-list, .yoshop-notcont {
+}
+
+/* 数据列表 */
+
+.widget-list {
+  box-sizing: border-box;
+  /* margin-top: 20rpx; */
+}
+
+.widget-detail {
+  padding: 20rpx 20rpx 0;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow:0 0 8rpx 2rpx rgba(222,222,222,0.5);
+  border-radius:8rpx;
+}
+.create_time{
+  color: #000000;
+}
+.row-block .order_no{
+  margin: 20rpx 0;
+}
+.widget-detail .detail-goods {
+  padding: 20rpx 0;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+}
+
+.widget-detail .detail-goods .goods-image {
+  margin-right: 20rpx;
+}
+
+.widget-detail .detail-goods .goods-image image {
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+}
+
+.widget-detail .detail-goods .goods-name {
+  margin-bottom: 10rpx;
+}
+
+.widget-detail .detail-goods .goods-attr {
+  min-height: 32rpx;
+}
+
+.widget-detail .detail-operate {
+  /* padding-top: 10rpx;
+  padding-bottom: 10rpx; */
+}
+
+.widget-detail .detail-operate .detail-btn {
+  height: 44rpx;
+  width: 140rpx;
+  font-size: 24rpx;
+  color: #666666;
+  border-radius:22rpx;
+  border:1rpx solid #666666;
+  text-align: center;
+  line-height: 44rpx;
+}
+
+.widget-detail .detail-order {
+  font-size: 28rpx;
+  height: 84rpx;
+}
+
+.widget-detail .detail-order .item {
+  margin-bottom: 10rpx;
+}
+
+.widget-detail .detail-order .item:last-child {
+  margin-bottom: 0;
+}
+.col-y{
+  color: #F8B14A !important;
+}
+
+/* 店铺信息 */
+.shop_info{
+	line-height: 48rpx;
+}
+.shop_info image{
+	width: 48rpx;
+	height:48rpx;
+	border-radius: 50%;
+}

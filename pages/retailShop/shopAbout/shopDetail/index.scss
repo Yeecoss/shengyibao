@@ -1,0 +1,470 @@
+.retailShop{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    radio{
+        transform:scale(0.7);
+    }
+    .itemTip{
+      position: absolute;
+      bottom: 10rpx;
+      right: 26rpx;
+      width: 28rpx;
+      height: 28rpx;
+    }
+    .titleVip{
+        width: 86rpx;
+        height: 36rpx;
+        margin-left: 10rpx;
+        image{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .m-r10{
+        margin-right: 10rpx;
+    }
+    .retailShopBox{
+        position: relative;
+        padding-bottom: 98rpx;
+        min-height: 100%;
+        .navBox{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+        .pdBox{
+            padding: 0 30rpx;
+        }
+        .m-box{
+            margin-bottom: 30rpx;
+        }
+        .bgBox{
+            position: relative;
+            color: white;
+            .bg{
+                height:446rpx;
+                overflow: hidden;
+                position: relative;
+                image{
+                    width: 100%;
+                }
+                .mask{
+                    background: rgba(0,0,0,.5);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+            .contentBox{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+				bottom: 0;
+                color: white;
+                .shopInfo{
+                    padding: 20rpx 30rpx;
+                    .nameBox{
+                        min-height: 96rpx;
+                        .imgBox{
+                            width: 96rpx;
+                            height: 96rpx;
+                            border-radius: 50rpx;
+                            border: 4rpx solid white;
+                            overflow: hidden;
+                            image{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .empty{
+                            width: 26rpx;
+                        }
+                        .info{
+                            flex: 1;
+                            position: relative;
+                            .infoBox{
+                                width: 100%;
+                            }
+                            .title{
+                                font-size: 30rpx;
+                                font-weight: 600;
+                                position: relative;
+                                padding-right: 100rpx;
+                                .editBox{
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    .iconfont2{
+                                        font-weight: 100;
+                                        margin-left: 10rpx;
+                                        vertical-align: inherit;
+                                    }
+                                }
+                            }
+                            .content{
+                                font-size: 24rpx;
+                                margin-top: 10rpx;
+                                .shopGrade{
+                                    width: 28rpx;
+                                    height: 24rpx;
+                                    margin-left: 10rpx;
+                                }
+                            }
+                        }
+                    }
+                    .dataBox{
+						position: absolute;
+						bottom: 30rpx;
+                        .dataItem{
+                            min-width: 200rpx;
+                            text-align: center;
+                            .num{
+                                font-size: 30rpx;
+                                font-weight: 600;
+                            }
+                            .dataTit{
+                                font-size: 22rpx;
+                                margin-top: 10rpx;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .shopInfo{
+            border-radius:16rpx;
+            font-size: 24rpx;
+            padding: 20rpx;
+            .title{
+                font-size: 30rpx;
+                font-weight: 600;
+                position: relative;
+            }
+            .content{
+                .itemBox{
+                    text-align: center;
+                    margin-top: 30rpx;
+                    width: 25%;
+                    .imgBox{
+                        height: 48rpx;
+                        image{
+                            width: 48rpx;
+                            height: 48rpx;
+                        }
+                    }
+                    .itemName{
+                        margin-top: 20rpx;
+                    }
+                }
+            }
+        }
+        .mr-5{
+            margin-right: 10rpx;
+        }
+        .tabs{
+            height: 80rpx;
+            line-height: 80rpx;
+            text-align: center;
+            .tabsItem{
+                width: 50%;
+                color: #999999;
+                font-size: 30rpx;
+                position: relative;
+                .line{
+                    position: absolute;
+                    width: 88rpx;
+                    height: 4rpx;
+                    background: #FF7541;
+                    left: 50%;
+                    bottom: 0;
+                    margin-left: -44rpx;
+                }
+            }
+            .active{
+                color: #333333;
+            }
+        }
+        .content{
+            .tui-header-box {
+                width: 100%;
+                background: #fff;
+                height: 90rpx;
+                padding-top: 30rpx;
+                .tui-header {
+                    display: flex;
+                    align-items: flex-start;
+                    padding: 0 30rpx;
+                    
+                    .search-input {
+                        flex: 1;
+                    background: #F2F2F2;
+                    border-radius: 30rpx;
+                    padding-left: 26rpx;
+                    box-sizing: border-box;
+                    overflow: hidden;
+                        input {
+                            flex: 1;
+                            font-size: 30rpx;
+                            height: 64rpx;
+                            line-height: 64rpx;
+                            margin-left: 24rpx;
+                        }
+                    }
+                    .tui-top-item {
+                        color: #333;
+                        height: 60rpx;
+                        line-height: 60rpx;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        font-size: 28rpx;
+                        font-size: 30rpx;
+                        .iconfont2{
+                            line-height: 62rpx;
+                        }
+                    }
+                    .tui-top-item1{
+                        width: 120rpx;
+                    }
+                    .tui-top-item2{
+                        width: 100rpx;
+                    }
+                }
+            }
+            .groupBox{
+                padding-left: 30rpx;
+                // .groupTime{
+                // }
+                .groupListBox{
+                    padding: 30rpx 48rpx 10rpx 70rpx;
+                    .list{
+                        padding-bottom: 30rpx;
+                        position: relative;
+                        .checkItem{
+                            position: absolute;
+                            left: -74rpx;
+                            top: 0;
+                            height: 144rpx;
+                            line-height: 140rpx;
+                            font-size: 24rpx;
+                            .clickBox{
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                bottom: 0;
+                                right: 0;
+                            }
+                        }
+                        .w-20{
+                            width: 20rpx;
+                        }
+                        .imgBox{
+                            width:144rpx;
+                            height:144rpx;
+                            border-radius:2px;
+                            overflow: hidden;
+                            image{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .goodsInfo{
+                            flex: 1;
+                            height: 144rpx;
+                            position: relative;
+                            .goodsName{
+                                font-size: 28rpx;
+                                color: #333;
+                            }
+                            .optBox{
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                color: #666666;
+                                font-size: 24rpx;
+                                right: 0;
+                                .opt-m-r{
+                                    margin-right: 30rpx;
+                                }
+                                .updata{
+                                    width: 112rpx;
+                                    text-align: center;
+                                    position: absolute;
+                                    right: 0;
+                                    bottom: 0;
+                                }
+                                .updataActive{
+                                    width: 112rpx;
+                                    height: 44rpx;
+                                    line-height: 44rpx;
+                                    border: 1rpx solid #FF7541;
+                                    color: #FF7541;
+                                    border-radius: 24rpx;
+                                }
+                                .updataDisable{
+                                    width: 112rpx;
+                                    height: 44rpx;
+                                    line-height: 44rpx;
+                                    border: 1rpx solid #eee;
+                                    color: #999;
+                                    border-radius: 24rpx;
+                                }
+                                .but{
+                                    display: inline;
+                                    padding: 0;
+                                    font-size: 12px;
+                                    color: #666666;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .imgListBox{
+                padding: 20rpx 20rpx 20rpx 30rpx;
+				.imgListBox1{
+					display: inline;
+				}
+                .imgList{
+                    .imgItem{
+                        width: 164rpx;
+                        height: 164rpx;
+                        margin-right: 10rpx;
+                        margin-bottom: 10rpx;
+                        border-radius: 10rpx;
+                        overflow: hidden;
+                        position: relative;
+                        image{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .imgNum{
+                            position: absolute;
+                            width: 32rpx;
+                            height: 28rpx;
+                            background: #000000;
+                            border-radius: 4rpx 0px 4rpx 0px;
+                            opacity: 0.7;
+                            right: 0;
+                            bottom: 0;
+                            color: white;
+                            font-size: 24rpx;
+                            text-align: center;
+                            line-height: 28rpx;
+                        }
+                        .checkItem{
+                            position: absolute;
+                            right: 0;
+                            top: 10rpx;
+                            width: 80rpx;
+                            text-align: right;
+                            height: 100rpx;
+                            font-size: 24rpx;
+                            .clickBox{
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                bottom: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 98rpx;
+        background: white;
+        color: #333;
+        font-size: 32rpx;
+        box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+        .footItem{
+            width: 374rpx;
+            height: 98rpx;
+            line-height: 98rpx;
+            text-align: center;
+            &:active{
+                background: #EEEEEE;
+            }
+        }
+        .line{
+            width: 1rpx;
+            height: 48rpx;
+            background: #EEEEEE;
+        }
+        .allCheckBox{
+            position: absolute;
+            top: -100rpx;
+            left: 30rpx;
+            width:690rpx;
+            height:80rpx;
+            border-radius:44px;
+            background:rgba(255,255,255,1);
+            box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+            font-size: 24rpx;
+            .allCheck{
+                padding-left: 30rpx;
+                width: 100rpx;
+                text-align: right;
+                position: relative;
+                .clickBox{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            .selectNum{
+                width: 100%;
+                .selectCheckNum{
+                    min-width:22rpx;
+                    margin-top: -2px;
+                    padding-right: 30rpx;
+                }
+                .selectAllNum{
+                    min-width:88rpx;
+                    height:40rpx;
+                    border-radius:4rpx;
+                    border:1rpx solid rgba(232,46,46,1);
+                    color: #FF7541;
+                    line-height: 42rpx;
+                    .nowNum{
+                        width: 100%;
+                        text-align: right;
+                        padding-left: 20rpx;
+                    }
+                    .iconBox{
+                        width: 48rpx;
+                        height: 100%;
+                        .iconfont2{
+                            margin-right: -4px;
+                        }
+                    }
+                }
+            }
+            .optBox{
+                width: 200rpx;
+                font-size: 30rpx;
+                .optItem{
+                    width: 100rpx;
+                    color: #FF7541;
+                }
+            }
+        }
+    }
+}

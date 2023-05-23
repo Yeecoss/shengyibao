@@ -1,0 +1,47 @@
+.tui-modal-custom{
+	padding-bottom: 40rpx;
+	overflow: hidden;
+	.tui-prompt-title{
+		line-height: 88rpx;
+		border-radius: 20rpx 20rpx 0 0;
+		background: linear-gradient(90deg, #FF3229 0%, #FF684C 100%);
+	}
+	.sure-btn{
+		width: 400rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		border-radius: 100rpx;
+		text-align: center;
+		font-size: 32rpx;
+		color: #fff;
+		margin: 0 auto;
+		background: #FF3229;
+	}
+}
+.rule-main-wrap{
+	
+}
+.rule-main{
+	width: inherit;
+	max-height: 600rpx;
+	margin: 40rpx 20rpx;
+	box-sizing: border-box;
+	.rule-item{
+		margin-bottom: 20rpx;
+		color: #2A2A30;
+		.rule-index{
+			width: 32rpx;
+			height: 32rpx;
+			line-height: 32rpx;
+			margin-right: 8rpx;
+			margin-top: 8rpx;
+			text-align: center;
+			border-radius: 50%;
+			background: linear-gradient(90deg, #FF3229 0%, #FF684C 100%);
+			overflow: hidden;
+		}
+		.rule{
+			line-height: 48rpx;
+		}
+	}
+}

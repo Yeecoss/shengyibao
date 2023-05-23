@@ -1,0 +1,173 @@
+.nav{
+    border-bottom: 1rpx solid #F5F5F5;
+}
+.qrcode{
+    height: 100%;
+    overflow-y: auto;
+	background: white;
+    .container{
+        padding: 0 30rpx;
+        .heard{
+            height: 112rpx;
+			border-bottom: 1rpx solid #F5F5F5;
+        }
+    }
+	.popupBox{
+		background: white;
+		.bottomTitle{
+			height: 92rpx;
+			line-height: 92rpx;
+			position: relative;
+			text-align: center;
+			color: #333;
+			background: white;
+			.closeBox{
+				position: absolute;
+				right: 36rpx;
+				top: 30rpx;
+				width: 30rpx;
+				height: 30rpx;
+				line-height: 30rpx;
+				.iconfont2{
+					color: #999;
+					font-size: 36rpx;
+				}
+			}
+		}
+		.selectBox{
+			height: 88rpx;
+			.selectItem{
+				width: 240rpx;
+				color: #333;
+				font-size: 28rpx;
+			}
+			.checkbox-wrap0{
+				height: 32rpx;
+				line-height: 32rpx;
+			}
+			.checkbox{
+				width: 32rpx;
+				height: 32rpx;
+				border: 1rpx solid #999999;
+				border-radius: 50% ;
+				line-height: 32rpx;
+				margin-right: 10rpx;
+				&.on{
+					background-color: $red;
+					border-color: $red;
+				}
+			}
+		}
+		.qrcodeBox{
+			border-radius: 20rpx;
+			.imgBox{
+				padding: 58rpx 0;
+				.qrcodeImgBox{
+					width: 500rpx;
+					height: 500rpx;
+					margin: 0 auto;
+					position: relative;
+					.botIcon{
+						width:64rpx;
+						height:44rpx;
+						background:rgba(232,46,46,1);
+						border-radius:16rpx 0px 0px 0px;
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						color: white;
+						text-align: center;
+						line-height: 40rpx;
+						.iconfont2{
+							font-size: 30rpx;
+						}
+					}
+				}
+				image{
+					width: 500rpx;
+					height: 500rpx;
+				}
+				.checkImg{
+					width: 480rpx;
+					height: 304rpx;
+					background: rgba(238,238,238, .5);
+					text-align: center;
+					padding-top: 176rpx;
+					margin: 0 auto;
+					.iconfont2{
+						font-size: 90rpx;
+						color: #CCCCCC;
+					}
+					.checkImgText{
+						font-size: 32rpx;
+						color: #CCCCCC;
+						margin-top: 22rpx;
+					}
+				}
+			}
+			.logoBox{
+				width: 460rpx;
+				margin: 16rpx auto;
+				position: relative;
+				text-align: center;
+				.leftLine, .rightLine{
+					position: absolute;
+					top: 50%;
+					width: 142rpx;
+					height: 1rpx;
+					background: #DEDEDE;
+				}
+				.leftLine{
+					left: 0;
+				}
+				.rightLine{
+					right: 0;
+				}
+				image{
+					width: 124rpx;
+					height: 40rpx;
+				}
+			}
+			.showText{
+				color: #5AAE3A;
+				margin-bottom: 40rpx;
+			}
+		}
+		.footer{
+			margin-bottom: 10rpx;
+			padding: 20rpx 0;
+			button{
+				width:690rpx;
+				height:80rpx;
+				line-height: 80rpx;
+				font-size: 32rpx;
+				background:rgba(232,46,46,1);
+				box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+				border-radius:40rpx;
+				color: white;
+			}
+		}
+		.footerBox{
+			width:688rpx;
+			height: 80rpx;
+			padding: 20rpx 0;
+			margin: 0 auto;
+			margin-bottom: 10rpx;
+			text-align: center;
+			line-height: 80rpx;
+			color: white;
+			.but1{
+				width: 344rpx;
+				height: 80rpx;
+				background: #5AAE3A;
+				border-radius: 20px 0px 0px 20px;
+			}
+			.but2{
+				width: 344rpx;
+				height: 80rpx;
+				background: #1778FE;
+				border-radius: 0px 20px 20px 0px;
+			}
+		}
+	}
+}

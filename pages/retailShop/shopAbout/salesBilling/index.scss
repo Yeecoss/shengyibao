@@ -1,0 +1,167 @@
+.salesBilling{
+    background: #F5F5F5;
+    height: 100%;
+    .search-input-box {
+        height: 60rpx;
+        padding: 14rpx 30rpx;
+        background: white;
+        margin-bottom: 20rpx;
+        .search-input {
+          width: 100%;
+          background: #F2F2F2;
+          border-radius: 30rpx;
+          padding-left: 26rpx;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+        
+        .search-input input {
+            flex: 1;
+          font-size: 30rpx;
+          height: 64rpx;
+          line-height: 64rpx;
+            margin-left: 24rpx;
+        }
+        
+        .serch-button {
+          width: 20%;
+          box-sizing: border-box;
+        }
+        
+        .serch-button button {
+          line-height: 64rpx;
+          height: 64rpx;
+          font-size: 28rpx;
+          border-radius: 0 5px 5px 0;
+        }
+    }
+    .listBox{
+        .listItem{
+            background: white;
+            height: 142rpx;
+            padding: 0 30rpx;
+            position: relative;
+            margin-bottom: 20rpx;
+            overflow: hidden;
+            .topBox{
+                height: 72rpx;
+                .orderNum{
+                    color: #333333;
+                    font-size: 30rpx;
+                    font-weight: 500;
+                    .iconfont2{
+                        font-size: 30rpx;
+                        margin-right: 10rpx;
+                    }
+                }
+                .money{
+                    color: #333;
+                    font-size: 30rpx;
+                    .done-btn{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 28rpx;
+                        height: 28rpx;
+                        margin-left: 10rpx;
+                        border-radius: 4rpx;
+                        border: 2rpx solid #999;
+                        overflow: hidden;
+                        text{display: none;}
+                    }
+                    .done-btn1{
+                        border: 2rpx solid #999;
+                        border-color: #F8B14A;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 28rpx;
+                        height: 28rpx;
+                        margin-left: 10rpx;
+                        border-radius: 4rpx;
+                        overflow: hidden;
+                        .iconfont2{
+                            color: #F8B14A;
+                        }
+                    }
+                }
+                .time{
+                    color: #333;
+                    font-size: 28rpx;
+                }
+            }
+            .midLine{
+                border-bottom: 1rpx solid #DEDEDE;
+            }
+            .botBox{
+                height: 68rpx;
+                position: relative;
+                z-index: 2;
+                .phone{
+                    color: #333;
+                    font-size: 28rpx;
+                }
+                .goodsNum{
+                    color: #333;
+                    font-size: 28rpx;
+                }
+            }
+            .mark{
+                width: 100rpx;
+                height: 100rpx;
+                display: inline-block;
+                border-radius: 50%;
+                border: 8rpx solid #e1e1e1;
+                font-size: 22rpx;
+                position: absolute;
+                left: 354rpx;
+                bottom: -30rpx;
+                transform:rotate(-26deg);
+                -webkit-transform:rotate(-26deg);
+                -moz-transform:rotate(-26deg);
+                z-index: 1;
+                .mark-b{
+                    width: 88rpx;
+                    height: 88rpx;
+                    line-height: 88rpx;
+                    border-radius: 50%;
+                    display: inline-block;
+                    border: 2rpx solid  #e1e1e1;
+                    text-align: center;
+                    color: #e1e1e1;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-top: -46rpx;
+                    margin-left: -46rpx;
+                }
+            }
+        }
+    }
+    .butBox{
+        height: 99rpx;
+        background: white;
+        border-top: 1rpx solid #DEDEDE;
+        .submit, .submit1{
+            margin: 0 auto;
+            width: 324rpx;
+            height: 72rpx;
+            line-height: 72rpx;
+            border-radius: 36rpx;
+            text-align: center;
+            color: white;
+            font-size: 32rpx;
+        }
+        .submit{
+            background: #FF7541;
+            box-shadow: 0px 0px 16rpx 2rpx rgba(222, 222, 222, 0.5);
+            .iconfont2{
+                margin-right: 10rpx;
+            }
+        }
+        .submit1{
+            background: #F7B500;
+        }
+    }
+}
+  

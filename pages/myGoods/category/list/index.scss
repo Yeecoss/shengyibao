@@ -1,0 +1,111 @@
+
+/* 搜索框 */
+.search-input-box {
+  height: 60rpx;
+	overflow: hidden;
+}
+.search-input {
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 30rpx;
+  padding: 0 26rpx;
+	text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+	text{
+		margin-right: 24rpx;
+	}
+}
+.search-input input {
+	flex: 1;
+  font-size: 24rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+// 列表
+.tui-list-cell.title, .my_cate .title{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	line-height: 110rpx;
+	height: 110rpx;
+	overflow: hidden;
+}
+.tui-list-cell::after{
+	display: none;
+}
+.tui-list-cell .title2,.tui-list-cell .title3{
+	text{
+		margin-right: 10rpx;
+		font-size: 16rpx;
+	}
+	&.checked{color: $red;}
+}
+.tui-list-cell	.title2{
+	padding-left: 10rpx;
+}
+.tui-list-cell	.title3{
+	padding-left: 20rpx;
+}
+.add-category{
+	color: $red;
+	line-height: 88rpx;
+	padding-left: 50rpx;
+	text{
+		margin-right: 10rpx;
+	}
+}
+// footer
+.foot-wrap,.foot{
+	height: 100rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	border-top: 1rpx solid #DEDEDE;
+	box-sizing: border-box;
+}
+.foot-btn{
+	line-height:72rpx;
+	border-radius: 20px;
+	text-align: center;
+	color: $red;
+	font-weight:500;
+	background-color: #FEEFEF;
+	letter-spacing: 0.05em;
+	overflow: hidden;
+	transition: all 0.2s;
+	&.active{
+		background: $red;
+		color: #fff;
+	}
+}
+// 我的分类
+.my_cate_item{
+	min-width: 112rpx;
+	padding: 0 24rpx;
+	margin-right: 10rpx;
+	margin-bottom: 20rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	text-align: center;
+	background:#F6F6F6;
+	border-radius:26rpx;
+	overflow: hidden;
+	&.checked{
+		color: #fff;
+		background-color: $red;
+	}
+}
+.my_cate_btn{
+	width: 50rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	text-align: center;
+	border-radius:50%;
+	background:#F6F6F6;
+	overflow: hidden;
+	text{font-size: 40rpx;color: #C2C2C2;}
+}

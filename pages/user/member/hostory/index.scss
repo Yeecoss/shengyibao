@@ -1,0 +1,38 @@
+.apply{
+    height: 100%;
+    .userBox{
+        padding: 0 30rpx;
+        .userItem{
+            width:690rpx;
+            height:106rpx;
+            border-bottom: 1rpx solid #DEDEDE;
+            padding-top: 40rpx;
+            .imgBox{
+                width:88rpx;
+                height:88rpx;
+                border-radius: 44rpx;
+                overflow: hidden;
+                .img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info{
+                .name{
+                    color: #333333;
+                    font-size: 30rpx;
+                    font-weight: 600;
+                }
+            }
+            .time{
+                color: #666666;
+                font-size: 24rpx;
+                margin-top: 10rpx;
+            }
+            .num{
+                color: #FF7541;
+                font-size: 28rpx;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.exchange{
+    height: 100%;
+    background: #F5F5F5;
+    .container{
+        margin-top: 20rpx;
+        padding-bottom: 20rpx;
+        background: white;
+		.logoBox{
+			padding-bottom: 20rpx;
+			text-align: center;
+			background: #F5F5F5;
+			font-size: 28rpx;
+			color: #2A2A30;
+			.logo{
+				background: white;
+				padding: 30rpx 0;
+				image{
+					height: 220rpx;
+				}
+			}
+		}
+        .inputBox{
+            padding: 20rpx 30rpx 0;
+            input{
+                height:80rpx;
+                background:rgba(245,245,245,1);
+                border-radius:8rpx;
+                padding:0 20rpx;
+            }
+            .inputPlaceholder{
+                font-size: 26rpx;
+            }
+        }
+        .bindUserBox{
+            padding: 0 30rpx;
+            .bindUser{
+                color: #F8B14A;
+                text-decoration:underline;
+                font-size: 24rpx;
+            }
+        }
+        .butBox{
+            padding: 40rpx 30rpx;
+            .but{
+                height: 80rpx;
+                line-height: 80rpx;
+                background:rgba(232,46,46,1);
+                border-radius:40rpx;
+                text-align: center;
+                color: white;
+                font-size: 36rpx;
+            }
+        }
+        .tipsBox{
+            padding: 0 30rpx;
+            line-height: 44rpx;
+            .title{
+                color: #333333;
+                font-size: 26rpx;
+            }
+            .content{
+                color: #999;
+                font-size: 24rpx;
+            }
+        }
+    }
+}

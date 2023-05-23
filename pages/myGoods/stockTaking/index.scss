@@ -1,0 +1,86 @@
+view,text{
+	box-sizing: border-box;
+}
+.m-r-60{margin-right: 60rpx;}
+.tui-tabs-wrap{
+	height: 80rpx;
+}
+// footer
+.footer,.foot{
+	height: 100rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+.m-r-60{
+	margin-right: 94rpx;
+}
+.foot-btn{
+	line-height:76rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	width: 280rpx;
+	text{
+		margin-right: 10rpx;
+	}
+}
+.bgY{
+	background: #F8B14A;
+}
+// 列表
+.list-item{
+	position: relative;
+	overflow: hidden;
+}
+.list-top{
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1rpx solid #DEDEDE;
+}
+.list-top-i{
+	line-height: 28rpx;
+	border-right: 1rpx solid #DEDEDE;
+	padding-right: 28rpx;
+	margin-right: 28rpx;
+	&:last-child{
+		margin-right: 0;
+		border-right:0
+	}
+}
+.list-i-main{
+	overflow: hidden;
+	line-height: 88rpx;
+}
+.refund_end{
+	position: absolute;
+	right: 30rpx;
+	top: 70rpx;
+	width: 130rpx;
+	height: 130rpx;
+	padding: 10rpx;
+	font-size: 24rpx;
+	font-weight:600;
+	color: #DEDEDE;
+	border-radius: 50%;
+	transform: rotate(-30deg) scale(0.85);
+	border: 6rpx solid #DEDEDE;
+	background: #fff;
+	box-sizing: border-box;
+}
+.refund_end view{
+	width: 100%;
+	height: 100%;
+	border: 1rpx solid #DEDEDE;
+	background: #FCFCFC;
+	border-radius: 50%;
+	box-sizing: border-box;
+}

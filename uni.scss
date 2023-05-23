@@ -1,0 +1,25 @@
+/* v2.0 */
+$red: #FB1A1E;
+uni-page-body, page,.min-h100{height: 100%;}
+.min_h_100{min-height: 100%;}
+.app-red{color: $red;}
+.app-color{color: #FF7541;}
+.bgf3{background-color: #F3F3F3;}
+.bgf5{background-color: #F5F5F5;}
+.bgf7{background-color: #F7F7F7;}
+.bgf{background-color: #fff;}
+// 默认模板底部菜单主题色
+:root,page{
+	--color:#FF7541;
+	--storeColor: #FF7541;//商城模板主题色
+}
+// 模板2小商店
+$red2: #F27257;
+.app-red2{color: $red2;}
+// 模板4运动
+$theme4Gray: #828393;
+$theme4Color: #000;
+$theme4Red: #CB0133;
+.theme4_gray{color: $theme4Gray;}
+.theme4_red{color: $theme4Red;}
+.theme4_color{color: $theme4Color;}

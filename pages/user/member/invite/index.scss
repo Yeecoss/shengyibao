@@ -1,0 +1,246 @@
+.invite{
+    height: 100%;
+    overflow-y: auto;
+    background:linear-gradient(180deg,rgba(218,237,255,1) 0%,rgba(59,160,254,1) 100%);
+    .container{
+        padding-bottom: 60rpx;
+        .imgBox{
+            width: 100%;
+            height: 480rpx;
+            image{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .progressBox{
+            padding: 0 30rpx;
+            .progress{
+                height: 200rpx;
+                background: white;
+                border: 10rpx solid #C8E6FF;
+                border-radius: 40rpx;
+                padding: 0 46rpx;
+                .progressBg{
+                    height:40rpx;
+                    background:rgba(200,230,255,1);
+                    border-radius:20rpx;
+                    margin-top: 86rpx;
+                    padding: 0 64rpx;
+                    position: relative;
+                    .activeBg{
+                        width: 0;
+                        height: 40rpx;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background: #6EAFEA;
+                        border-radius:20rpx;
+                        .topTipsBox{
+                            position: absolute;
+                            top: -76rpx;
+                            right: -76rpx;
+                            width: 160rpx;
+                            text-align: center;
+                            .topTips{
+                                margin: 0 auto;
+                                display: inline-block;
+                                white-space:nowrap;
+                                color: white;
+                                background: #F8B14A;
+                                height:44rpx;
+                                border-radius:8rpx;
+                                text-align: center;
+                                line-height: 44rpx;
+                                font-size: 24rpx;
+                                padding: 0 12rpx ;
+                                position: relative;
+                                .triangle{
+                                    width:0;
+                                    height:0;
+                                    border-right:8rpx solid transparent;
+                                    border-left:8rpx solid transparent;
+                                    border-top:8rpx solid #F8B14A;
+                                    position: absolute;
+                                    bottom: -8rpx;
+                                    left: 50%;
+                                    margin-left: -8rpx;
+                                }
+                            }
+                        }
+                    }
+                    .progressList{
+                        height: 100%;
+                        width: 100%;
+                        .progressItem{
+                            width:22rpx;
+                            height:22rpx;
+                            background:rgba(255,255,255,1);
+                            border-radius: 50%;
+                            position: relative;
+                            .bottomTips{
+                                position: absolute;
+                                bottom: -60rpx;
+                                left: -59rpx;
+                                width: 140rpx;
+                                display: inline-block;
+                                color: #999999;
+                                font-size: 26rpx;
+                                text-align: center;
+                            }
+                        }
+                        .progressItemActive{
+                            background:#FBB630;
+                            border: 4rpx solid #6EAFEA;
+                        }
+                    }
+                }
+            }
+        }
+        .butBox{
+            margin-top: 30rpx;
+            padding: 0 30rpx;
+            .but{
+                height: 112rpx;
+                line-height: 112rpx;
+                color: white;
+                text-align: center;
+                font-size: 36rpx;
+                // background: #FBB630;
+                // box-shadow:0px 0px 16rpx 0px rgba(68,154,234,0.5);
+                border-radius:40rpx;
+                background-image: url('https://pic.kaidanxia.com/2020-09-03/20200903102747641f36942.png');
+                background-size: 100%;
+            }
+        }
+        .tipsBox{
+            margin-top: 60rpx;
+            padding: 0 30rpx;
+            .tips{
+                padding: 0 20rpx 60rpx;
+                // height:672rpx;
+                background:rgba(255,255,255,1);
+                border-radius:12rpx;
+                border:12rpx solid rgba(200,230,255,1);
+                position: relative;
+                .tipTitle{
+                    color: #2D85D7;
+                    font-size: 32rpx;
+                    margin-top: 34rpx;
+                }
+                .content{
+                    margin-top: 18rpx;
+                    >div{
+                        line-height: 46rpx;
+                        font-size: 26rpx;
+                        color: #31424C;
+                        .mainText{
+                            color: #FF7541;
+                            border-bottom: 6rpx solid #FFC30D;
+                        }
+                        @keyframes rainbow {
+                            0% {
+                                transform:rotate(0);
+                                -ms-transform:rotate(0); 	/* IE 9 */
+                                -moz-transform:rotate(0); 	/* Firefox */
+                                -webkit-transform:rotate(0); /* Safari 和 Chrome */
+                                -o-transform:rotate(0); 	/* Opera */
+                            }
+                            1% {
+                                transform:rotate(15deg);
+                                -ms-transform:rotate(15deg); 	/* IE 9 */
+                                -moz-transform:rotate(15deg); 	/* Firefox */
+                                -webkit-transform:rotate(15deg); /* Safari 和 Chrome */
+                                -o-transform:rotate(15deg); 	/* Opera */
+                            }
+                            2%{
+                                transform:rotate(0);
+                                -ms-transform:rotate(0); 	/* IE 9 */
+                                -moz-transform:rotate(0); 	/* Firefox */
+                                -webkit-transform:rotate(0); /* Safari 和 Chrome */
+                                -o-transform:rotate(0); 	/* Opera */
+                            }
+                            3%{
+                                transform:rotate(-15deg);
+                                -ms-transform:rotate(-15deg); 	/* IE 9 */
+                                -moz-transform:rotate(-15deg); 	/* Firefox */
+                                -webkit-transform:rotate(-15deg); /* Safari 和 Chrome */
+                                -o-transform:rotate(-15deg); 	/* Opera */
+                            }
+                            4%{
+                                transform:rotate(0);
+                                -ms-transform:rotate(0); 	/* IE 9 */
+                                -moz-transform:rotate(0); 	/* Firefox */
+                                -webkit-transform:rotate(0); /* Safari 和 Chrome */
+                                -o-transform:rotate(0); 	/* Opera */
+                            }
+                            5% {
+                                transform:rotate(15deg);
+                                -ms-transform:rotate(15deg); 	/* IE 9 */
+                                -moz-transform:rotate(15deg); 	/* Firefox */
+                                -webkit-transform:rotate(15deg); /* Safari 和 Chrome */
+                                -o-transform:rotate(15deg); 	/* Opera */
+                            }
+                            6%{
+                                transform:rotate(0);
+                                -ms-transform:rotate(0); 	/* IE 9 */
+                                -moz-transform:rotate(0); 	/* Firefox */
+                                -webkit-transform:rotate(0); /* Safari 和 Chrome */
+                                -o-transform:rotate(0); 	/* Opera */
+                            }
+                            7%{
+                                transform:rotate(-15deg);
+                                -ms-transform:rotate(-15deg); 	/* IE 9 */
+                                -moz-transform:rotate(-15deg); 	/* Firefox */
+                                -webkit-transform:rotate(-15deg); /* Safari 和 Chrome */
+                                -o-transform:rotate(-15deg); 	/* Opera */
+                            }
+                            8%{
+                                transform:rotate(0);
+                                -ms-transform:rotate(0); 	/* IE 9 */
+                                -moz-transform:rotate(0); 	/* Firefox */
+                                -webkit-transform:rotate(0); /* Safari 和 Chrome */
+                                -o-transform:rotate(0); 	/* Opera */
+                            }
+                        }
+                        .money{
+                            width: 38rpx;
+                            height: 48rpx;
+                            position: relative;
+                            top: 20rpx;
+                            margin-left: 10rpx;
+                            animation: 10s rainbow ease infinite normal;
+                        }
+                        .toInviteBox{
+                            height: 40rpx;
+                            display: inline-block;
+                            .toInvite{
+                                width: 116rpx;
+                                height: 40rpx;
+                                line-height: 40rpx;
+                                background-image: url('https://pic.kaidanxia.com/2020-09-03/2020090311035719b5a4546.png');
+                                background-size: 100%;
+                                color: #FF7541;
+                                font-size: 24rpx;
+                                text-align: center;
+                                display: inline-block;
+                                margin-left: 30rpx;
+                            }
+                        }
+                    }
+                    .colBlue{
+                        margin-top: 20rpx;
+                        color: #2D85D7;
+                    }
+                }
+                .foot{
+                    width: 160rpx;
+                    height: 132rpx;
+                    position: absolute;
+                    right: 48rpx;
+                    bottom: 0rpx;
+                    opacity: 0.3;
+                }
+            }
+        }
+    }
+}

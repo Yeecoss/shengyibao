@@ -1,0 +1,49 @@
+.tui-modal-custom{
+	padding-bottom: 40rpx;
+	overflow: hidden;
+	.tui-prompt-title{
+		line-height: 88rpx;
+		border-radius: 20rpx 20rpx 0 0;
+		background: linear-gradient(90deg, #FF3229 0%, #FF684C 100%);
+	}
+	.sure-btn{
+		width: 400rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		border-radius: 100rpx;
+		text-align: center;
+		font-size: 32rpx;
+		color: #fff;
+		margin: 0 auto;
+		background: #FF3229;
+	}
+}
+.times-main{
+	width: inherit;
+	max-height: 600rpx;
+	margin: 20rpx 20rpx 48rpx;
+	border: 1rpx solid #E8E9EE;
+	overflow: hidden;
+	box-sizing: border-box;
+	.times-item{
+		color: #2A2A30;
+		line-height: 64rpx;
+		border-bottom: 1rpx solid #E8E9EE;
+		&:last-child{border-bottom: 0;}
+		&.gray-item{color: #828393;}
+		view{
+			width: 33.33%;
+			overflow: hidden;
+			&.red-item{color: #FF3229;}
+		}
+	}
+}
+.times-date{
+	visibility: hidden;
+	&.on{visibility: visible;}
+}
+.status{
+	text-align: left;
+	padding-left: 26px;
+	box-sizing: border-box;
+}

@@ -1,0 +1,131 @@
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view{
+	box-sizing: border-box;
+}
+// top
+.top-wrap{
+	height: 178rpx;
+}
+.top-wrap,.top{
+	width: 100%;
+}
+.top{
+	position: fixed;
+	left: 0;
+	z-index: 2;
+}
+.search{
+	padding: 14rpx 30rpx;
+}
+.tab-wrap{
+	height: 88rpx;
+	line-height: 88rpx;
+	border-top: 1rpx solid #F5F5F5;
+	overflow: hidden;
+}
+.tab-items view{
+	margin-right: 60rpx;
+}
+// main
+.h_div20{
+	height: 20rpx;
+}
+.main{
+	padding: 30rpx 30rpx 36rpx;
+}
+// 底部操作栏
+.operation-wrap,.material-operation{
+	width: 100%;
+	height: 88rpx;
+}
+.material-operation{
+	padding: 0 40rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0 0 16rpx 2rpx rgba(222, 222, 222, 0.5);
+	box-sizing: border-box;
+	z-index: 9;
+	.m-l-50{
+		margin-left: 50rpx;
+	}
+}
+.selectNum{
+	width: 100%;
+	line-height: 40rpx;
+	.selectCheckNum{
+		min-width:22rpx;
+		margin-top: -2px;
+		padding-right: 30rpx;
+	}
+	.selectAllNum{
+			min-width:88rpx;
+			height:40rpx;
+			line-height:40rpx;
+			border-radius:4rpx;
+			border:1rpx solid $red;
+			color: $red;
+			overflow: hidden;
+			.nowNum{
+				width: 100%;
+				text-align: right;
+				padding-left: 20rpx;
+			}
+			.iconBox{
+				width: 48rpx;
+				height:40rpx;
+				line-height:40rpx;
+				.iconfont2{
+					margin-right: -4px;
+				}
+			}
+	}
+}
+.fot-add{
+	line-height: 44rpx;
+	letter-spacing: 0.05em;
+	color: $red;
+	padding: 0 24rpx;
+	border-radius: 22rpx;
+	border: 1rpx solid $red;
+}
+/* footer */
+.footer,.foot{
+	height: 120rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+.foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+// 展开按钮
+.expand-btn{
+	position: fixed;
+	right: 66rpx;
+	bottom: 240rpx;
+	width: 96rpx;
+	height: 96rpx;
+	line-height: 96rpx;
+	border-radius: 50%;
+	background: linear-gradient(180deg, #F55B5B 0%, #FF7541 100%);
+	box-shadow: 0 4rpx 16rpx 0 rgba(232, 46, 46, 0.4);
+	overflow: hidden;
+	z-index: 2;
+}

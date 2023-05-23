@@ -1,0 +1,56 @@
+.login{
+	height: 150rpx;
+	background: white;
+	padding: 0 30rpx;
+}
+.login2{
+	height: 170rpx;
+	background: white;
+	padding: 0 30rpx;
+  .poptitle{
+      font-size: 32rpx;
+      line-height: 60rpx;
+	  height: 60rpx;
+      color: #333333;
+	  font-weight: 600;
+	  margin-top: 14rpx;
+  }
+}
+.infoBox{
+	text-align: center;
+	padding: 32rpx 0;
+	.avatar-wrapper{
+		width: 156rpx;
+		height: 100rpx;
+		margin-bottom: 30rpx;
+		.avatar{
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+		}
+	}
+	.nickNameBox{
+		width: 300rpx;
+		margin: 0 auto;
+        border-top: 1rpx solid #eee;
+        border-bottom: 1rpx solid #eee;
+		padding: 10rpx 0;
+		font-size: 28rpx;
+		.weui-input{
+			width: 200rpx;
+		}
+	}
+}
+.btn-normal1{
+	margin-top: 10rpx;
+}
+.btn-normal{
+	height: 80rpx;
+	line-height: 80rpx;
+	background: #19AD19;
+	color: #fff;
+	font-size: 32rpx;
+	border-radius: 8rpx;
+	text-align: center;
+	width: 100%;
+}

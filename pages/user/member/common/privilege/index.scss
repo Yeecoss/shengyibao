@@ -1,0 +1,71 @@
+.cardBox{
+    padding-top: 60rpx;
+    .card{
+        .content{
+            padding-top: 28rpx;
+            .item{
+                width: 96rpx;
+                height: 118rpx;
+                text-align: center;
+                .imgBox{
+                    width: 76rpx;
+                    height: 76rpx;
+                    border-radius: 50%;
+                    line-height: 76rpx;
+                    background: #EEEEEE;
+                    margin: 0 auto;
+                    .iconfont2{
+                        font-size: 36rpx;
+                        color: #BDB9BC;
+                    }
+                }
+                .name{
+                    font-size: 24rpx;
+                    margin-top: 20rpx;
+                    color: #B7B7B7;
+                }
+            }
+        }
+        .content1{
+            .checkItem{
+                .imgBox{
+                    background:linear-gradient(298deg,rgba(186,182,185,1) 0%,rgba(236,236,236,1) 100%);
+                    .iconfont2{
+                        color: white;
+                    }
+                }
+                .name{
+                    color: #666666;
+                }
+            }
+        }
+        .content2{
+            .checkItem{
+                .imgBox{
+                    background:linear-gradient(298deg,rgba(232,46,46,1) 0%,rgba(253,133,133,1) 100%);
+                    box-shadow:0px 2rpx 0px 0px rgba(255,227,193,1);
+                    .iconfont2{
+                        color: white;
+                    }
+                }
+                .name{
+                    color: #666666;
+                }
+            }
+        }
+        .content3{
+            .checkItem{
+                .imgBox{
+                    background:linear-gradient(298deg,rgba(235,159,58,1) 0%,rgba(253,236,190,1) 100%);
+                    box-shadow:0px 2rpx 0px 0px rgba(255,240,221,1);
+                    .iconfont2{
+                        color: white;
+                    }
+                }
+                .name{
+                    color: #666666;
+                }
+            }
+        }
+    }
+}

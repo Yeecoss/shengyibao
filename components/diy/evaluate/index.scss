@@ -1,0 +1,158 @@
+.diy-evaluate{
+	width: 686rpx;
+	margin: 32rpx auto 0;
+	position: relative;
+	.heardFix{
+		// height: 282rpx;
+		.heardBox{
+			// position: fixed;
+			// z-index: 12;
+		}
+	}
+	.score{
+		height: 66rpx;
+		font-size: 30rpx;
+		color: #FF7541;
+		.scoreNum{
+			font-size: 52rpx;
+		}
+		.scorePeople{
+			color: #999999;
+			font-size: 26rpx;
+			margin-left: 20rpx;
+		}
+	}
+	.scoreLine{
+		width: 1rpx;
+		height: 60rpx;
+		background: #F0F0F0;
+	}
+	.scoreList{
+		.scoreItem:first-child{
+			margin-left: 0;
+		}
+		.scoreItem{
+			margin-left: 40rpx;
+			font-size: 26rpx;
+			line-height: 26rpx;
+			.name{
+				color: #333333;
+			}
+			.scoreNum{
+				margin-top: 10rpx;
+				color: #FF7541;
+				text-align: center;
+			}
+		}
+	}
+	.tabBoxFix{
+		height: 106rpx;
+		.tabBox{
+			z-index: 12;
+			background: white;
+			padding-top: 36rpx;
+			font-size: 24rpx;
+			color: #999999;
+			flex-flow: wrap;
+			border-bottom: 1rpx solid #F0F0F0;
+			padding-bottom: 26rpx;
+			.tabItem{
+				height: 44rpx;
+				line-height: 44rpx;
+				background: #F0F0F0;
+				border-radius: 22rpx;
+				padding: 0 10rpx;
+				margin-right: 20rpx;
+				margin-bottom: 20rpx;
+			}
+			.active{
+				background: linear-gradient(139deg, #FF9973 0%, #FF7541 100%);
+				color: white;
+			}
+		}
+		.tabBoxTop{
+			position: fixed;
+			left: 0;
+			right: 0;
+			padding-left: 32rpx;
+			padding-right: 32rpx;
+		}
+	}
+	.commentBox{
+		.yoshop-notcont{
+			position: static;
+			margin-top: 0rpx;
+		}
+		.listBottom{
+			text-align: center;
+			height: 54rpx;
+			margin-top: 40rpx;
+		}
+		
+		/* 评论列表 */
+		
+		.goods-comment-box {
+			padding: 30rpx 0 0;
+			box-sizing: border-box;
+			position: relative;
+			.comment-score{
+				line-height: 56rpx;
+				color: #FF7541;
+				font-size: 40rpx;
+			}
+			.line{
+				padding-bottom: 30rpx;
+			}
+			  
+			.row {
+				width: 100%;
+			}
+			.goods-comment-cont{
+				line-height: 38rpx;
+			}
+			.user_avatar {
+				width: 64rpx;
+				height: 64rpx;
+				border-radius: 50%;
+				margin-right: 24rpx;
+			}
+			  
+			.comment-images {
+				width: 100%;
+				margin-top: 16rpx;
+			}
+			  
+			.comment-images::after {
+				clear: both;
+				content: " ";
+				display: table;
+			}
+			  
+			.comment-images .image-preview {
+				float: left;
+				margin-bottom: 22rpx;
+				margin-right: 22rpx;
+			}
+			  
+			.comment-images .image-preview:nth-child(3n+0) {
+				margin-right: 0;
+			}
+			  
+			.comment-images .image-preview image {
+				display: block;
+				width: 214rpx;
+				height: 214rpx;
+				border-radius: 16rpx;
+			}
+		}
+	}
+
+
+	/* 没有更多 */
+
+	.no-more {
+	  text-align: center;
+	  color: #737373;
+	  padding: 10px 0;
+	}
+}

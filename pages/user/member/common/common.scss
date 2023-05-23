@@ -1,0 +1,19 @@
+.cardBox{
+    .card{
+        padding: 0 20rpx 0 30rpx;
+        .titleBox{
+            .title{
+                color: #333;
+                font-size: 30rpx;
+                font-weight: 600;
+            }
+            .tips{
+                font-size: 24rpx;
+                color: #999999;
+                .iconfont2{
+                    font-size: 24rpx;
+                }
+            }
+        }
+    }
+}

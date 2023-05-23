@@ -1,0 +1,30 @@
+
+
+
+.top-nav-bar {
+    padding: 20rpx 0;
+}
+.likes-item{
+	width: 220rpx;
+	margin-right: 14rpx;
+	&:nth-child(3n){margin-right: 0;}
+}
+.likes-pic{
+	height: 220rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+	image{
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+}
+.mgoods_detail{
+	padding: 10rpx 0 20rpx;
+}
+.mgoods_name{
+	height: 76rpx;
+}
+.mgoods_price{
+	color: var(--storeColor);
+}

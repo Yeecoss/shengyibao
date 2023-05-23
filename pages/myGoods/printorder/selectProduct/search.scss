@@ -1,0 +1,128 @@
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 搜索框 */
+.search-input-box {
+  height: 60rpx;
+}
+
+.search-input {
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 30rpx;
+  padding: 0 26rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+	text{
+		margin-right: 24rpx;
+	}
+}
+
+.search-input input {
+	flex: 1;
+  font-size: 24rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+// 历史搜索
+.recentSearch{
+	margin-top: 30rpx;
+}
+
+.sale-button-box{
+	overflow: hidden;
+	.seconds-kill-li{
+		float: left;
+		margin-top: 20rpx;
+		margin-right: 10rpx;
+		padding: 0 24rpx;
+		height: 50rpx;
+		line-height: 50rpx;
+		font-size: 22rpx;
+		color: #666;
+		border-radius: 26rpx;
+		background-color: #F6F6F6;
+		overflow: hidden;
+	}
+}
+// 列表
+.list-tab{
+	font-size: 30rpx;
+	padding-top: 30rpx;
+	color: #666;
+	view{
+		margin-right: 30rpx;
+	}
+	.on{
+		color: $red;
+	}
+}
+.prolist-wrap{
+	padding-top: 30rpx;
+	padding-bottom: 20rpx;
+	overflow: hidden;
+}
+.prolist-item{
+	position: relative;
+	width:220rpx;
+	margin-right: 8rpx;
+	margin-bottom: 10rpx;
+	border-radius:8rpx;
+	border:1rpx solid #DEDEDE;
+	overflow: hidden;
+}
+.prolist-item:nth-child(3n){margin-right: 0;}
+.prolist-pic{
+	position: relative;
+	height: 176rpx;
+	overflow: hidden;
+	.checked_num{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		background-color: rgba($color: #000000, $alpha: 0.5);
+	}
+}
+.prolist-info{
+	padding: 10rpx;
+	font-size: 24rpx;
+}
+.prolist-add{
+	position: absolute;
+	bottom: 10rpx;
+	right: 10rpx;
+	text{
+		font-size: 38rpx;
+		color: $red;
+	}
+}
+// 底部
+.bottom-wrap,.bottom{
+	height: 120rpx;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+	box-sizing: border-box;
+	view{
+		height: 80rpx;
+		color: #fff;
+		background-color: $red;
+		box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+		border-radius: 40rpx;
+		letter-spacing: 0.05em;
+	}
+}
+.cate_btn{
+	line-height: 60rpx;
+	margin-left: 40rpx;
+}

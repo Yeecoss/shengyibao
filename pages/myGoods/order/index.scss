@@ -1,0 +1,198 @@
+.bgf5{
+	min-height: 100%;
+}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+view{
+	box-sizing: border-box;
+}
+.color_red{color: $red;}
+.color_orange{color: #FF6206;}
+.color_yellow{color: #F8B14A;}
+.m-r-10{margin-right: 10rpx;}
+.main{
+	padding-top: 20rpx;
+}
+// 常规
+.list-item{margin-bottom: 20rpx;}
+.list-top{
+	padding-top: 28rpx;
+	padding-bottom: 20rpx;
+}
+.user_img{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user_name{
+	max-width: 220rpx;
+}
+.order-tag,.order-tag1{
+	height: 30rpx;
+	border-radius: 4rpx;
+}
+.order-tag{
+	width: 30rpx;
+	line-height: 30rpx;
+	background: #F27257;
+	border-radius: 4rpx;
+}
+.order-tag1{
+	padding: 0 2rpx 0 6rpx;
+	line-height: 26rpx;
+	color: #E6B994;
+	border: 1rpx solid #E6B994;
+	text{margin-left: -4rpx;}
+}
+.distribution {
+  color: #297CE6;
+}
+.selling {
+  color: #FF7541;
+}
+// 商品
+.pro{
+	background-color: #F7F5F6;
+	padding: 16rpx 20rpx;
+	// margin-top: 20rpx;
+	overflow: hidden;
+}
+.no-m-t{margin-top: 0;}
+.pro_img{
+	width: 128rpx;
+	height: 128rpx;
+	margin-right: 20rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.pro_info{
+	width: 280rpx;
+	overflow: hidden;
+}
+.pro-r{
+	text-align: right;
+}
+.norm{margin-top: 18rpx;}
+.pro_name{height: 76rpx;}
+// 操作按钮
+.operation-wrap{
+	padding: 30rpx 0;
+}
+.operation{
+	max-width: 60%;
+}
+.oper-item{
+	width: 144rpx;
+	height: 52rpx;
+	line-height: 50rpx;
+	text-align: center;
+	border-radius: 30rpx;
+	color: #666;
+	margin-left: 20rpx;
+	border: 1rpx solid #DEDEDE;
+	overflow: hidden;
+	&:nth-child(2n-1){margin-left: 0;}
+}
+.oper-red{
+	color: $red;
+	border-color: $red;
+}
+// 打单
+.order-no{line-height: 32rpx;}
+.tag{
+	color: #44D7B6;
+}
+.tag_blue{color: #32C5FF;}
+.tag_orange{color: #F8B14A;}
+.tag_red{color: #FA6E6E;}
+// 地址
+.address-wrap{
+	background-color: #F7F5F6;
+}
+.address{
+	height: 120rpx;
+	overflow: hidden;
+}
+.address-type{
+	width: 48rpx;
+	line-height: 48rpx;
+	height: 48rpx;
+	margin-right: 20rpx;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+	background: #FF9911;
+	&.bgred{
+		background: $red;
+	}
+}
+.address-r{
+	flex: 1;
+	height: 100%;
+	overflow: hidden;
+}
+.address:nth-child(1) .address-r{
+	border-bottom: 1rpx solid #DEDEDE;
+}
+.address-info{
+	flex: 1;
+	overflow: hidden;
+}
+// 打单关联商品
+.pro_r{
+	max-width: 500rpx;
+}
+.pro_r_img{
+	width: 100rpx;
+	height:100rpx;
+	border-radius:4rpx;
+	margin-right: 20rpx;
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+.pro_r_info{
+	flex: 1;
+}
+//Model
+.mcontent{
+	padding:	40rpx 44rpx 60rpx;
+}
+.duihao{
+	width: 30rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	border-radius:4rpx;
+	margin-right: 10rpx;
+	border:1rpx solid #999;
+}
+.duihao_red{
+	border-color: $red;
+}
+// 收款/赊账弹窗
+.sheTab{
+	view{
+		margin: 0 35rpx;
+		height: 42rpx;
+		line-height: 42rpx;
+		padding-bottom: 20rpx;
+		border-bottom: 4rpx solid transparent;
+		box-sizing: initial;
+		&.on{
+			color: $red;
+			border-color: $red;
+		}
+	}
+}
+.szMoney input{
+	height: 80rpx;
+	padding: 0 20rpx;
+}
+// search
+.search{
+	padding: 14rpx 30rpx;
+}
+.scan{line-height: 60rpx;}

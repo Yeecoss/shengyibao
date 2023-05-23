@@ -1,0 +1,144 @@
+.myinfo{
+    height: 100%;
+    overflow-y: auto;
+    .padding-Box{
+        padding-top: 20rpx;
+        background: #F7F7F7;
+    }
+    .bgW{
+        background: white;
+    }
+    .heardTip{
+        padding: 20rpx 86rpx 20rpx 30rpx;
+        line-height: 48rpx;
+        color: #FF7541;
+        background: rgba(232,46,46,0.08);
+        font-size: 28rpx;
+        position: relative;
+        .leftIcon{
+            margin-right: 10rpx;
+            font-size: 28rpx;
+        }
+        .delIcon{
+            position: absolute;
+            right: 30rpx;
+            top: 20rpx;
+            font-size: 50rpx;
+        }
+    }
+    .fieldBox1{
+        height: 96rpx;
+        line-height: 96rpx;
+        background: white;
+        padding: 0 30rpx;
+        .label{
+            color: #2A2A30;
+            font-size: 30rpx;
+        }
+        .content{
+            color:#828393;
+            font-size: 28rpx;
+            .iconfont2{
+                font-size: 28rpx;
+            }
+        }
+    }
+    .fieldBox{
+        padding: 30rpx;
+        .fieldTitle{
+            .fieldTitleTip{
+                font-size: 24rpx;
+                color: #828393;
+            }
+        }
+        .add{
+            width: 176rpx;
+            height: 176rpx;
+            border-radius: 4rpx;
+            border: 1rpx dashed #CCCCCC;
+            color: #CCCCCC;
+            font-size: 24rpx;
+            text-align: center;
+            margin-top: 30rpx;
+            .iconfont2{
+                font-size: 52rpx;
+            }
+            .addText{
+                margin-top: 8rpx;
+            }
+        }
+        .itemImageBox{
+            position: relative;
+            width: 176rpx;
+            height: 176rpx;
+            margin-top: 30rpx;
+            .itemImage{
+                width: 176rpx;
+                height: 176rpx;
+                position: absolute;
+                border-radius: 8rpx;
+            }
+            .delItem{
+                width: 30rpx;
+                height: 30rpx;
+                border-radius: 50%;
+                top: -10rpx;
+                right: -10rpx;
+                position: absolute;
+                background: rgba(0, 0, 0, .5);
+                line-height: 24rpx;
+                text-align: center;
+                .iconfont2{
+                    color: white;
+                    font-size: 30rpx;
+                }
+            }
+        }
+    }
+    .tip{
+        padding: 20rpx 30rpx;
+        .tipTitle{
+            font-size:26rpx;
+            color: #333;
+            font-weight: 600;
+            .iconfont2{
+                color: #FF7541;
+                font-size: 28rpx;
+                margin-left: 20rpx;
+            }
+        }
+        .tipContent{
+            font-size:26rpx;
+            color:#2A2A30;
+            line-height: 44rpx;
+            min-height: 474rpx;
+            padding-top: 20rpx;
+        }
+    }
+    .footer{
+        padding: 20rpx 0;
+        .but, .but1, .but2, .but0{
+            width:690rpx;
+            height:80rpx;
+            line-height: 80rpx;
+            font-size: 32rpx;
+            border-radius:40rpx;
+            box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+        }
+        .but{
+            color: white;
+            background:rgba(232,46,46,1);
+        }
+        .but0{
+            color: #FF9911;
+            background:rgba(255,153,17,0.08);
+        }
+        .but1{
+            color: white;
+            background:rgba(109,212,0,1);
+        }
+        .butDisabled{
+            background:rgba(232,46,46,.3);
+        }
+    }
+}

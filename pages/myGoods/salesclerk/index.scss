@@ -1,0 +1,91 @@
+// 重置
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+view{
+	box-sizing: border-box;
+}
+.footer, .foot{
+	height: 100rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 1rpx solid #E5E5EC;
+	z-index: 2;
+}
+.foot-btn{
+	line-height: 72rpx;
+	text-align: center;
+	background: $red;
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+scroll-view{
+	box-sizing: border-box;
+}
+// list
+.main{
+	padding-bottom: 40rpx;
+}
+.list-item{
+	margin-top: 20rpx;
+	padding: 20rpx 20rpx 30rpx;
+	border-radius: 12rpx;
+	color: #333;
+}
+.user_img{
+	width: 88rpx;
+	height: 88rpx;
+	border-radius: 50%;
+	background: #D8D8D8;
+}
+.width100{max-width: 100rpx;}
+.user-name-wrap{
+	// height: 30rpx;
+}
+.blue{
+	color: #2E5FE8;
+}
+.list-data{
+	line-height: 1.1;
+	margin-top: 12rpx;
+	.data-item{
+		padding-right: 10rpx;
+		margin-right: 10rpx;
+		border-right: 1rpx solid #D8D8D8;
+		&:last-child{
+			padding-right: 0;
+			margin-right: 0;
+			border-right: 0;
+		}
+	}
+}
+.list-btn{
+	min-width: 112rpx;
+	padding: 0 16rpx;
+	margin-left: 20rpx;
+	line-height: 46rpx;
+	color: #666;
+	border-radius: 24rpx;
+	border: 1rpx solid #DEDEDE;
+}
+.red-btn{
+	border-color: $red;
+	color: $red;
+}
+.yellow-btn{
+	border-color: #F8B14A;
+	color: #F8B14A;
+}
+.blue-btn{
+	border-color: #2E5FE8;
+	color: #2E5FE8;
+}

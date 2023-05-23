@@ -1,0 +1,97 @@
+.goods-info {
+  background: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom:20rpx;
+}
+/*  标签 */
+.tag-wrap view{
+	padding: 0 20rpx;
+	line-height: 60rpx;
+	margin-top: 16rpx;
+	border-radius: 30rpx;
+	color: #B69749;
+	background-color: rgba(182, 151, 73, 0.08);
+	text{
+		width: 28rpx;
+		line-height: 28rpx;
+		border-radius: 50%;
+		display: inline-block;
+		text-align: center;
+		// vertical-align: middle;
+		margin-right: 10rpx;
+		background: #B69749;
+		color: #fff;
+	}
+}
+/* 商品分享 */
+.goods__share .share__icon {
+  font-size: 40rpx;
+  margin-bottom: 0rpx;
+}
+.div-goods-info{
+	.goods__share .share__icon {
+		font-size: 38rpx;
+		margin-bottom: 0rpx;
+	}
+	.goods__share .share-btn {
+	  text-align: center;
+	  padding: 0 0 0 20rpx;
+	  font-size: 24rpx;
+	  color: #333;
+	  border-left: 1rpx solid #eee;
+	}
+}
+.saler-goods-info{
+	.share-btn {
+		margin-top: -80rpx;
+		position: relative;
+		margin-right: 60rpx;
+		width: 80rpx;
+		line-height: 80rpx;
+		border-radius: 50%;
+		color: #fff;
+		text-align: center;
+		background: $red;
+		box-shadow: 0 4rpx 24rpx 0 rgba(232, 46, 46, 0.3);
+	}
+}
+/* 商品价格 */
+.money-box {
+  // margin: 10rpx 0;
+}
+.goods-price{
+	color: var(--storeColor);
+}
+.money-box .line-price {
+  font-size: 24rpx;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 10rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+}
+/* 商品销量 */
+// .goods-sales-box .stock {
+//   display: block;
+//   text-align: right;
+// }
+/* 会员价标签 */
+// .tag-grade-price {
+//   background: linear-gradient(to right, #fa1e8c 0, #fc1e56 100%);
+//   background: #fc1e56;
+//   font-size: 22rpx;
+//   border-radius: 12rpx;
+//   color: #fff;
+//   padding: 4rpx 12rpx;
+//   margin-left: 20rpx;
+// }
+/* 商品标题 */
+.goods-title {
+  overflow: hidden;
+  padding: 0 0rpx 0 0;
+  color: #333;
+}
+.showTitle{
+  font-size: 28rpx;
+  color: #576a94;
+}

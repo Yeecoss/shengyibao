@@ -1,0 +1,74 @@
+/* 商品组 */
+.goods-list {
+  box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 24rpx;
+}
+.goods-list-wrap{
+	width: 330rpx;
+	overflow: hidden;
+}
+.goods-item{
+  float: left;
+	width: 330rpx;
+	margin-bottom: 20rpx;
+  background:#fff;
+  // box-shadow:0 0 8rpx 2rpx rgba(222,222,222,0.5);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.goods-item:nth-child(2n){
+	margin-right: 0;
+}
+.goods-item_pic{
+	position: relative;
+	height: 330rpx;
+	width: 330rpx;
+	overflow: hidden;
+	border-radius: 12rpx;
+}
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.detail {
+  padding-top: 16rpx;
+  background: #fff;
+  .desc_footer{
+	  margin-top: 12rpx;
+  }
+}
+
+.detail .goods-name {
+	color: #333333;
+	font-size: 30rpx;
+	line-height: 42rpx;
+	font-weight: bold;
+}
+.goods_sales{
+  font-size: 26rpx;
+  color: #666666;
+}
+.goods_price1 {
+  margin-right: 8rpx;
+  font-size: 32rpx;
+	color: #FA2B2D;
+	font-weight: bold;
+}
+.goods_price1 text{
+	font-size: 26rpx;
+	margin-right: 6rpx;
+}
+.checkbox{
+	position: absolute;
+	right: 20rpx;
+	top: 20rpx;
+}
+.checked-num {
+    margin-right: 20rpx;
+}

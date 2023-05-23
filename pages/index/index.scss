@@ -1,0 +1,172 @@
+
+.bgf8{
+	min-height: 100%;
+	position: relative;
+}
+// 标题栏
+.left-title{
+	white-space: nowrap;
+	.serchBox{
+		width: 458rpx;
+		padding: 0 20rpx;
+		height: 64rpx;
+		line-height: 64rpx;
+		background: rgba(247, 247, 247, .4);
+		border-radius: 44rpx;
+		font-size: 28rpx;
+		color: #FFFFFF;
+		.iconfont2{
+			margin-right: 12rpx;
+		}
+	}
+}
+.scrollBox{
+	position: relative;
+	z-index: 2;
+	margin-top: 24rpx;
+	.padBox{
+		padding: 0 32rpx;
+	}
+}
+.heardBg{
+	width: 750rpx;
+	height: 600rpx;
+	background: linear-gradient(180deg, #FF7541 0%, #FFFFFF 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.heardBox{
+	// width: 686rpx;
+	padding: 28rpx;
+	min-height: 470rpx;
+	background: #FFFFFF;
+	box-shadow: 0px 3rpx 20rpx 1rpx rgba(0,0,0,0.1);
+	border-radius: 16rpx;
+	position: relative;
+	z-index: 2;
+	// margin-bottom: 32rpx;
+	.heardTitle{
+		height: 52rpx;
+		background: linear-gradient(269deg, rgba(242,242,242,0) 0%, #F1F1F1 100%);
+		border-radius: 8rpx;
+		font-size: 24rpx;
+		width: 630rpx;
+		color: #FF7541;
+		.iconfont2{
+			font-size: 28rpx;
+			margin: 0 12rpx 0 16rpx;
+		}
+		.textItem{
+			line-height: 28rpx;
+			position: relative;
+			top: -2rpx;
+		}
+	}
+	.heardCont{
+		margin-top: 28rpx;
+		.imgBox{
+			width: 190rpx;
+			height: 160rpx;
+			background: #FFFFFF;
+			border-radius: 8rpx;
+			overflow: hidden;
+			.img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.shopInfo{
+			margin-left: 24rpx;
+			.shopName{
+				font-size: 32rpx;
+				color: #333333;
+				height: 46rpx;
+				line-height: 46rpx;
+				font-weight: bold;
+			}
+			.shopState{
+				margin-top: 12rpx;
+				padding-left: 8rpx;
+				font-size: 24rpx;
+				height: 32rpx;
+				line-height: 32rpx;
+				color: #FF6161;
+			}
+			.shopTime{
+				margin-top: 32rpx;
+				font-size: 26rpx;
+				height: 38rpx;
+				line-height: 38rpx;
+				color: #FF7541;
+			}
+		}
+		.shopScore{
+			min-width: 80rpx;
+			height: 50rpx;
+			line-height: 50rpx;
+			font-size: 40rpx;
+			font-weight: bold;
+			color: #FF7541;
+			.score{
+				font-size: 26rpx;
+			}
+		}
+	}
+	.addressBox{
+		margin-top: 56rpx;
+		.address{
+			line-height: 38rpx;
+			font-size: 26rpx;
+			font-weight: bold;
+			color: #333333;
+			.length{
+				color: #666666;
+			}
+		}
+		.iconBox{
+			width: 48rpx;
+			font-size: 24rpx;
+			text-align: center;
+			line-height: 34rpx;
+			.iconItem{
+				width: 40rpx;
+				height: 40rpx;
+				margin: 0 auto 4rpx;
+			}
+		}
+	}
+	.noticeBox{
+		margin-top: 28rpx;
+		padding-top: 28rpx;
+		border-top: 1rpx solid #F0F0F0;
+		font-size: 26rpx;
+		.noticeIcon{
+			width: 56rpx;
+			margin-right: 20rpx;
+			.iconItem{
+				width: 56rpx;
+				height: 26rpx;
+			}
+		}
+		.noticeCont{
+			padding-left: 20rpx;
+			border-left: 2rpx solid #FF7541;
+			line-height: 26rpx;
+			height: 30rpx;
+			color: #333333;
+		}
+		.more{
+			color: #999999;
+			.tipIcon{
+				font-size: 26rpx;
+			}
+		}
+	}
+}
+	// 赚钱功能-赚一赚
+	.applyImg{
+		background: white;
+		color: #333333;
+	}

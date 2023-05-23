@@ -1,0 +1,120 @@
+.diy-coupon{
+	width: 686rpx;
+	height: 315rpx;
+	margin: 0 auto;
+	position: relative;
+	.bg{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+	.coupon-wrapper {
+		position: relative;
+		z-index: 2;
+		padding: 24rpx 20rpx;
+		.title{
+			.text{
+				color: #FC0715;
+				font-size: 32rpx;
+				font-weight: bold;
+			}
+			.more{
+				font-size: 28rpx;
+				color: #FFF;
+				.iconfont2{
+					font-size: 18rpx;
+					vertical-align: middle;
+					margin-left: 4rpx;
+				}
+			}
+		}
+		.cont{
+			height: 206rpx;
+			background: #FFFFFF;
+			margin-top: 16rpx;
+			border-radius: 20rpx;
+			overflow: hidden;
+			.main{
+				border-right: 1rpx dashed #fcb595;
+				padding-top: 20rpx;
+				width: 230rpx;
+				text-align: center;
+				position: relative;
+				.price{
+					height: 56rpx;
+					font-size: 28rpx;
+					line-height: 56rpx;
+					color: #FB1A1E;
+					font-weight: bold;
+					.text{
+						font-size: 40rpx;
+					}
+				}
+				.condition{
+					height: 40rpx;
+					font-size: 28rpx;
+					line-height: 40rpx;
+					color: #333333;
+				}
+				.receive{
+					width: 152rpx;
+					height: 50rpx;
+					background: linear-gradient(180deg, #F8583B 0%, #FC0414 100%);
+					border-radius: 30rpx;
+					font-size: 28rpx;
+					color: #FFFFFF;
+					margin: 16rpx auto 0;
+					line-height: 50rpx;
+				}
+				.topSpot, .bottomSpot{
+					position: absolute;
+					background: #fcb595;
+					border-radius: 50%;
+					width: 20rpx;
+					height: 20rpx;
+				}
+				.topSpot{
+					right: -10rpx;
+					top: -10rpx;
+				}
+				.bottomSpot{
+					right: -10rpx;
+					bottom: -10rpx;
+				}
+			}
+			.info{
+				padding: 32rpx 26rpx 0 32rpx;
+				position: relative;
+				.info1{
+					height: 40rpx;
+					line-height: 40rpx;
+					font-size: 28rpx;
+					color: #FB1A1E;
+					font-weight: bold;
+				}
+				.info2{
+					color: #666666;
+					height: 32rpx;
+					font-size: 24rpx;
+					margin-top: 12rpx;
+				}
+				.info3{
+					height: 32rpx;
+					font-size: 24rpx;
+					margin-top: 24rpx;
+					color: #999999;
+				}
+				.couponTip{
+					position: absolute;
+					right: 0;
+					top: 0;
+					width: 94rpx;
+					height: 94rpx;
+				}
+			}
+		}
+	}
+}

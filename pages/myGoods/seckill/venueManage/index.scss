@@ -1,0 +1,86 @@
+.pageBox{
+	background: #F7F7F7;
+    .contentBox{
+        padding: 20rpx 0 20rpx;
+        .optItemR{
+            color: #FF7541!important;
+        }
+        .optItemY{
+            color: #F8B14A!important;
+        }
+        .listBox1{
+            min-height: 242rpx;
+            background: white;
+            margin-bottom: 20rpx;
+            padding: 0 30rpx;
+            position: relative;
+			.listTitle{
+				height: 80rpx;
+				line-height: 80rpx;
+				border-bottom: 1rpx solid #eee;
+				font-size: 28rpx;
+				.colRed{
+					color: #FF7541;
+				}
+			}
+			.listContent{
+				padding: 10rpx 0;
+				font-size: 28rpx;
+				.contentItem{
+					line-height: 68rpx;
+					.label{
+						color: #666;
+					}
+					.value{
+						color: #666666;
+					}
+					.line{
+						height: 24rpx;
+						width: 1rpx;
+						background: #D8D8D8;
+						margin: 0 16rpx;
+					}
+				}
+				.butBox{
+					height: 92rpx;
+					.butItem{
+						width: 144rpx;
+						height: 52rpx;
+						line-height: 52rpx;
+						text-align: center;
+						border-radius: 30rpx;
+						font-size: 24rpx;
+					}
+					.but1{
+						border: 1px solid #DEDEDE;
+						color: #666666;
+						margin-right: 20rpx;
+					}
+					.but2{
+						border: 1rpx solid #FF7541;
+						color: #FF7541;
+					}
+				}
+			}
+		}
+    }
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	height: 100rpx;
+	left: 0;
+	right: 0;
+	border-top: 1rpx solid #E5E5EC;
+	background: white;
+	.footBut{
+		width: 690rpx;
+		height: 72rpx;
+		line-height: 72rpx;
+		text-align: center;
+		color: white;
+		background: #FF7541;
+		box-shadow: 0px 0px 16rpx 1rpx rgba(222, 222, 222, 0.5);
+		border-radius: 40rpx;
+	}
+}

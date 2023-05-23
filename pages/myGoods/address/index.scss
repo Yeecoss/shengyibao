@@ -1,0 +1,137 @@
+.addres-list .custom-li{
+  margin: 20rpx 30rpx;
+  border-radius:8rpx;
+	overflow: hidden;
+}
+.address-list {
+  height: 90rpx;
+  padding: 0 20rpx;
+}
+
+.address-list .list {
+  /* padding: 20rpx; */
+}
+
+.address-list .list .title {
+  font-size: 24rpx;
+  color: #666;
+}
+.address-list .list .iconfont2{
+  margin-left: 40rpx;
+  margin-right: 10rpx;
+  font-size: 26rpx;
+}
+.address-list .list .cont {
+  font-size: 24rpx;
+  color: #666;
+}
+
+.address-list .list navigator {
+  display: inline-block;
+}
+
+.address-list .list image {
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.address-left {
+  flex: 4;
+}
+
+.address-right {
+  line-height: 44rpx
+}
+
+.address-right .iconfont {
+  color: #777;
+  font-size: 30rpx;
+}
+
+.flow-fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f42424;
+  z-index: 4999;
+}
+
+.flow-fixed-footer .chackout-left {
+  font-size: 32rpx;
+  line-height: 44px;
+  color: #777;
+}
+
+.flow-fixed-footer .chackout-right {
+  font-size: 34rpx;
+}
+
+.address-header {
+  padding: 28rpx 0 20rpx;
+  border-bottom: 1rpx solid #eee;
+  background-size: 120rpx auto;
+  font-size: 1.7rem;
+  margin: 0 20rpx;
+}
+
+.flow-header-left {
+  flex: 14;
+}
+
+.flow-header-right {
+  flex: 1;
+}
+
+.flow-header-right image {
+  width: 34rpx;
+  height: 34rpx;
+  margin-top: 20rpx;
+  float: right;
+}
+
+.address-header .flow-checkout-admin {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.address-header .flow-checkout-admin text {
+  margin: 0 20rpx;
+}
+
+.address-header .flow-checkout-address {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 6rpx;
+}
+/* 底部按钮 */
+view,text{
+	box-sizing: border-box;
+}
+.footer,.foot{
+	height: 100rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-top: 14rpx;
+	background-color: #fff;
+	z-index: 2;
+}
+.foot-btn{
+	line-height:72rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+.tui-tabs-wrap{
+	height: 80rpx;
+	z-index: 2;
+	position: relative;
+}

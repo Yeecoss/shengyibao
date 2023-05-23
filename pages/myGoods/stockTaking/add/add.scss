@@ -1,0 +1,61 @@
+view,text{
+	box-sizing: border-box;
+}
+.btn{
+	width: 88rpx;
+	line-height: 44rpx;
+	color: $red;
+	border-radius: 22px;
+	border: 1rpx solid $red;
+}
+.pandian{width: 128rpx;}
+/* // 底部操作栏 */
+.operation-wrap,.operation{
+	height: 100rpx;
+}
+.operation{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+	box-shadow:0 0 8rpx 2rpx rgba(222,222,222,0.5);
+}
+.oper-item{
+	width: 324rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 40rpx;
+	letter-spacing: 0.05em;
+	text-align: center;
+	&.bg-oange{
+		color: #FBFBFB;
+		background:#F8B14A;
+		box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+	}
+	&.bgred{
+		background-color: $red;
+	}
+}
+/*  */
+.pro-item{
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #DEDEDE;
+}
+.pro-item:last-child{border-bottom: 0;}
+.pro-img{
+	width: 48rpx;
+	height: 48rpx;
+	background: #D8D8D8;
+	border-radius: 4rpx;
+	overflow: hidden;
+}
+.attr-list{
+	overflow: hidden;
+	.fl{max-width: 38%;}
+	.fr{max-width: 59%;}
+}
+.money-val{
+	color: #57A901;
+}
+.app-red{color: $red;}

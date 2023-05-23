@@ -1,0 +1,27 @@
+.cardBox{
+    padding-top: 35rpx;
+    .card{
+        padding-right: 30rpx;
+        .content{
+            padding-top: 35rpx;
+            .item{
+                text-align: center;
+                width:156rpx;
+                height:168rpx;
+                border-radius:4px;
+                border:1rpx solid rgba(238,238,238,1);
+                .name{
+                    font-size: 26rpx;
+                    margin-top: 22rpx;
+                    color: #555555;
+                    font-weight: 600;
+                }
+                .itemTips{
+                    margin-top: 27rpx;
+                    font-size: 20rpx !important;
+                    color: #999;
+                }
+            }
+        }
+    }
+}

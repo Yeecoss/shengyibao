@@ -1,0 +1,60 @@
+.main{padding-top: 10rpx;}
+.list-top{
+	padding-bottom: 30rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.operation view{
+	width: 152rpx;
+	line-height: 48rpx;
+	border-radius: 30rpx;
+	border: 1rpx solid #DEDEDE;
+}
+.operation .oper-red{
+	color: $red;
+	border-color: $red;
+}
+.foot{
+	border-top: 1rpx solid #DEDEDE;
+}
+// tab
+.tab-wrap{
+	height: 88rpx;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+}
+.operate-btn-wrap{
+	height: 96rpx;
+}
+.operate-btn{
+	width: 48rpx;
+	height: 24rpx;
+	line-height: 24rpx;
+	margin-left: 26rpx;
+	background: #eee;
+	border-radius: 12rpx;
+	overflow: hidden;
+}
+.width400{
+	max-width: 400rpx;
+}
+.width330{
+	max-width: 330rpx;
+}
+.list1 {
+	margin-top: 20rpx;
+	padding: 0 40rpx;
+	line-height: 96rpx;
+	background: #fff;
+	border-radius: 16rpx;
+}
+.col-CE{color: #CECECE;}
+.green{color: #5AAE3A;}
+.default_tag{
+	width: 100rpx;
+	text-align: center;
+	line-height: 40rpx;
+	color: $red;
+	background: rgba(232, 46, 46, 0.1);
+	border-radius: 20rpx;
+}

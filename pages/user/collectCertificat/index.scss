@@ -1,0 +1,471 @@
+.myinfo{
+    height: 100%;
+    overflow-y: auto;
+    .padding-Box{
+        padding-top: 20rpx;
+        background: #F7F7F7;
+    }
+    .bgW{
+        background: white;
+    }
+    .emptyDiv{
+        height: 22rpx;
+        background: #F7F7F7;
+    }
+    .m-l-4{
+        margin-left: 4rpx;
+    }
+    .heardTip{
+        padding: 20rpx 86rpx 20rpx 30rpx;
+        color: #FF7541;
+        background: rgba(232,46,46,0.08);
+        font-size: 28rpx;
+        position: relative;
+        .leftIcon{
+            margin-right: 10rpx;
+            font-size: 28rpx;
+        }
+        .delIcon{
+            position: absolute;
+            right: 30rpx;
+            top: 20rpx;
+            font-size: 50rpx;
+        }
+    }
+    .peopleBox{
+        height: 128rpx;
+        padding: 16rpx 28rpx;
+        background: white;
+        border-bottom: 1rpx solid #F7F7F7;
+        .imgBox{
+            width: 84rpx;
+            height: 84rpx;
+            border: 1rpx solid #FF7541;
+            border-radius: 50%;
+            padding: 4rpx;
+            margin-right: 20rpx;
+            .imgItem{
+                width: 84rpx;
+                height: 84rpx;
+                border-radius: 50%;
+                overflow: hidden;
+                image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .nickName{
+            color: #2A2A30;
+            font-size: 28rpx;
+            .titleVip{
+                width: 86rpx;
+                height: 36rpx;
+                margin-left: 10rpx;
+                image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .contact_phone{
+            color: #2A2A30;
+            font-size: 24rpx;
+            margin-top: 10rpx;
+        }
+    }
+    .heardBox{
+        padding: 40rpx 34rpx;
+        color: #828393;
+        font-size: 28rpx;
+        background: white;
+        .heardlist{
+            height: 34rpx;
+            .iconBox{
+                width: 36rpx;
+                height: 36rpx;
+                line-height: 36rpx;
+                text-align: center;
+                border-radius: 30rpx;
+                background: rgba(229, 229, 236, .6);
+                margin-right: 32rpx;
+                .iconfont2{
+                    font-size: 24rpx;
+                    color: #828393;
+                }
+            }
+            .authentBox{
+                color: #828393;
+                .iconfont2{
+                    font-size: 28rpx;
+                    margin-right: 10rpx;
+                }
+            }
+        }
+        .heardlist1{
+            color:#FF7541;
+            .iconBox{
+                background: #FF7541;
+                .iconfont2{
+                    color: white;
+                    font-size: 24rpx;
+                }
+            }
+        }
+        .toAuthent{
+            width: 100rpx;
+            height: 32rpx;
+            border-radius: 16rpx;
+            border: 1rpx solid #FF7541;
+            font-size: 24rpx;
+            color: #FF7541;
+            text-align: center;
+            line-height: 32rpx;
+            margin-left: 20rpx;
+        }
+        .lineBox{
+            height: 50rpx;
+            position: relative;
+            padding: 10rpx 18rpx;
+            .line{
+                height: 48rpx;
+                width: 1rpx;
+                background: rgba(130, 131, 147, 0.5);
+            }
+        }
+    }
+    .typeBox{
+        height: 120rpx;
+        background: white;
+        padding: 36rpx 30rpx;
+        .selectBox{
+            margin-top: 36rpx;
+            .selectItem{
+                padding: 12rpx 20rpx;
+                border-radius: 48rpx;
+                font-size: 26rpx;
+                color: #828393;
+                border: 1rpx solid #BBBCCD;
+				margin-right: 20rpx;
+            }
+            .selectActive{
+                color: #FF7541;
+                border-color: #FF7541;
+            }
+        }
+    }
+    .fieldTitle{
+        font-size: 26rpx;
+        color: #828393;
+        background: #F7F7F7;
+        .iconfont2{
+            margin-left: 10rpx;
+            font-size: 28rpx;
+        }
+    }
+    .fieldTitleH{
+        height: 66rpx;
+        line-height: 66rpx;
+        padding: 0 30rpx;
+    }
+    .fieldBox{
+        .fieldItem{
+            padding: 36rpx 30rpx 0;
+            background: white;
+            .label{
+                color: #828393;
+                font-size: 30rpx;
+                .iconfont2{
+                    margin-left: 10rpx;
+                    font-size: 28rpx;
+                }
+            }
+            .field{
+                margin-top: 26rpx;
+                color: #2A2A30;
+                font-size: 28rpx;
+                padding-bottom: 20rpx;
+                border-bottom: 1rpx solid #E5E5EC;
+                position: relative;
+                .tipIcon{
+                    position: absolute;
+                    right: 0rpx;
+                    top: 10rpx;
+                    font-size: 22rpx;
+                    color: #BCBCBC;
+                }
+            }
+            .noBorder{
+                border-bottom: 0;
+            }
+            .showImg{
+                width: 240rpx;
+                height: 144rpx;
+                border-radius: 8rpx;
+                margin-right: 20rpx;
+            }
+        }
+        .add{
+            width: 176rpx;
+            height: 176rpx;
+            border-radius: 4rpx;
+            border: 1rpx dashed #CCCCCC;
+            color: #CCCCCC;
+            font-size: 24rpx;
+            text-align: center;
+            margin-top: 30rpx;
+            .iconfont2{
+                font-size: 52rpx;
+            }
+            .addText{
+                margin-top: 8rpx;
+            }
+        }
+        .itemImageBox{
+            position: relative;
+            width: 176rpx;
+            height: 176rpx;
+            margin-top: 30rpx;
+            .itemImage{
+                width: 176rpx;
+                height: 176rpx;
+                position: absolute;
+                border-radius: 8rpx;
+            }
+            .delItem{
+                width: 30rpx;
+                height: 30rpx;
+                border-radius: 50%;
+                top: -10rpx;
+                right: -10rpx;
+                position: absolute;
+                background: rgba(0, 0, 0, .5);
+                line-height: 24rpx;
+                text-align: center;
+                .iconfont2{
+                    color: white;
+                    font-size: 30rpx;
+                }
+            }
+        }
+    }
+    .tip{
+        padding: 20rpx 30rpx;
+        .tipTitle{
+            font-size:26rpx;
+            color: #333;
+            font-weight: 600;
+            .iconfont2{
+                color: #FF7541;
+                font-size: 28rpx;
+                margin-left: 20rpx;
+            }
+        }
+        .tipContent{
+            font-size:26rpx;
+            color:#2A2A30;
+            line-height: 44rpx;
+            min-height: 474rpx;
+            padding-top: 20rpx;
+        }
+    }
+    .footer{
+        border-top: 1rpx solid #E5E5EC;
+        padding: 12rpx 0;
+        background: white;
+        .but, .but1, .but2, .but0{
+            width:690rpx;
+            height:72rpx;
+            line-height: 72rpx;
+            font-size: 32rpx;
+            border-radius:40rpx;
+            box-shadow:0px 0px 16rpx 2rpx rgba(222,222,222,0.5);
+        }
+        .but{
+            color: white;
+            background:rgba(232,46,46,1);
+        }
+        .but0{
+            color: #FF9911;
+            background:rgba(255,153,17,0.08);
+        }
+        .but1{
+            color: white;
+            background:rgba(109,212,0,1);
+        }
+        .butDisabled{
+            background:rgba(232,46,46,.3);
+        }
+    }
+    .waiting, .finish, .reject{
+        text-align: center;
+        .iconBox{
+            margin-top: 100rpx;
+            .iconfont2{
+                font-size: 128rpx;
+            }
+        }
+        .state{
+            margin-top: 60rpx;
+            font-size: 44rpx;
+            color: #2A2A30;
+        }
+        .stateMsg{
+            margin-top: 30rpx;
+            color: #828393;
+            font-size: 36rpx;
+        }
+    }
+    .waiting{
+        .iconBox{
+            .iconfont2{
+                color: #F27257;
+            }
+        }
+    }
+    .finish{
+        .iconBox{
+            .iconfont2{
+                color: #8ADE4D;
+            }
+        }
+        .imgTip{
+            margin-top: 30rpx;
+        }
+        .imgTitle{
+            margin-top: 50rpx;
+            font-size: 24rpx;
+            font-weight: 600;
+            color: #FA2B2D;
+        }
+        .imgTipBox1{
+            width: 100rpx;
+        }
+        .imgTipBox{
+            width: 100rpx;
+            height: 100rpx;
+            image{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .step{
+            padding: 30rpx 30rpx 0;
+            .iconfont2{
+                font-size: 30rpx;
+                display: inline-block;
+                transform: rotateZ(90deg);
+            }
+        }
+        .margin-l{
+        }
+        .NEED_SIGNTip{
+            width: 404rpx;
+            margin: 20rpx auto;
+        }
+        .NEED_SIGNTip1{
+            color: #8ADE4D;
+            font-size: 26rpx;
+        }
+        .link{
+			font-size: 24rpx;
+            width: 500rpx;
+            margin: 0 auto ;
+            word-wrap:break-word;
+        }
+        .toSign{
+            width: 500rpx;
+            height: 88rpx;
+            border-radius: 44rpx;
+            text-align: center;
+            line-height: 88rpx;
+            border: 1rpx solid #FF7541;
+            color:  #FF7541;
+            margin: 30rpx auto 0;
+            font-size: 32rpx;
+        }
+    }
+    .reject{
+        .iconBox{
+            .iconfont2{
+                color:#FF7541;
+            }
+        }
+        .reSub{
+            margin-top: 60rpx;
+            display: inline-block;
+            width: 176rpx;
+            height: 64rpx;
+            line-height: 64rpx;
+            border-radius: 32rpx;
+            color: #FF7541;
+            border: 1rpx solid #FF7541;
+        }
+    }
+    .imgListBox{
+      height: 1000rpx;
+      background: white;
+      border-radius: 30rpx 30rpx 0 0;
+      .imgListTitle{
+        line-height: 90rpx;
+        text-align: center;
+        position: relative;
+        .closeImg{
+          position: absolute;
+          width: 80rpx;
+          height: 80rpx;
+          right: 0;
+          top: 0;
+          .iconfont2{
+            color: #999999;
+            font-size: 32rpx;
+          }
+        }
+      }
+      .search-inputBox{
+        padding-bottom: 20rpx;
+        .search-input {
+            width: 690rpx;
+            background: #F2F2F2;
+            border-radius: 30rpx;
+            padding-left: 26rpx;
+            box-sizing: border-box;
+            overflow: hidden;
+            margin: 0 auto;
+            input {
+              flex: 1;
+              font-size: 30rpx;
+              height: 64rpx;
+              line-height: 64rpx;
+              margin-left: 24rpx;
+          }
+        }
+      }
+      .imgListScroll{
+        height: 730rpx;
+        .checkImg{
+            color: #FF7541;
+        }
+        .imgList{
+          margin: 0 auto;
+          width: 580rpx;
+          padding: 30rpx;
+        }
+      }
+      .imgSub{
+        height: 100rpx;
+        border-top: 1rpx solid #DEDEDE;
+        .imgSubBut{
+          width: 690rpx;
+          height: 72rpx;
+          background: #FF7541;
+          box-shadow: 0px 0px 16rpx 1rpx rgba(222, 222, 222, 0.5);
+          border-radius: 40rpx;
+          text-align: center;
+          line-height: 72rpx;
+          margin: 14rpx auto;
+          color: white;
+        }
+      }
+    }
+}

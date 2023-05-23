@@ -1,0 +1,438 @@
+.retailShop{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #F7F7F7;
+    overflow: auto;
+    .f-48{
+        font-size: 48rpx;
+    }
+	.redDot{
+		width: 16rpx;
+		height: 16rpx;
+		border-radius: 50%;
+		background: #FF7541;
+		display: inline-block;
+		position: absolute;
+        left: 50%;
+        margin-left: 20rpx;
+        top: -10rpx;
+        color: white;
+	}
+	.redDot1{
+		background: #FF7541;
+		position: absolute;
+        left: 50%;
+        margin-left: 10rpx;
+        top: -20rpx;
+        color: white;
+        text-align: center;
+        font-size: 22rpx;
+        line-height: 28rpx;
+        border-radius: 100%;
+        min-height: 30rpx;
+        min-width: 30rpx;
+        padding: 1rpx;
+	}
+    .navBox{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .nav{
+        background:linear-gradient(232deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+    }
+    .navLeft{
+        font-size: 28rpx;
+        .iconfont2{
+            margin-right: 14rpx;
+            font-size: 30rpx;
+        }
+    }
+    .titleBox{
+        height: 80rpx;
+        line-height: 80rpx;
+        color: white;
+        font-size: 28rpx;
+        margin-top: 92rpx;
+        position: relative;
+        z-index: 3;
+        .iconfont2{
+            margin-right: 14rpx;
+            font-size: 30rpx;
+        }
+    }
+    .pdBox{
+        padding: 0 30rpx;
+        position: relative;
+		
+		.memberBox{
+			margin: 50rpx auto 0;
+			// height: 100%;
+			// height:120rpx;
+			width: 634rpx;
+			height:104rpx;
+			z-index: 2;
+			position: absolute;
+			left: 30rpx;
+			bottom: 0;
+			.memberBgImg{
+			  height: 100%;
+			  width: 100%;
+			}
+			.memberText{
+			  position: absolute;
+			  left: 30rpx;
+			  top: 34rpx;
+			  width: 570rpx;
+			  .memberTit{
+				font-size:32rpx;
+				font-weight:600;
+				line-height:32rpx;
+				image{
+				  width: 130rpx;
+				}
+			  }
+			  .buyMember{
+				font-size:24rpx;
+				height:40rpx;
+				line-height:40rpx;
+				border-radius:20rpx;
+				text-align: center;
+				padding: 0 16rpx;
+			  }
+			}
+		}
+        .tipsBox{
+            height: 64rpx;
+            background: #FEF5E9;
+            position: absolute;
+            left: 30rpx;
+            bottom: -64rpx;
+            right: 30rpx;
+            color: #FA6400;
+            font-size: 24rpx;
+            padding: 0 4rpx;
+            line-height: 64rpx;
+            border-radius: 0 0 16rpx 16rpx;
+            text-align: center;
+        }
+        .otherBox{
+            height: 188rpx;
+            background: #FFFFFF;
+            border-radius: 16rpx;
+            margin-top: 30rpx;
+            padding: 0 52rpx;
+            text-align: center;
+            .otherItem{
+                width: 120rpx;
+                .imgBox{
+                    width: 80rpx;
+                    height: 80rpx;
+                    margin: 0 auto;
+                    image{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .otherInfo{
+                    margin-top: 20rpx;
+                    .otherTitle{
+                        font-size: 28rpx;
+                        color: #333333;
+                    }
+                }
+            }
+            .line{
+                width: 1rpx;
+                height: 48rpx;
+                background: #DEDEDE;
+                margin: 0 42rpx 0 18rpx;
+            }
+        }
+    }
+    .showAll{
+        padding: 0 20rpx;
+        height: 88rpx;
+        background: #FFFFFF;
+        border-radius: 16rpx;
+        border: 1rpx solid rgba(222, 222, 222, .3);
+        color: #333;
+        font-size: 30rpx;
+    }
+    .pdTipBox{
+        margin-bottom: 94rpx;
+    }
+    .m-box{
+        margin-bottom: 30rpx;
+    }
+    .bgBox{
+        .bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height:564rpx;
+            overflow: visible;;
+            image{
+                width: 100%;
+            }
+        }
+    }
+	
+	.contentBox{
+		padding-top: 22rpx;
+		.nameBox{
+			min-height: 96rpx;
+			.imgBox{
+				width: 120rpx;
+				height: 101rpx;
+				margin-right: 20rpx;
+				img{
+					width: 100%;
+					height: 100%;
+					border-radius: 8rpx;
+				}
+			}
+			.info{
+				flex: 1;
+				position: relative;
+				padding-right: 150rpx;
+					color: white;
+				.editBox{
+					position: relative;
+					right: 0;
+					top: 0;
+					font-size: 24rpx;
+					.iconfont2{
+						margin-left: 10rpx;
+						vertical-align: inherit;
+					}
+				}
+				.title{
+					font-size: 30rpx;
+					line-height: 42rpx;
+					font-weight: 600;
+				}
+				.content{
+					font-size: 24rpx;
+					line-height: 32rpx;
+					margin-top: 14rpx;
+				}
+			}
+		}
+	    .shopInfo{
+	        background:white;
+	        border-radius:16rpx;
+	        padding: 32rpx;
+	        margin-top: 40rpx;
+	        .dataBox{
+	            .dataItem{
+	                flex: 1;
+	                text-align: center;
+	                .num{
+	                    color: #333;
+	                    font-size: 40rpx;
+	                    font-weight: 600;
+	                }
+	                .dataTit{
+	                    color: #999;
+	                    font-size: 28rpx;
+	                    margin-top: 15rpx;
+	                }
+	            }
+	        }
+			
+			.noticeBox{
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				height: 80rpx;
+				line-height: 80rpx;
+				border-top: 1rpx solid #eee;
+				padding: 0 30rpx;
+				color: #F8B14A;
+				.noticeContent{
+					width: 580rpx;
+					height: 60rpx;
+					padding: 0 20rpx;
+				}
+			}
+	    }
+		
+		
+		.tui-swiper {
+			font-size: 28rpx;
+			height: 60rpx;
+			flex: 1;
+			.tui-swiper-item {
+				display: flex;
+				align-items: center
+			}
+			.tui-news-item {
+				line-height: 28rpx;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+	.listBox{
+	    background: #F7F7F7;
+		padding-bottom: 100rpx;
+		.list{
+		    background:rgba(255,255,255,1);
+		    border-radius:16rpx;
+		    font-size: 24rpx;
+		    color: #666;
+		    padding: 32rpx 32rpx 0;
+			position: relative;
+			margin-top: 32rpx;
+		    .title{
+		        font-size: 30rpx;
+		        color: #333333;
+		        margin-bottom: 24rpx;
+		    }
+		    .content{
+		        .itemBox{
+		            text-align: center;
+		            width: 25%;
+					margin-bottom: 32rpx;
+		            .imgBox{
+		                height: 48rpx;
+						position: relative;
+		                image{
+		                    width: 48rpx;
+		                    height: 48rpx;
+		                }
+		            }
+		            .itemName{
+		                margin-top: 16rpx;
+		            }
+		        }
+				.border-none{
+					border-bottom: 0 !important;
+				}
+				.pad-b-none{
+					padding-bottom: 0 !important;
+				}
+			}
+			.showMore{
+				text-align: center;
+				height: 40rpx;
+				padding-top: 30rpx;
+				color: #DEDEDE;
+				.iconfont2{
+					font-size: 60rpx;
+				}
+			}
+		}
+	}
+    .shopInfo1{
+        border-radius: 16rpx 16rpx 0 0;
+    }
+	.filter{
+		-webkit-filter: blur(6rpx);
+		filter: blur(6rpx);
+	}
+	.maskBox{
+		width: 100%;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		z-index: 9;
+		background: rgba(0, 0, 0, 0.7);
+		.maskBoxShow{
+			height: 300rpx;
+			text-align: center;
+			width: 100%;
+			display: inline-block;
+			.maskTitle{
+				font-size: 32rpx;
+                color: white;
+                font-weight: 600;
+			}
+			.maskContent{
+				font-size: 28rpx;
+                color: rgba(255,255,255,.7);
+                margin-top: 20rpx;
+			}
+			.maskBut{
+				width:400rpx;
+                height:80rpx;
+                line-height: 80rpx;
+                color: white;
+                font-size: 32rpx;
+                display: inline-block;
+				background:rgba(232,46,46,1);
+                border-radius:44rpx;
+                margin-top: 50rpx;
+			}
+		}
+	}
+}
+/deep/ .tui-danger{
+	background-color: $red;
+}
+.CanvaBox{
+    width: 690rpx;
+    height: 128rpx;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.Canva{
+    width: 750rpx;
+    margin-left: -30rpx;
+    height: 128rpx;
+}
+.Canva image{
+	display: block;
+    width: 690rpx;
+    height: 128rpx;
+}
+.swiperItem{
+}
+.notice-title{
+	width: 108rpx;
+	image{
+		width: 100%;
+	}
+}
+.yuEBox{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #FF7541;
+	font-size: 24rpx;
+	line-height: 44rpx;
+	padding: 0 14rpx;
+	height: 44rpx;
+	background: white;
+	border-radius: 24rpx;
+	box-sizing: border-box;
+}
+.assistant{
+	position: fixed;
+	width: 200rpx;
+	height: 200rpx;
+	background: red;
+	left: 0;
+	bottom: 140rpx;
+}
+// 气泡
+.tui-chat-text {
+		width: 520rpx;
+		min-width: 40rpx;
+		padding: 14rpx 20rpx;
+		display: flex;
+		align-items: center;
+		// flex-wrap: wrap;
+		word-break: break-all;
+		color: #fff;
+		box-sizing: border-box;
+	}

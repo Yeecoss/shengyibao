@@ -1,0 +1,141 @@
+view, scroll-view{
+	box-sizing: border-box;
+}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.m-top6{margin-top: 6rpx;}
+.m-r-60{margin-right: 60rpx;}
+.m-b-60{margin-bottom: 60rpx;}
+// 标题栏
+.left-title{
+	font-size: 32rpx;
+	color: #222;
+	white-space: nowrap;
+	.shopIcon{
+		display: inline-block;
+		margin-right: 16rpx;
+		font-size: 36rpx;
+		animation: 3s rainbow ease infinite normal;
+		color: $red;
+	}
+	.text{
+		height: 36rpx;
+		line-height: 32rpx;
+		max-width: 300rpx;
+	}
+	.tui-chat-text{
+		height: 120rpx;
+		padding: 32rpx 30rpx;
+		width: 280rpx;
+		color: #333333;
+		font-size: 28rpx;
+		white-space:normal;
+		display: inline-block;
+		.okBut{
+			margin-top: 20rpx;
+			text-align: right;
+		}
+	}
+}
+// 头部
+.header{
+	height: 88rpx;
+}
+.index-header{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 88rpx;
+	z-index: 9;
+	background-color: #fff;
+}
+.index-header-c{
+	flex: 1;
+	overflow: hidden;
+}
+.index-header-c view{
+	position: relative;
+	margin-right: 28rpx;
+	font-size: 32rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	border-bottom: 4rpx solid transprent;
+	box-sizing: border-box;
+	&::after{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		content: '';
+		width: 32rpx;
+		height: 6rpx;
+	}
+	&.on{
+		color: $theme4Color;
+		font-size: 36rpx;
+	}
+	&.on::after{
+		background-color: $theme4Color;
+		background: url(https://pic.kaidanxia.com/2021-04-23/134255c09828868.png) no-repeat;
+		background-size: 100%;
+	}
+}
+.index-header-l,.index-header-r{
+	line-height: 88rpx;
+	overflow: hidden;
+}
+	// more
+	.theme4-more{
+		width: 80rpx;
+		height: 36rpx;
+		margin: 0 auto;
+		color: $theme4Red;
+		border: 1rpx solid $theme4Red;
+	}
+// .diy-banner
+.main{
+	position: relative;
+	z-index: 0;
+}
+// 推荐热销
+.m-t-50{
+	margin-top: 50rpx;
+}
+.rHotTbs{
+	view{
+		position: relative;
+		padding-bottom: 10rpx;
+		overflow: hidden;
+		transition: all 0.2s;
+		&::after{
+			position: absolute;
+			bottom: 0;
+			left: 20rpx;
+			right: 20rpx;
+			content: '';
+			display: block;
+			height: 6rpx;   
+			transform:skew(-30deg); /*设置倾斜度为-30*/ 
+			background: transparent;  
+			transition: all 0.2s;
+		}
+		&.on{
+			color: #333;
+			font-weight: bold;
+			&::after{
+				background: var(--color);
+			}
+		}
+	}
+}
+.optbox{
+	margin-top: 40rpx;
+}
+// 更多
+.more-img{
+	width: 250rpx;
+	margin: 0 auto;
+}

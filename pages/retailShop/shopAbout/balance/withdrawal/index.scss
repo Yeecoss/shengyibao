@@ -1,0 +1,58 @@
+/deep/ .popup-main .pop-input{
+	font-size: 56rpx;
+	color: #2A2A30;
+}
+.top-title{
+	color: #828393;
+	text{font-size: 56rpx;}
+}
+.tixian-wrap{
+	padding: 44rpx 40rpx 60rpx;
+}
+.all-btn{
+	width: 128rpx;
+	line-height: 38rpx;
+	border-radius: 22rpx;
+	border: 1rpx solid $red2;
+}
+.moneyVal{
+	line-height: 108rpx;
+	border-bottom: 1rpx solid #D8D8D8;
+	input{
+		height: 108rpx;
+	}
+}
+// 操作按钮
+.operate-wrap{
+	margin-top: 60rpx;
+}
+.operate-item{
+	margin-bottom: 48rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	font-size: 32rpx;
+	text-align: center;
+	border-radius: 44rpx;
+	color: #828393;
+	border: 1rpx solid #BBBCCD;
+	&:last-child{margin-bottom: 0;}
+}
+.toMerchant{
+	border-color: rgba(255, 54, 66, 1);
+	background-color: rgba(255, 54, 66, 1);
+	color: #fff;
+	&[disabled]:not([type]), &.disabled{
+		color: #fff;
+		border-color: rgba(255, 54, 66, .6);
+		background-color: rgba(255, 54, 66, .6);
+	}
+}
+// 链接
+.navigateTo{
+	margin-top: 80rpx;
+	height: 96rpx;
+	border-radius: 16rpx;
+	font-size: 30rpx;
+	color: #333;
+	background-color: #fff;
+}

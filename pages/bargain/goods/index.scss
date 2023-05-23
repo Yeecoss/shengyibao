@@ -1,0 +1,131 @@
+/* wxParse.wxss */
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+.container {
+  padding-bottom: 112rpx;
+}
+/* 砍价规则 */
+.bargain-rules{
+  background: #fff;
+  padding: 28rpx 30rpx 30rpx;
+  border-radius:8rpx;
+}
+/* 砍价玩法 */
+.item-title {
+  color: #000;
+}
+.bargain-rules {
+  font-size: 29rpx;
+}
+.rule-simple {
+  margin-top: 35rpx;
+  color: #737373;
+}
+.rule-simple .i-number {
+  width: 24rpx;
+  height: 24rpx;
+  border-radius: 50%;
+  margin-bottom: 15rpx;
+  background: #FFD7D7;
+  line-height: 24rpx;
+  text-align: center;
+  position: relative;
+}
+.rule-simple .i-number .i-inner{
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  background: #FF7541;
+}
+.rule-simple .i-number .i-line{
+  position: absolute;
+  left: 48rpx;
+  width:80rpx;
+  height:1px;
+  background:#DEDEDE;
+  border-radius:1px;
+}
+/* 返回顶部 */
+.widget-goTop {
+  bottom: 210rpx;
+}
+/* 底部操作栏 */
+.footer-fixed {
+  /* height: 92rpx; */
+}
+.footer-container {
+  width: 100%;
+}
+.foo-item-fast {
+  box-sizing: border-box;
+  width: 256rpx;
+  line-height: 1;
+}
+.fast-item {
+  padding: 0 10rpx;
+  line-height: 1;
+}
+.fast-item .fast-icon {
+  margin-bottom: 6rpx;
+}
+.fast-item.fast-item_home {
+  margin-right: 30rpx;
+  text-align: center;
+}
+.foo-item-fast .fast-icon {
+  font-size: 40rpx;
+}
+.foo-item-fast .fast-text {
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+.footer-fixed .opt-btn.btn-main{
+	background: var(--storeColor);
+}
+// 运动模板
+.sportshop-footer{
+	.opt-btn.btn-main{
+		background: #000;
+	}
+}
+// ---------砍价页面
+/* 活动倒计时 */
+.info-item__top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 96rpx;
+	padding: 16rpx 30rpx 0;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	box-sizing: border-box;
+	z-index: 2;
+}
+.info-item_countdown {
+	display: flex;
+  line-height:30rpx;
+  font-size: 28rpx;
+  border-radius: 6rpx;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.countdown{
+	margin-left: 10rpx;
+  overflow: hidden;
+}
+.info-item_countdown text {
+  padding: 0 4rpx;
+  line-height:32rpx;
+  font-size: 22rpx;
+  color: #fff;
+  margin: 0 8rpx;
+  text-align: center;
+  border-radius:4rpx;
+  background: $theme4Red;
+}
+/* 活动已结束 */
+.info-item_end {
+  color: #fff;
+}

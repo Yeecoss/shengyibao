@@ -1,0 +1,50 @@
+///////////////////////////////////components\wxs\array.wxs/////////////////////////////////
+function isArray(array) {
+  return array && array.constructor === 'Array';
+}
+
+///////////////////////////////////components\wxs\object.wxs/////////////////////////////////
+var REGEXP = getRegExp('{|}|"', 'g');
+
+function keys(obj) {
+  return JSON.stringify(obj).replace(REGEXP, '').split(',').map(function (item) {
+    return item.split(':')[0];
+  });
+}
+
+var PREFIX = 'van-';
+
+function join(name, mods) {
+  name = PREFIX + name;
+  mods = mods.map(function (mod) {
+    return name + '--' + mod;
+  });
+  mods.unshift(name);
+  return mods.join(' ');
+}
+
+function traversing(mods, conf) {
+  if (!conf) {
+    return;
+  }
+
+  if (typeof conf === 'string' || typeof conf === 'number') {
+    mods.push(conf);
+  } else if (isArray(conf)) {
+    conf.forEach(function (item) {
+      traversing(mods, item);
+    });
+  } else if (typeof conf === 'object') {
+    keys(conf).forEach(function (key) {
+      conf[key] && mods.push(key);
+    });
+  }
+}
+
+function bem(name, conf) {
+  var mods = [];
+  traversing(mods, conf);
+  return join(name, mods);
+}
+
+module.exports.bem = bem;

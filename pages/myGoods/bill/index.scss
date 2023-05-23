@@ -1,0 +1,124 @@
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+// list
+.list{
+	border-radius: 16rpx;
+}
+// 用户总数据
+.user_info{
+	padding: 30rpx 20rpx;
+}
+.buyer_pic{
+	width: 64rpx;
+	height: 64rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.writeOff{
+	position: relative;
+	width: 80rpx;
+	line-height: 40rpx;
+	text-align: center;
+	border-radius: 6rpx;
+	border: 2rpx solid $red;
+	.dian{
+		width: 6rpx;
+		height: 4rpx;
+		background:$red;
+		position: absolute;
+		left: -6rpx;
+		&:nth-child(1){top: 6rpx;}
+		&:nth-child(2){top: 18rpx;}
+		&:nth-child(3){top: 30rpx;}
+	}
+}
+// 帮顶订单
+.order-num{
+	padding: 0 20rpx;
+	border-top: 1rpx solid #eee;
+}
+.order-top{
+	padding: 30rpx 0;
+}
+.order-item{
+	text-align: left;
+	border-top: 1rpx solid #eee;
+	padding: 20rpx 0;
+	// view{overflow: hidden;}
+}
+.order1{
+	width: 64rpx;
+}
+.order2{
+	width: 240rpx;
+}
+.order3{
+	width: 140rpx;
+}
+.order-del{width: 28rpx;}
+//Model
+/deep/ .writeOff_model .popup-main{
+	padding-top: 0;
+	overflow: hidden;
+}
+/deep/ .writeOff_model .popup-main .pop-close{
+	color: #fff;
+	.iconfont2{font-size: 36rpx;}
+}
+.popTips-title{
+	letter-spacing: 4rpx;
+	line-height: 88rpx;
+	background:linear-gradient(270deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+}
+.popTips-title2{
+	background: #FDEFEF;
+	color: $red;
+}
+.mcontent{
+	padding:	40rpx 40rpx 36rpx;
+	max-height: 300px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.writeOff_value{
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0 20rpx;
+	border-radius: 4rpx;
+	border:1rpx solid #DEDEDE;
+	input{height: 100%;}
+}
+.way-item{
+	padding: 0 12rpx;
+	height: 68rpx;
+	line-height: 68rpx;
+	text-align: center;
+	border-radius: 6rpx;
+	border:1rpx solid #eee;
+	overflow: hidden;
+	&.on{
+		border-color: $red;
+	}
+}
+.tui-node-dot {
+	height: 16rpx;
+	width: 16rpx;
+	background-color: #C7C7C7;
+	border-radius: 50%;
+	margin-top: 6rpx;
+}
+.tui-timeaxis-item:first-child .tui-node-dot{
+	background: $red;
+	box-shadow: 0 0 8rpx $red;
+}
+// 标签
+.clerk-tag{
+	padding: 0 6rpx;
+	line-height: 26rpx;
+	color: #E6B994;
+	border: 1rpx solid #E6B994;
+	border-radius: 4rpx;
+}

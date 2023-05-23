@@ -1,0 +1,82 @@
+/* banner轮播 */
+
+.diy-banner {
+  position: relative;
+  height: 300rpx;
+  /* padding: 20rpx 0; */
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.diy-banner .swiper-item{
+  /* border-radius: 10rpx;
+  overflow: hidden; */
+}
+.diy-banner .dots{
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+  display:flex;
+}
+.diy-banner .dots-item{
+  margin-left: 8rpx;
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 6rpx;
+  background: rgba(255, 255, 255, .3);
+}
+.diy-banner .dots-item.on{
+	width: 24rpx;
+}
+.diy-banner .slide-image {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+	background: #ECEBEB;
+}
+
+/* 顶部置灰 */
+
+.diy-banner .linear {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.4rem;
+  background: linear-gradient(#111, transparent);
+  opacity: 0.6;
+  z-index: 9;
+}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal {
+  margin-bottom: 2rpx;
+}
+
+/* banner组件按钮 */
+
+.swiper-box .wx-swiper-dot {
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.swiper-box.dot-rectangle .wx-swiper-dot {
+  width: 30rpx;
+  border-radius: unset;
+}
+
+.swiper-box.dot-square .wx-swiper-dot {
+  border-radius: unset;
+}
+/* 简约模板 */
+.minishop.diy-banner{
+	border-radius: 0;
+}
+.minishop.diy-banner .dots-item{
+	width: 20rpx;
+	height: 6rpx;
+	margin-left: 10rpx;
+	border-radius: 0;
+}
+.minishop.diy-banner .dots-item.on{
+	width: 20rpx;
+}

@@ -1,0 +1,104 @@
+// 售后信息
+.refund_info{
+	padding: 20rpx;
+}
+.refund_info_t{line-height: 1.1;}
+.refund_reason{
+	width: 170rpx;
+	padding-left: 10rpx;
+	text-align: right;
+	border-left: 1rpx solid #D8D8D8;
+	overflow: hidden;
+}
+.sender{
+	margin-right: 10rpx;
+	overflow: hidden;
+}
+
+// footer
+.footer,.foot{
+	height: 108rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-top: 14rpx;
+	background-color: #fff;
+	z-index: 2;
+}
+.foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+// Model
+.mcontent{
+	padding:	30rpx 40rpx 40rpx;
+}
+/* 解析 */
+.analysis-wrap{
+	/* position: relative; */
+	// padding: 20rpx 30rpx;
+}
+.analysis{
+	width: 370rpx;
+	height: 112rpx;
+	padding: 20rpx;
+	border-radius: 4rpx;
+	border: 1rpx solid #DEDEDE;
+}
+.analysis textarea{
+	font-size: 24rpx;
+	color: #333;
+	flex: 1;
+	height: 100%;
+	overflow: hidden;
+}
+.place{
+	color: #999;
+	font-size: 26rpx;
+}
+.clear{
+	width: 30rpx;
+	height: 30rpx;
+	border: 1rpx solid #999;
+	border-radius: 50%;
+	margin-left: 20rpx;
+	overflow: hidden;
+}
+.clear text{
+	font-size: 44rpx;
+}
+.address-box{
+	margin-top: 20rpx;
+	input,textarea,.right-cont{
+		border: 1rpx solid #DEDEDE;
+		font-size: 26rpx;
+	}
+	input,.right-cont{
+		height: 64rpx;
+		line-height: 64rpx;
+		padding: 0 20rpx;
+		border-radius: 4rpx;
+		overflow: hidden;
+	}
+	textarea{
+		height: 112rpx;
+		padding: 10rpx 20rpx;
+		border-radius: 4rpx;
+		overflow: hidden;
+	}
+}
+// search
+.search{
+	padding: 14rpx 30rpx;
+}
+.scan{line-height: 60rpx;}

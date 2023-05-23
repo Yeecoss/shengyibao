@@ -1,0 +1,54 @@
+.invite{
+    height: 100%;
+    overflow-y: auto;
+    .container{
+        .titleBox{
+            height: 126rpx;
+            position: relative;
+            padding-top: 40rpx;
+            .titleContent{
+                font-size: 26rpx;
+                text-align: center;
+                .content{
+                    width: 174rpx;
+                    .num{
+                        font-size: 40rpx;
+                    }
+                    .title{
+                        margin-top: 20rpx;
+                        color: #999999;
+                    }
+                }
+                .line{
+                    margin: 0 108rpx;
+                    width: 2rpx;
+                    height: 48rpx;
+                    background: #D8D8D8;
+                }
+            }
+        }
+        .listBox{
+            padding: 30rpx;
+            .list{
+                padding: 0 20rpx;
+                border-radius: 16rpx;
+                background: white;
+                height: 112rpx;
+                margin-bottom: 20rpx;
+                .m-t-10{
+                    margin-top: 10rpx;
+                }
+                .w-box{
+                    width: 508rpx;
+                }
+                .iconfont2{
+                    font-size: 26rpx;
+                    margin-left: 10rpx;
+                }
+            }
+        }
+    }
+    .nodata{
+        margin-top: 50rpx;
+    }
+}

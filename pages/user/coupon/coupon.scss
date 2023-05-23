@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+/* 选项卡 */
+.tab-height{
+  height: 80rpx;
+}
+.swiper-tab {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 80rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+  box-shadow:0 0 8rpx 2rpx rgba(222,222,222,0.5);
+  z-index: 2;
+}
+.swiper-tab .swiper-tab-item {
+  width: 33.333333%;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.swiper-tab .on  text{
+  color: #FF7541;
+  border-bottom: 4rpx solid #FF7541;
+}
+/* 设置scroll-view容器高度 */
+.coupon-list, .yoshop-notcont {
+  height: 100.1%;
+}
+// /* 评论列表 */
+// .coupon-list {
+//   padding: 20rpx 30rpx;
+//   box-sizing: border-box;
+// }
+// .item-wrapper:last-child{margin-bottom: 0;}
+/* 没有更多 */
+// .no-more {
+//   text-align: center;
+//   color: #737373;
+//   padding: 10px 0;
+// }
+// .coupon-item{
+// 	padding: 30rpx 20rpx;
+// }
+// // 店铺信息
+// .wxapp-wrap{
+// 	.wxapp-logo{
+// 		width: 64rpx;
+// 		height: 64rpx;
+// 		background: #D8D8D8;
+// 		border-radius: 50%;
+// 		overflow: hidden;
+// 		image{
+// 			width: 100%;
+// 			height: 100%;
+// 			display: block;
+// 		}
+// 	}
+// 	.wxapp-btn{
+// 		width: 128rpx;
+// 		line-height: 40rpx;
+// 		color: $red;
+// 		border-radius: 24rpx;
+// 		border: 1rpx solid $red;
+// 	}
+// }

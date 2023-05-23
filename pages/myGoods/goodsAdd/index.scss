@@ -1,0 +1,279 @@
+
+.goodsAdd{
+  height: 100%;
+  background: #F5F5F5;
+  position: relative;
+  .margin-t{
+    margin-top: 20rpx;
+  }
+  .margin-b{
+    margin-bottom: 20rpx;
+  }
+  .bg-w{
+    background: white;
+  }
+  .line{
+    margin: 0 20rpx;
+    width: 1rpx;
+    height: 30rpx;
+    background: #DEDEDE;
+  }
+  .backBox{
+    .iconfont2{
+      font-size: 30rpx;
+    }
+    .title{
+      margin-left: 20rpx;
+      color: #222;
+      font-size: 32rpx;
+    }
+  }
+  .pad-box{
+    padding: 20rpx 30rpx;
+    position: relative;
+  }
+  .goods_name{
+    padding: 20rpx 0;
+    textarea{
+      width: 680rpx;
+      font-size: 30rpx;
+      height: 240rpx;
+    }
+    .length{
+      text-align: right;
+      position: absolute;
+      right: 30rpx;
+      bottom: 40rpx;
+    }
+  }
+  
+  .pad-box1{
+    padding: 0 30rpx;
+    height: 96rpx;
+    line-height: 96rpx;
+  }
+  .pad-box1a{
+    padding: 0 30rpx;
+	.fieldItem{
+		padding: 32rpx 0;
+	}
+  }
+  .pad-box2{
+    padding: 0 30rpx;
+  }
+  .pad-box3{
+    padding: 40rpx 0;
+  }
+  .selling_point{
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+  }
+  .tuiTabsBox{
+    position: relative;
+    height: 120rpx;
+    padding-right: 40rpx;
+    .tuiTabs{
+      width: 500rpx;
+		padding-left: 40rpx;
+		.tabsItem{
+			height: 80rpx;
+			line-height: 80rpx;
+			margin-right: 40rpx;
+		}
+		.tabsItemAct{
+			height: 76rpx;
+			color: #FF7541;
+			border-bottom: 4rpx solid #FF7541;
+		}
+    }
+  }
+  .tipsPlNone{
+    padding-left: 0 !important;
+  }
+  .describe{
+    height: 64rpx;
+    line-height: 64rpx;
+    font-size: 24rpx;
+    color: #999999;
+    padding: 0 30rpx;
+    background: #F5F5F5;
+    .iconfont2{
+      font-size: 24rpx;
+      margin-right: 10rpx;
+    }
+  }
+  .fieldBox{
+    .imgTips{
+      background: #F5F5F5;
+      height: 66rpx;
+      line-height: 66rpx;
+      font-size: 24rpx;
+      color: #999;
+      padding: 0 30rpx;
+      .iconfont2{
+        margin-right: 20rpx;
+      }
+    }
+    .fieldItem{
+      .label{
+        min-width: 112rpx;
+        color: #333;
+        font-size: 30rpx;
+		position: relative;
+        .butSame{
+          display: inline-block;
+          text-align: center;
+          border-radius:40rpx;
+          color: #FF7541;
+          border:1rpx solid #FF7541;
+          width:128rpx;
+          height:48rpx;
+          line-height: 48rpx;
+          margin-right: 30rpx;
+          font-size: 24rpx;
+          margin-left: 20rpx;
+        }
+		.cercle{
+			width: 10rpx;
+			height: 10rpx;
+			display: inline-block;
+			border-radius: 10rpx;
+			background: #FF7541;
+			position: absolute;
+			right: -14rpx;
+			top: 50%;
+			margin-top: -14rpx;
+		}
+      }
+      .label-tag view{
+        display: inline-flex;
+        min-width: 176rpx;
+        max-width: 100%;
+        padding: 0 20rpx;
+        height: 48rpx;
+        line-height: 48rpx;
+        background: #F3F3F3;
+        border-radius: 24rpx;
+        overflow: hidden;
+      }
+      .contentBox{
+        font-size: 28rpx;
+        color: #BCBCBC;
+        flex: 1;
+        padding-left: 30rpx;
+        position: relative;
+        .p-20{
+          padding-bottom: 20rpx;
+          min-height: 100rpx !important;
+        }
+        .labelBox{
+          padding-left: 20rpx;
+        }
+        .content{
+          flex: 1;
+          min-height: 24rpx;
+          word-break:break-all;
+          line-height: 32rpx;
+          .radioItem{
+            transform:scale(.6);
+            vertical-align: middle;
+          }
+        }
+        .tips{
+          min-width: 68rpx;
+          text-align: right;
+          padding-left: 20rpx;
+          .iconfont2{
+            font-size: 24rpx;
+            margin-left: 20rpx;
+          }
+          .tipIconBox{
+            width: 32rpx;
+            height: 32rpx;
+            line-height: 32rpx;
+            text-align: center;
+            transition: all 0.5s;
+            float: right;
+            transform:rotate(90deg);
+            .iconfont2{
+              margin-left: 0;
+            }
+          }
+          .transIcon {
+            transform:rotate(-90deg);
+          }
+        }
+        .tips1{
+          min-width: 40rpx;
+		  .tipsAdd{
+			  width: 112rpx;
+			  height: 56rpx;
+			  border-radius: 4rpx;
+			  border: 1rpx solid #FF7541;
+			  line-height: 56rpx;
+			  color: #FF7541;
+			  text-align: center;
+		  }
+        }
+      }
+      .describe1{
+        margin-top: 50rpx;
+        font-size: 24rpx;
+        color: #999999;
+      }
+    }
+    .width50{
+      width: 50%;
+    }
+  }
+  .heardBut{
+	  padding: 30rpx 0;
+  }
+  .submitBox, .submitBox1, .heardBut{
+    line-height: 88rpx;
+    background: white;
+    font-size: 28rpx;
+    text-align: center;
+    .but1, .but2, .but3{
+      display: inline-block;
+      text-align: center;
+      border-radius:40rpx;
+    }
+    .but1, .but2{
+      width:198rpx;
+      height:62rpx;
+      line-height: 62rpx;
+      margin-right: 30rpx;
+    }
+    .but1{
+      color: #F8B14A;
+      border:1rpx solid rgba(248,177,74,1);
+    }
+    .but2{
+      color: #FF7541;
+      border:1rpx solid #FF7541;
+    }
+    .but3{
+      width:200rpx;
+      height:64rpx;
+      line-height: 64rpx;
+      color:white;
+      background: #FF7541;
+    }
+  }
+  .submitBox{
+    height: 88rpx;
+  }
+  .submitBox1{
+    height: 144rpx;
+  }
+  .priceBox{
+    padding: 0 30rpx 30rpx;
+    .priceItem{
+      background: rgba(238, 238, 238, .4);
+    }
+  }
+  .border_b{
+    border-bottom: 1rpx solid #eee;
+  }
+}
